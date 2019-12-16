@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dangerzone_modes">
+        <item>@string/dz_normal_mode</item>
+        <item>@string/dz_high_mode</item>
+        <item>@string/dz_paranoid_mode</item>
+    </string-array>
+    <string name="abnormal_process_activity">操作系统异常</string>
+    <string name="access_blocked_domain">访问被封锁的域</string>
+    <string name="access_point_change">网络切换</string>
+    <string name="accessibility_app_enabled">辅助功能服务已启用</string>
+    <string name="adb_verify_disabled">ADB应用未经验证</string>
+    <string name="alert_abnormal_process_activity">[host_app_name]检测到您的设备上有异常活动。[host_app_name]正在监测有没有任何攻击。</string>
+    <string name="alert_access_blocked_domain">[host_app_name]检测到对被封锁的域的访问。[blocked_domain]</string>
+    <string name="alert_access_point_change">[host_app_name]在同一网络中检测到从一个接入点到另一个接入点的无线路由器切换。</string>
+    <string name="alert_accessibility_app_enabled">[host_app_name]检测到[app_name]已启用辅助功能服务。</string>
+    <string name="alert_adb_verify_disabled">通过ADB安装的应用无需验证。这可能会导致恶意应用被安装在设备上。</string>
+    <string name="alert_always_on_vpn_app_set">在此设备上，一个应用已被配置为永远在线的VPN。该应用可能会监视设备和互联网的所有通信。</string>
+    <string name="alert_android_compatibility">此Android设备的配置文件与任何已经通过Google Android兼容性测试的设备的配置文件不符。此设备可能包含未经Google测试的安全漏洞。</string>
+    <string name="alert_android_integrity">此Android设备可能已被篡改。设备未经Google认证，可能已被进一步侵害，例如设备已被root了。</string>
+    <string name="alert_android_not_updated">[host_app_name]检测到您设备上安装的Android版本（[os_version]）不是最新版本。过时的操作系统会使设备暴露于已知漏洞以及被恶意攻击者利用的威胁。建议立即更新您的操作系统。</string>
+    <string name="alert_android_not_updated_unupgradable">[host_app_name]检测到您设备上安装的Android版本（[os_version]）不是最新版本。过时的操作系统会使设备暴露于已知漏洞以及被恶意攻击者利用的威胁，但是，您的设备目前不符合操作系统升级的条件。</string>
+    <string name="alert_blueborne"><![CDATA[[host_app_name]检测到此设备容易受到BlueBorne的攻击。BlueBorne利用蓝牙连接入侵和控制目标设备。为了避免来自BlueBorne的任何风险，强烈建议：<br/><br/>
+
+1.在系统设置中，永久关闭蓝牙，直至设备制造商或无线运营商提供更新。<br/>
+2.如果需要蓝牙连接，建议平时一直关闭蓝牙，在需要蓝牙连接时才在可信任和安全的区域中开启蓝牙。]]></string>
+    <string name="alert_captive_portal">[host_app_name]检测到此设备已连接到名为[wifi_ssid]的强制登录门户网络。</string>
+    <string name="alert_daemon_anomaly">[host_app_name]检测到您的设备上有异常活动。[host_app_name]正在监测有没有任何攻击。</string>
+    <string name="alert_dangerzone_connected">[host_app_name]检测到您已连接到高风险wifi接入点[wifi_ssid]。该高风险无线接入点可用于监视设备和互联网之间的事务、窃取敏感信息和/或修改设备设置。</string>
+    <string name="alert_dangerzone_nearby">[host_app_name]在附近检测到这些高风险网络：[nearby_ssids]。这些高风险网络可用于监视设备和互联网之间的事务、窃取敏感信息和/或修改设备设置。</string>
+    <string name="alert_developer_mode">[host_app_name]检测到开发者模式选项的激活。这可用于访问设备上的其他数据，除非有需要，否则应该禁用。</string>
+    <string name="alert_developer_mode_on">开发者模式已启用。此选项仅用于开发目的，如果保持启用状态，可能会使您的设备面临风险。除非有需要，否则请通过设置选单禁用此选项。</string>
+    <string name="alert_device_admin_enabled">[host_app_name]检测到[app_name]已启用设备管理。</string>
+    <string name="alert_dns_change">[host_app_name]检测到DNS网络配置更改。</string>
+    <string name="alert_encryption_not_enabled">[host_app_name]检测到您的设备未设置使用设备加密。如果不启用设备加密，万一设备被盗或受到侵害，设备上的敏感数据可能会被攻击者取得。建议尽快启用设备加密。</string>
+    <string name="alert_eop">[host_app_name]成功检测到企图攻击您的设备的行为。此设备现在被视为已遭侵害。</string>
+    <string name="alert_fake_ssl">[host_app_name]检测到网络攻击。您的设备与名为[wifi_ssid]的网络之间的安全通信被拦截，可能会遭未经授权的一方监视和修改。</string>
+    <string name="alert_file_system_changed">[host_app_name]成功检测到对文件系统的持续修改。</string>
+    <string name="alert_fingerprint_mismatch">[host_app_name]成功检测到您的设备所受到的攻击。此攻击表示设备已遭侵害，不能信任。</string>
+    <string name="alert_gateway_changed">[host_app_name]检测到网络网关配置的更改。这可能表示攻击者企图拦截流量。</string>
+    <string name="alert_internal_network_access">检测到[app_name]已连接到私有的内部服务器。公共应用程序连接到内部服务器，并非常见的情况。公共应用程序连接到内部服务器属于可疑行为，设备可能会被安装恶意软件，并有数据泄漏的风险，应立即进行调查。 </string>
+    <string name="alert_jailbroken">[host_app_name]检测到此设备已被root。这可以导致设备的核心安全功能被禁用，不建议这样做。</string>
+    <string name="alert_kernel_anomaly">[host_app_name]检测到您的设备上有异常活动。[host_app_name]正在监测有没有任何攻击。</string>
+    <string name="alert_malicious_app">[host_app_name]在您的设备上检测到名为[app_name]的可疑应用。</string>
+    <string name="alert_malicious_app_downloaded">[host_app_name]检测到设备下载了带有命名空间[app_name]的可疑应用。</string>
+    <string name="alert_malicious_website">[host_app_name]检测到疑为恶意的URL（[malicious_url]）被点击。关于访问此链接网站的潜在危险，用户已受到警告。></string>
+    <string name="alert_malicious_website_opened">[host_app_name]检测到，在发出警告后，疑为恶意的URL（[malicious_url]）被点击和访问。该网站可能会试图窃取个人信息。></string>
+    <string name="alert_mitm">[host_app_name]检测到网络攻击。您的设备与名为[wifi_ssid]的网络之间的通信被拦截，可能会遭未经授权的一方监视和修改。</string>
+    <string name="alert_network_handoff">[host_app_name]检测到网络切换。这可能会导致网络受到攻击。</string>
+    <string name="alert_ota_update_disabled">此设备已禁用无线（OTA）更新。OTA更新有助于使设备的软件保持最新和更安全。应在设置中重新启用OTA更新。</string>
+    <string name="alert_out_of_compliance_app">应用程序 [app_name] 已标记为违反您的公司政策。请将其从您的设备移除。</string>
+    <string name="alert_passcode_not_enabled">[host_app_name]检测到您的设备未设置使用PIN码、密码或图案来锁定您的设备。如果不使用PIN码、密码或图案来锁定您的设备，万一设备被盗或受到侵害，设备上的敏感数据可能会被攻击者取得。建议尽快启用设备加密。建议启用PIN码、密码或图案作为保护设备和保护设备上的敏感数据的标准安全措施。</string>
+    <string name="alert_proxy_change">[host_app_name]检测到代理配置的更改，这可能表示流量被发送到非预期的目的地。</string>
+    <string name="alert_rogue_access_point">[host_app_name]检测到设备已连接到名为[wifi_ssid]的流氓WiFi网络。连接到流氓接入点会使您的设备面临风险，未经授权方可能会进行攻击以访问您的网络数据和/或凭证。</string>
+    <string name="alert_rogue_access_point_nearby">从附近的不安全Wi-Fi网络检测到对您的移动设备的潜在Wi-Fi安全威胁。请避免连接到这些不安全的Wi-Fi网络，以防止数据被拦截或修改。</string>
+    <string name="alert_scan">[host_app_name]在名为[wifi_ssid]的网络上检测到Wifi网络扫描。未检测到主动攻击，继续使用此网络是安全的。</string>
+    <string name="alert_sideloaded_app">[host_app_name]检测到此设备上加载了一个名为[sideloaded_app]的侧载应用。</string>
+    <string name="alert_stagefright_vulnerable">此设备容易受到Stagefright攻击。请在有更新可用时立即更新您的操作系统。</string>
+    <string name="alert_suspicious_network_connection">[host_app_name]在您的设备上检测到异常网络连接。 [host_app_name]正在监测有没有任何攻击。</string>
+    <string name="alert_suspicious_root_process">[host_app_name]检测到您的设备上有作为root运行的进程。[host_app_name]正在监测有没有任何攻击。</string>
+    <string name="alert_system_tampering">[host_app_name]成功检测到您的设备所受到的攻击。此攻击显示设备已遭侵害，不能信任。</string>
+    <string name="alert_unknown_sources">[host_app_name]检测到，在Google Play商店之外下载应用的功能已启用。</string>
+    <string name="alert_unsecured_wifi_network">[wifi_ssid]网络不安全。请立即断开连接。请点击这里了解详情..</string>
+    <string name="alert_usb_debugging_on">USB调试已被启用。此选项仅用于开发目的，如果保持启用状态，可能会使您的设备面临风险。除非有需要，否则请通过设置选单禁用此选项。</string>
+    <string name="alert_verify_apps_disabled">此设备禁用了Google Play Protect。Google Play Protect可帮助保护设备免受恶意应用的攻击，应在设置中重新启用。</string>
+    <string name="alert_zips_not_running_on_container">此设备上的个人和工作配置文件均未激活[host_app_name]。请在这两个位置安装和激活应用，以确保设备获得完整的保护。</string>
+    <string name="alert_zips_tls_downgrade">[host_app_name]检测到您的网络加密（SSL/TLS）已降级。您的通信可能会被未授权方监控和/或修改。</string>
+    <string name="always_on_vpn_app_set">Always On VPN应用程序集</string>
+    <string name="android_compatibility">兼容性未经Google测试+</string>
+    <string name="android_integrity">有可能遭篡改</string>
+    <string name="app_name">zIAP</string>
+    <string name="app_ooc_aws">访问Amazon AWS存储</string>
+    <string name="app_ooc_aws_write">更新Amazon AWS存储</string>
+    <string name="app_ooc_box">访问Box存储</string>
+    <string name="app_ooc_box_write">更新Box存储</string>
+    <string name="app_ooc_call_history">访问通话历史记录</string>
+    <string name="app_ooc_call_privileged">允许不使用拨号器的电话</string>
+    <string name="app_ooc_camera">访问相机</string>
+    <string name="app_ooc_camera_read">访问相机相册</string>
+    <string name="app_ooc_camera_write">更新相机相册</string>
+    <string name="app_ooc_clipboard_read">访问剪贴板内容</string>
+    <string name="app_ooc_clipboard_write">更新剪贴板内容</string>
+    <string name="app_ooc_connections_unecrypted">使用未加密的网络连接</string>
+    <string name="app_ooc_dropbox">访问Dropbox内容</string>
+    <string name="app_ooc_dropbox_write">更新Dropbox存储</string>
+    <string name="app_ooc_email_compose">撰写电子邮件</string>
+    <string name="app_ooc_email_read">访问电子邮件</string>
+    <string name="app_ooc_email_send">发送电子邮件</string>
+    <string name="app_ooc_endpoints_reputation">访问恶意软件/网络钓鱼网站</string>
+    <string name="app_ooc_endpoints_sensitive_data">访问发送敏感数据的网站</string>
+    <string name="app_ooc_external_servers">访问外部服务器</string>
+    <string name="app_ooc_facebook">访问Facebook内容</string>
+    <string name="app_ooc_facebook_write">更新Facebook内容</string>
+    <string name="app_ooc_google_drive">访问Google云端硬盘内容</string>
+    <string name="app_ooc_google_drive_write">更新Google云端硬盘存储</string>
+    <string name="app_ooc_google_storage">访问Google存储</string>
+    <string name="app_ooc_google_storage_write">更新Google存储</string>
+    <string name="app_ooc_imei">访问设备的IMEI号码</string>
+    <string name="app_ooc_instagram">访问Instagram内容</string>
+    <string name="app_ooc_internal_ips">访问内部网络地址</string>
+    <string name="app_ooc_linkedin">访问LinkedIn内容</string>
+    <string name="app_ooc_local_device_read">访问本地设备信息</string>
+    <string name="app_ooc_local_device_write">更新本地设备信息</string>
+    <string name="app_ooc_location_access">访问一般位置信息</string>
+    <string name="app_ooc_location_fine">访问精确位置信息</string>
+    <string name="app_ooc_malware">被视为可疑或恶意软件</string>
+    <string name="app_ooc_mic">访问麦克风</string>
+    <string name="app_ooc_notifications">访问设备通知</string>
+    <string name="app_ooc_office_365_write">更新Office 365内容</string>
+    <string name="app_ooc_onedrive">访问OneDrive内容</string>
+    <string name="app_ooc_onedrive_write">更新OneDrive内容</string>
+    <string name="app_ooc_overlay">使用其他应用覆盖应用窗口</string>
+    <string name="app_ooc_record_audio">录制音频内容</string>
+    <string name="app_ooc_record_screenshots">记录用户在应用内互动的截图</string>
+    <string name="app_ooc_record_video">录制视频</string>
+    <string name="app_ooc_runtime_unencrtyped_conns">使用未加密的连接（为http而非https）</string>
+    <string name="app_ooc_salesforce">访问Salesforce内容</string>
+    <string name="app_ooc_screenshot">访问截图</string>
+    <string name="app_ooc_serial">访问设备序列号</string>
+    <string name="app_ooc_sms_read">访问短信</string>
+    <string name="app_ooc_sms_send">发送短信</string>
+    <string name="app_ooc_sms_write">撰写短信</string>
+    <string name="app_ooc_ssl_no_pinning">如SSL证书为真实则跳过检查</string>
+    <string name="app_ooc_ssl_problem">SSL通信有问题</string>
+    <string name="app_ooc_ssl_self_signed">它们签署自己的SSL证书（不安全）</string>
+    <string name="app_ooc_ssl_vuln_weakness">在SSL通信中存在漏洞</string>
+    <string name="app_ooc_twitter">访问Twitter内容</string>
+    <string name="app_ooc_twitter_write">更新Twitter内容</string>
+    <string name="app_ooc_udid">访问唯一的设备ID（UDID）</string>
+    <string name="app_ooc_voip">使用IP语音（VoIP）通信拨打电话</string>
+    <string name="app_ooc_vpn">建立虚拟专用网络（VPN）连接</string>
+    <string name="app_ooc_weibo">访问微博内容</string>
+    <string name="app_ooc_weibo_write">更新微博内容</string>
+    <string name="app_restriction_mdm_device_id">MDM设备ID</string>
+    <string name="arp_mitm">网络攻击</string>
+    <string name="arp_scan">扫描（WiFi）</string>
+    <string name="blueborne">BlueBorne漏洞</string>
+    <string name="captive_portal">强制登录门户</string>
+    <string name="daemon_anomaly">守护进程异常</string>
+    <string name="dangerzone">危险区域</string>
+    <string name="dangerzone_connected">已连接到危险区域</string>
+    <string name="dangerzone_nearby">附近有危险区域</string>
+    <string name="detail_abnormal_process_activity"><![CDATA[[host_app_name]在您的设备上检测到异常的系统活动。<br/><br/>
+虽然这些活动并不被视为恶意，但它们是潜在攻击的关键指标。[host_app_name]会继续监测您的设备，如果威胁升级便会提醒您。<br/>我们建议您采取以下措施：<br/>
+1.断开设备与任何个人电脑/充电器的连接。<br/>
+2.禁用设置选单中的\'开发者模式\'<br/><br/>]]></string>
+    <string name="detail_access_blocked_domain"><![CDATA[[host_app_name]检测到对被封锁的域的访问。
+            <br/><br>[blocked_domain] ]]></string>
+    <string name="detail_access_point_change">[blocked_domain][host_app_name]检测到您的设备现已连接到位于同一网络上的新接入点。</string>
+    <string name="detail_accessibility_app_enabled"><![CDATA[辅助功能服务已为[app_name]启用。如果保持启用状态，可能会使您的设备面临风险。除非有需要，否则请通过设置选单禁用此选项。]]></string>
+    <string name="detail_adb_verify_disabled">通过ADB安装的应用无需验证。这可能会导致恶意应用被安装在设备上。</string>
+    <string name="detail_always_on_vpn_app_set">在此设备上，一个应用被配置为永远在线的VPN。这个应用可能会监视设备和互联网的所有通信。</string>
+    <string name="detail_android_compatibility">此Android设备的配置文件与任何已经通过Google Android兼容性测试的设备的配置文件不符。此设备可能包含未经Google测试的安全漏洞。兼容性测试有助于确保设备的设计和部署是按照Android最佳做法进行。此设备可能具有已解锁的引导加载程序、用户只读存储器（未root）、或者制造商可能没有申请认证。</string>
+    <string name="detail_android_integrity">此Android设备可能已被篡改。设备未经Google认证，可能会通过rooting或API挂钩遭受进一步侵害。也有可能设备是仿真器而不是物理设备。</string>
+    <string name="detail_blueborne"><![CDATA[[host_app_name]检测到此设备容易受到BlueBorne的攻击。BlueBorne利用蓝牙连接入侵和控制目标设备。为了避免来自BlueBorne的任何风险，强烈建议用户永久关闭蓝牙，直至设备制造商或无线运营商提供更新。如果用户需要蓝牙连接，建议平时一直关闭蓝牙，在需要蓝牙连接时才在可信任和安全的区域中开启蓝牙。]]></string>
+    <string name="detail_captive_portal"><![CDATA[[host_app_name]检测到此设备已连接到名为[wifi_ssid]的强制登录门户网络。建议您连接到VPN以保护设备上的所有通信。]]></string>
+    <string name="detail_daemon_anomaly"><![CDATA[[host_app_name]在您的设备上检测到异常的系统活动。<br/><br/>
+虽然这些活动并不被视为恶意，但它们是潜在攻击的关键指标。[host_app_name]会继续监测您的设备，如果威胁升级便会提醒您。
+<br/>]]></string>
+    <string name="detail_dangerzone_connected"><![CDATA[[host_app_name]检测到您已连接到高风险wifi接入点[wifi_ssid]。该高风险无线接入点可用于监视设备和互联网之间的事务、窃取敏感信息和/或修改设备设置。]]></string>
+    <string name="detail_dangerzone_nearby"><![CDATA[[host_app_name]在附近检测到这些高风险网络：[nearby_ssids]。这些高风险网络可用于监视设备和互联网之间的事务、窃取敏感信息和/或修改设备设置。]]></string>
+    <string name="detail_developer_mode_on"><![CDATA[开发者模式已启用。此选项仅用于开发目的，如果保持启用状态，可能会使您的设备面临风险。除非有需要，否则请通过设置选单禁用此选项。]]></string>
+    <string name="detail_device_admin_enabled"><![CDATA[设备管理员已为[app_name]启用。如果保持启用状态，可能会使您的设备面临风险。除非有需要，否则请通过设置选单禁用此选项。]]></string>
+    <string name="detail_dns_change"><![CDATA[[host_app_name]检测到您的设备的新DNS设置。<br/>新的DNS服务器的ip是：[ip]]]></string>
+    <string name="detail_encryption_not_enabled">[host_app_name]检测到您的设备未设置使用设备加密。如果不启用设备加密，万一设备被盗或受到侵害，设备上的敏感数据可能会被攻击者取得。建议尽快启用设备加密。</string>
+    <string name="detail_eop"><![CDATA[[host_app_name]在您的设备上检测到一次或以上的严重异常系统活动。<br/>
+这些异常活动可能是企图入侵的结果，必须立即采取行动。<br/><br/>由于您的设备可能已遭侵害，我们建议您采取以下措施：<br/><br/>
+*将所有敏感数据备份，并将设备恢复为出厂设置<br/>
+*将设备固件更新到最新版本和升级到最新的安全更新<br/>
+*只安装可信任的应用<br/>
+*连接著名的网站<br/>
+*只连接到可信任的网络<br/>
+*确保设备运行的是最新的[host_app_name]应用
+]]></string>
+    <string name="detail_fake_ssl"><![CDATA[[host_app_name]检测到一个安全连接（https）被无效的SSL证书拦截并解密。<br/>
+此操作通常被认为与用于窃取敏感信息的中间人攻击相关。为了尽量降低这些攻击的危险，我们建议您采取以下措施：<br/><br/>
+*如果您对已连接的网络不熟悉，请立即断开连接。<br/>
+*确保只连接安全的无线接入点。<br/>
+*连接到开放网络时，切勿发送私人或敏感信息。<br/>
+*如果您连接到开放网络，在发送任何私人或敏感信息之前，请先连接到VPN。]]></string>
+    <string name="detail_file_system_changed">[host_app_name]检测到设备文件系统的更改。</string>
+    <string name="detail_fingerprint_mismatch"><![CDATA[[host_app_name]检测到一次或以上的系统更改，表示您的设备已遭侵害，不能安全使用。<br/><br/>
+由于您的设备已遭侵害，我们建议您采取以下措施：<br/><br/>
+*将所有敏感数据备份，并将设备恢复为出厂设置<br/>
+*将设备固件更新到最新版本和升级到最新的安全更新<br/>
+*只安装可信任的应用<br/>
+*连接著名的网站<br/>
+*只连接到可信任的网络<br/>
+*确保设备运行的是最新的[host_app_name]应用]]></string>
+    <string name="detail_gateway_changed">[host_app_name]检测到您的设备获取了新的网关地址。新的网关地址是：[ip]</string>
+    <string name="detail_internal_network_access">检测到[app_name]已连接到私有的内部服务器。公共应用程序连接到内部服务器，并非常见的情况。公共应用程序连接到内部服务器属于可疑行为，设备可能会被安装恶意软件，并有数据泄漏的风险，应立即进行调查。</string>
+    <string name="detail_jailbreak"><![CDATA[[host_app_name]检测到您的设备配置了提升权限。在此模式下运行时，受到侵害的风险更大。<br/><br/>
+我们建议您采取以下措施：<br/>
+将所有敏感数据备份，并将设备恢复为出厂设置<br/>
+*将设备固件更新到最新版本和升级到最新的安全更新<br/>
+*只安装可信任的应用<br/>
+*连接著名的网站<br/>
+*只连接到可信任的网络<br/>
+*确保设备运行的是最新的[host_app_name]应用]]></string>
+    <string name="detail_kernel_anomaly"><![CDATA[[host_app_name]在您的设备上检测到一次或以上的严重异常系统活动。<br/><br/>
+这些异常活动可能是企图入侵的结果，它们是潜在攻击的关键指标。[host_app_name]会继续监测您的设备，如果威胁升级便会提醒您。<br/>我们建议您采取以下措施：<br/>
+1.断开设备与任何个人电脑/充电器的连接。<br/>
+2.禁用设置选单中的\'开发者模式\'<br/><br/>]]></string>
+    <string name="detail_malicious_app"><![CDATA[[host_app_name]检测到[app_name]为可疑应用。<br/><br/>
+建议您立即删除该应用。<br/><br/>
+将来，我们建议您从可信任的应用商店下载和安装著名的应用。
+]]></string>
+    <string name="detail_malicious_website"><![CDATA[[host_app_name]检测到疑为恶意的URL（[malicious_url]）被点击。请勿访问此网站，因为它可能会试图窃取个人信息。]]></string>
+    <string name="detail_malicious_website_opened"><![CDATA[[host_app_name]检测到，在发出警告后，疑为恶意的URL（[malicious_url]）被点击和访问。该网站可能会试图窃取个人信息。 ]]></string>
+    <string name="detail_mitm"><![CDATA[[host_app_name]检测到您的设备正在或可能与未知的中间设备通信，这也被称为中间人攻击。这个未知的中间设备可能正在窃取私人和敏感信息。<br/><br/>
+我们建议您采取以下措施：<br/><br/>
+*断开与当前Wi-Fi网络的连接。<br/>
+*连接到安全的Wi-Fi网络。<br/>
+*连接到VPN以保护您的网络通信。]]></string>
+    <string name="detail_network_handoff"><![CDATA[[host_app_name]检测到网络切换。<br/><br/>
+切换在[date]发生于[wifi_ssid]。如果您对此网络不熟悉，建议断开连接。]]></string>
+    <string name="detail_ota_update_disabled">此设备已禁用无线（OTA）更新。OTA更新有助于使设备的软件保持最新和更安全。应在设置中重新启用OTA更新。</string>
+    <string name="detail_out_of_compliance_app"><![CDATA[应用程序 [app_name] 已标记为违反您的公司政策。请将其从您的设备移除。]]></string>
+    <string name="detail_passcode_not_enabled"><![CDATA[[host_app_name]检测到您的设备未设置使用PIN码、密码或图案来锁定您的设备。如果不使用PIN码、密码或图案来锁定您的设备，万一设备被盗或受到侵害，设备上的敏感数据可能会被攻击者取得。建议尽快启用设备加密。建议启用PIN码、密码或图案作为保护设备和保护设备上的敏感数据的标准安全措施。]]></string>
+    <string name="detail_proxy_change"><![CDATA[[host_app_name]检测到您的代理设置已更改。新的代理IP地址是：[ip] ]]></string>
+    <string name="detail_rogue_access_point"><![CDATA[[host_app_name]检测到您已连接到可疑的Wi-Fi网络，使您面临可能受到中间人攻击的风险。]]></string>
+    <string name="detail_rogue_access_point_nearby"><![CDATA[[host_app_name]在附近检测到一个或多个可疑Wi-Fi网络，您面临可能受到中间人攻击的风险。]]></string>
+    <string name="detail_sideloaded_app"><![CDATA[[host_app_name]检测到已安装到您设备上的侧载应用。
+            <br/><br>侧载应用名称：[sideloaded_app]<br/>侧载应用程序包：[sideloaded_package]<br/>侧载应用开发人员：[sideloaded_developer] ]]></string>
+    <string name="detail_stagefright_vulnerable">此设备容易受到Stagefright攻击。请在有更新可用时立即更新您的操作系统。</string>
+    <string name="detail_suspicious_network_connection"><![CDATA[[host_app_name]检测到您的设备有异常的网络连接。]]></string>
+    <string name="detail_suspicious_root_process"><![CDATA[[host_app_name]检测到您的设备上有作为root运行的进程。]]></string>
+    <string name="detail_system_tampering"><![CDATA[[host_app_name]检测到一次或以上的系统更改，表示您的设备已遭侵害，不能安全使用。<br/><br/>
+由于您的设备已遭侵害，我们建议您采取以下措施：<br/><br/>
+*将所有敏感数据备份，并将设备恢复为出厂设置<br/>
+*将设备固件更新到最新版本和升级到最新的安全更新<br/>
+*只安装可信任的应用<br/>
+*连接著名的网站<br/>
+*只连接到可信任的网络<br/>
+*确保设备运行的是最新的[host_app_name]应用]]></string>
+    <string name="detail_unknown_sources"><![CDATA[[host_app_name]检测到，在Google Play商店之外下载应用的功能已启用。]]></string>
+    <string name="detail_unsecured_wifi_network"><![CDATA[[host_app_name]检测到设备已连接到名为[wifi_ssid]的不安全Wi-Fi网络。连接到不安全的网络会使您的设备面临风险，未经授权方可能会进行攻击以访问您的网络数据和/或凭证。]]></string>
+    <string name="detail_usb_debugging_on"><![CDATA[USB调试已被启用。此选项仅用于开发目的，如果保持启用状态，可能会使您的设备面临风险。除非有需要，否则请通过设置选单禁用此选项。]]></string>
+    <string name="detail_verify_apps_disabled"/>
+    <string name="detail_wifi_scan"><![CDATA[[host_app_name]在以下wifi网络检测到网络扫描：[wifi_ssid]。]]></string>
+    <string name="detail_zips_not_running_on_container">此设备上的个人和工作配置文件均未激活[host_app_name]。请在这两个位置安装和激活应用，以确保设备获得完整的保护。</string>
+    <string name="detail_zips_tls_downgrade">[host_app_name]检测到您的网络加密（SSL/TLS）已降级。您的通信可能会被未授权方监控和/或修改。</string>
+    <string name="developer_mode_on">开发人员模式已启用</string>
+    <string name="device_admin_enabled">设备管理员已启用</string>
+    <string name="device_rooted">设备Rooting</string>
+    <string name="dns_changed">网络配置</string>
+    <string name="dz_high_mode" translatable="false">高</string>
+    <string name="dz_normal_mode" translatable="false">正常</string>
+    <string name="dz_paranoid_mode" translatable="false">忧虑</string>
+    <string name="elevation_of_privileges">设备攻击</string>
+    <string name="email_suspected">可疑的电子邮件</string>
+    <string name="encryption_not_enabled">设备加密</string>
+    <string name="file_suspected">可疑的文件</string>
+    <string name="file_system_change">持续的操作系统修改</string>
+    <string name="fingerprint_mismatch">指纹不匹配</string>
+    <string name="gateway_change">网络配置</string>
+    <string name="icmp_redir_mitm">网络攻击</string>
+    <string name="internal_network_access">内部网络访问</string>
+    <string name="ip_scan">扫描（WiFi）</string>
+    <string name="kernel_anomaly">内核异常</string>
+    <string name="malicious_app">检测到可疑的应用</string>
+    <string name="malicious_website">Site Insight</string>
+    <string name="malicious_website_opened">Site Insight</string>
+    <string name="mediaserver_anomaly">Mediaserver异常</string>
+    <string name="network_handoff">网络切换</string>
+    <string name="network_sinkhole_block_all">当您的设备上有威胁存在时，您的管理员阻止了网络访问。</string>
+    <string name="network_sinkhole_block_single">当您的设备上有威胁存在时，您的管理员阻止了对域%1$s的访问。</string>
+    <string name="network_threat">网络威胁</string>
+    <string name="ota_updates_disabled">OTA更新已禁用</string>
+    <string name="out_of_compliance_app">违规的应用程序</string>
+    <string name="passcode_not_enabled">设备PIN</string>
+    <string name="phishingHtmlBody">鏈接{http://link}可能含有會從您的設備盜取敏感或隱私資訊的惡意內容。點擊\'返回\'按鈕，以使您的設備保持安全狀態。</string>
+    <string name="phishingHtmlButtonBack">返回</string>
+    <string name="phishingHtmlButtonContinue">仍要繼續</string>
+    <string name="phishingHtmlCheckbox">對此網站不再顯示</string>
+    <string name="phishingHtmlTitle">这个网址有风险！</string>
+    <string name="proxy_change">网络配置</string>
+    <string name="restriction_defaultchannel_title">默认接收器</string>
+    <string name="restriction_display_eula">显示EULA</string>
+    <string name="restriction_tenantid_title">承租人</string>
+    <string name="restriction_uuid_title">UUID</string>
+    <string name="rogue_access_point">流氓WiFi</string>
+    <string name="rogue_access_point_nearby">流氓WiFi - 附近</string>
+    <string name="selinux_disabled">SELinux已禁用</string>
+    <string name="sideloaded_app">侧载应用</string>
+    <string name="sms_configuration_changed">短信配置已更改</string>
+    <string name="ssl_mitm">证书无效</string>
+    <string name="ssl_strip">网络攻击</string>
+    <string name="stagefright_exploit">Stagefright漏洞</string>
+    <string name="stagefright_vulnerability">Stagefright弱点</string>
+    <string name="suspicious_network_connection">可疑的网络连接</string>
+    <string name="suspicious_profile">可疑的配置文件</string>
+    <string name="suspicious_root_process">可疑的Root进程</string>
+    <string name="suspicious_sms">可疑的短信</string>
+    <string name="system_tampering">系统篡改</string>
+    <string name="tcp_scan">扫描（WiFi）</string>
+    <string name="threat_type_configuration">配置</string>
+    <string name="threat_type_host">主机</string>
+    <string name="threat_type_network">网络</string>
+    <string name="threat_type_unknown">未知</string>
+    <string name="threat_type_user_action">用户操作</string>
+    <string name="tracking_id_1">跟踪ID 1</string>
+    <string name="tracking_id_2">跟踪ID 2</string>
+    <string name="traffic_tampering">流量篡改</string>
+    <string name="udp_scan">扫描（WiFi）</string>
+    <string name="unknown_event">未知事件</string>
+    <string name="unknown_sources_enabled">已启用未知来源</string>
+    <string name="unsecured_wifi_network">不安全的WiFi网络</string>
+    <string name="untrusted_profile">不可信任的配置文件</string>
+    <string name="usb_debugging_on">USB调试已启用</string>
+    <string name="verify_apps_disabled">Google Play Protect已禁用</string>
+    <string name="vulnerability_mitigation">已减少漏洞</string>
+    <string name="vulnerable_android_version">易受攻击的Android版本</string>
+    <string name="vulnerable_nonupgradable_android_version">易受攻击、不可升级的操作系统</string>
+    <string name="zips_closed_by_user"/>
+    <string name="zips_not_running_on_container">[host_app_name]并没有同时在两个容器上运行。</string>
+    <string name="zips_tls_downgrade">TLS降级</string>
+</resources>

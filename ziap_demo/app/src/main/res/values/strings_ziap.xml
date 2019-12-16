@@ -1,0 +1,151 @@
+<resources>
+    <!--
+      File: strings_ziap.xml
+      This is the resource file that contains all the zdectection strings that the General zIAP
+      wants to override in its own implementation. Each product flavor has its own project
+      directory and values directory where it can override the individual string values within
+      its own strings.xml
+
+      The zdetection/zIAP strings resources are built into the zdetection jar, but
+      they are can be overridden by the strings in the strings_ziap.xml file
+      for each product flavor. If you remove any of these strings and they are NOT located
+      in the product flavor's strings_ziap.xml; it will use what is in zdetection jar.
+  -->
+    <string name="abnormal_process_activity">OS Anomaly</string>
+    <string name="access_point_change">Network Handoff</string>
+    <string name="alert_abnormal_process_activity">zIAP detected abnormal activity on your device. zIAP is monitoring for any attacks.</string>
+    <string name="alert_access_point_change">zIAP detected a wireless router handoff from one access point to another in the same network.</string>
+    <string name="alert_android_not_updated">zIAP has detected that the Android version ([os_version]) installed on your device is not up-to-date. The outdated operating system exposes the device to known vulnerabilities and the threat of being exploited by malicious actors. It is advised to update your operating system immediately.</string>
+    <string name="alert_daemon_anomaly">zIAP detected abnormal activity on your device. zIAP is monitoring for any attacks.</string>
+    <string name="alert_developer_mode">zIAP detected an activation of the developer mode option. This can be used to access additional data on your device and should be disabled unless required.</string>
+    <string name="alert_developer_mode_on">Developer Mode is enabled. This option is intended for development purposes only and if left enabled, could put your device at risk. If not required, disable this option via the Settings menu.</string>
+    <string name="alert_dns_change">zIAP detected a DNS network configuration change.</string>
+    <string name="alert_encryption_not_enabled">zIAP has detected that your device is not setup to use device encryption. By not enabling device encryption, sensitive data on the device could be exposed to attackers if your device is stolen or compromised. It is advised to enable device encryption as soon as possible.</string>
+    <string name="alert_eop">zIAP successfully detected an exploit attempt to attack your device. This device is now considered compromised.</string>
+    <string name="alert_fake_ssl">zIAP detected a network attack. The secure communication between your device and the network named [wifi_ssid] was intercepted and could be monitored and modified by an unauthorized party.</string>
+    <string name="alert_file_system_changed">zIAP successfully detected a persistent modification to the file system.</string>
+    <string name="alert_gateway_changed">zIAP detected a network gateway configuration change. This can be indicative of an attacker attempting to intercept traffic.</string>
+    <string name="alert_internal_network_access">Detected [app_name] connecting to private, internal servers. It is uncommon for public applications to connect to internal servers. Public applications connecting to internal servers is considered suspicious behavior and should be investigated immediately for the possible threat of malware installed on the device and the risk of data leakage. </string>
+    <string name="alert_jailbroken">zIAP detected that this device is rooted. This can disable core security functions of your device and is not recommended.</string>
+    <string name="alert_kernel_anomaly">zIAP detected abnormal activity on your device. zIAP is monitoring for any attacks.</string>
+    <string name="alert_malicious_app">zIAP detected the suspicious app named [app_name] on your device.</string>
+    <string name="alert_malicious_app_downloaded">zIAP detected the suspicious app with names [app_name] downloaded on the device.</string>
+    <string name="alert_mitm">zIAP detected a network attack. The communication between your device and the network named [wifi_ssid] was intercepted and could be monitored and modified by an unauthorized party.</string>
+    <string name="alert_network_handoff">zIAP detected a network handoff. This could potentially allow for a network attack.</string>
+    <string name="alert_passcode_not_enabled">zIAP has detected that your device is not setup to use a PIN code, Password, or Pattern to lock your device. By not using a PIN code, Password, or Pattern to lock your device, sensitive data on the device could be exposed to attackers if your device is stolen or compromised. It is advised that a PIN code, Password or Pattern be enabled as a standard security practice in securing your device and securing the sensitive data on the device.</string>
+    <string name="alert_proxy_change">zIAP detected a proxy configuration change that can be indicative of sending traffic to a non-intended destination.</string>
+    <string name="alert_rogue_access_point">zIAP detected that the device is connected to a rogue WiFi network named [wifi_ssid]. Connection to a rogue access point exposes your device to attack by an unauthorized party to access your network data and/or credentials.</string>
+    <string name="alert_rogue_access_point_nearby">A potential Wi-Fi security threat to your mobile device has been detected from a nearby unsecured Wi-Fi network. Please avoid connecting to these unsecured Wi-Fi networks to prevent data interception or modification.</string>
+    <string name="alert_stagefright_vulnerable">This device is vulnerable to Stagefright attacks. Update your operating system as soon as an update is available.</string>
+    <string name="alert_system_tampering">zIAP successfully detected an attack on your device. This attack indicates that the device is compromised and cannot be trusted.</string>
+    <string name="alert_unknown_sources">zIAP detected that the ability to download apps outside of the Google Playstore is enabled.</string>
+    <string name="alert_usb_debugging_on">USB Debugging is enabled. This option is intended for development purposes only and if left enabled, could put your device at risk. If not required, disable this option via the Settings menu.</string>
+    <string name="arp_mitm">Network Attack</string>
+    <string name="arp_scan">Scan (WiFi)</string>
+    <string name="daemon_anomaly">Daemon Anomaly</string>
+    <string name="detail_abnormal_process_activity"><![CDATA[zIAP detected abnormal system activity on your device.<br/><br/>
+Although these activities are not considered malicious, they are key indicators of potential attacks. zIAP will continue monitoring your device and alert you if there is an elevated threat.<br/>We recommend you take the following actions:<br/>
+1. Disconnect the device from any connected PC / Charger<br/>
+2. Disable \'Developer Mode\' found in the Settings menu<br/><br/>]]></string>
+    <string name="detail_access_point_change">zIAP has detected that your device is now connected to a new access point located on the same network.</string>
+    <string name="detail_daemon_anomaly"><![CDATA[zIAP detected abnormal system activity on your device.<br/><br/>
+Although these activities are not considered malicious, they are key indicators of potential attacks. zIAP will continue monitoring your device and alert you if there is an elevated threat.
+<br/>]]></string>
+    <string name="detail_dns_change"><![CDATA[zIAP has detected new DNS settings for your device.<br/>The new DNS server ip(s) are: [ip]]]></string>
+    <string name="detail_eop"><![CDATA[zIAP has detected one or more serious abnormal system activities on your device.<br/>
+These abnormal activities may be the result of an exploit attempt and action should be taken immediately.<br/><br/>Because your device may be compromised, we recommend you take the following actions:<br/><br/>
+* Backup any sensitive data and restore your device to factory settings<br/>
+* Update device firmware to the latest version and latest security updates<br/>
+* Only install trusted applications<br/>
+* Connect to well-known websites<br/>
+* Only connect to trusted networks<br/>
+* Make sure to have the latest zIAP app running on your device
+]]></string>
+    <string name="detail_fake_ssl"><![CDATA[zIAP has detected that a secure connection (https) was intercepted and decrypted using an invalid SSL certificate.<br/>
+This action is commonly associated with man-in-the-middle attacks used to steal sensitive information. To minimize the danger from these attacks, we recommend you take the following actions:<br/><br/>
+* If you are not familiar with the connected network, disconnect immediately.<br/>
+* Make sure to always connect to a secure wireless access point.<br/>
+* Never send private or sensitive information while connected to an open network.<br/>
+* If you are connected to an open network, before sending any private or sensitive information, connect to a VPN first.]]></string>
+    <string name="detail_file_system_changed">zIAP has detected changes to your device\'s file system.</string>
+    <string name="detail_gateway_changed">zIAP has detected that your device has acquired a new gateway address. The new gateway address is: [ip]</string>
+    <string name="detail_internal_network_access">Detected [app_name] connecting to private, internal servers. It is uncommon for public applications to connect to internal servers. Public applications connecting to internal servers is considered suspicious behavior and should be investigated immediately for the possible threat of malware installed on the device and the risk of data leakage.</string>
+    <string name="detail_jailbreak"><![CDATA[zIAP has detected that your device is configured with elevated privileges. While operating in this mode you are at greater risk of being compromised.<br/><br/>
+We recommend you take the following actions:<br/>
+* Backup any sensitive data and restore your device to factory settings<br/>
+* Update device firmware to the latest manufacturer version and latest security updates<br/>
+* Only install trusted applications<br/>
+* Connect to well-known websites<br/>
+* Only connect to trusted networks<br/>
+* Make sure to have the latest zIAP app running on your device]]></string>
+    <string name="detail_kernel_anomaly"><![CDATA[zIAP has detected one or more serious abnormal system activities on your device.<br/><br/>
+These abnormal activities may be the result of an exploit attempt, they are key indicators of potential attacks. zIAP will continue monitoring your device and alert you if there is an elevated threat.<br/>We recommend you take the following actions:<br/>
+1. Disconnect the device from any connected PC / Charger<br/>
+2. Disable \'Developer Mode\' found in the Settings menu<br/><br/>]]></string>
+    <string name="detail_malicious_app"><![CDATA[zIAP has detected [app_name] as a suspicious app.<br/><br/>
+It is recommended that you remove the app immediately.<br/><br/>
+In the future, we recommend that you download and install well known apps from trusted app stores.
+]]></string>
+    <string name="detail_mitm"><![CDATA[zIAP has detected that your device is or may be communicating with an unknown intermediate device - also known as a man-in-the-middle attack.This unknown intermediate device may be stealing private and sensitive information.<br/><br/>
+We recommend you take the following actions:<br/><br/>
+* Disconnecting from the Wi-Fi network you are currently connected to.<br/>
+* Connect to a secure Wi-Fi network.<br/>
+* Connect to a VPN to secure your network communications.]]></string>
+    <string name="detail_network_handoff"><![CDATA[zIAP detected a network handoff<br/><br/>
+The event took place at [wifi_ssid] on [date]. If you are not familiar with this network, it is recommended to disconnect.]]></string>
+    <string name="detail_proxy_change"><![CDATA[zIAP has detected a change to your proxy settings. The new proxy IP address is: [ip] ]]></string>
+    <string name="detail_rogue_access_point"><![CDATA[zIAP detected that you connected to a suspicious Wi-Fi network, putting you at risk of a potential man-in-the-middle attack]]></string>
+    <string name="detail_rogue_access_point_nearby"><![CDATA[zIAP has detected one or more suspicious Wi-Fi networks nearby, putting you at risk of a potential man-in-the-middle attack.]]></string>
+    <string name="detail_system_tampering"><![CDATA[zIAP has detected one or more system changes which indicates that your device has been compromised and unsafe to use.<br/><br/>
+Because your device is compromised, we recommend you take the following actions:<br/><br/>
+* Backup any sensitive data and restore your device to factory settings<br/>
+* Update device firmware to the latest version and latest security updates<br/>
+* Only install trusted applications<br/>
+* Connect to well-known websites<br/>
+* Only connect to trusted networks<br/>
+* Make sure to have the latest zIAP app running on your device]]></string>
+    <string name="detail_wifi_scan"><![CDATA[zIAP has detected a network scan on the following wifi network: [wifi_ssid].]]></string>
+    <string name="developer_mode_on">Developer Mode Enabled</string>
+    <string name="device_rooted">Device Rooting</string>
+    <string name="dns_changed">Network Configuration</string>
+    <string name="elevation_of_privileges">Device Attack</string>
+    <string name="email_suspected">Email suspected</string>
+    <string name="encryption_not_enabled">Device Encryption</string>
+    <string name="file_suspected">File Suspected</string>
+    <string name="file_system_change">Persistent OS Modifications</string>
+    <string name="gateway_change">Network Configuration</string>
+    <string name="icmp_redir_mitm">Network Attack</string>
+    <string name="internal_network_access">Internal Network Access</string>
+    <string name="ip_scan">Scan (WiFi)</string>
+    <string name="kernel_anomaly">Kernel Anomaly</string>
+    <string name="malicious_app">Suspicious App Detected</string>
+    <string name="mediaserver_anomaly">Mediaserver Anomaly</string>
+    <string name="network_handoff">Network Handoff</string>
+    <string name="network_threat">Network Threat</string>
+    <string name="passcode_not_enabled">Device Pin</string>
+    <string name="proxy_change">Network Configuration</string>
+    <string name="rogue_access_point">Rogue WiFi</string>
+    <string name="rogue_access_point_nearby">Rogue WiFi - Nearby</string>
+    <string name="sms_configuration_changed">SMS Configuration Changed</string>
+    <string name="ssl_mitm">Invalid Certificate</string>
+    <string name="ssl_strip">Network Attack</string>
+    <string name="stagefright_exploit">Stagefright Exploit</string>
+    <string name="stagefright_vulnerability">Stagefright Vulnerability</string>
+    <string name="suspicious_profile">Suspicious Profile</string>
+    <string name="suspicious_sms">Suspicious SMS</string>
+    <string name="system_tampering">System Tampering</string>
+    <string name="tcp_scan">Scan (WiFi)</string>
+    <string name="threat_type_configuration">Configuration</string>
+    <string name="threat_type_host">Host</string>
+    <string name="threat_type_network">Network</string>
+    <string name="threat_type_unknown">Unknown</string>
+    <string name="threat_type_user_action">User Action</string>
+    <string name="traffic_tampering">Traffic Tampering</string>
+    <string name="udp_scan">Scan (WiFi)</string>
+    <string name="unknown_event">Unknown Event</string>
+    <string name="unknown_sources_enabled">Unknown Sources Enabled</string>
+    <string name="usb_debugging_on">USB Debugging Enabled</string>
+    <string name="vulnerability_mitigation">Vulnerability Mitigated</string>
+    <string name="vulnerable_android_version">Vulnerable Android Version</string>
+    <string name="zIAP_closed_by_user">zIAP closed by user</string>
+</resources>

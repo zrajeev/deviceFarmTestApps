@@ -1,0 +1,7 @@
+#Fri Dec 13 17:04:03 CST 2019
+base.1=/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex
+path.1=classes2.dex
+base.0=/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

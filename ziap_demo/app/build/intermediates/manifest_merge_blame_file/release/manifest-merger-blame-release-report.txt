@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zimperium.ziap_demo"
+4    android:versionCode="1"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+11-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:6:5-76
+11-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:7:5-76
+12-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:8:5-80
+13-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:9:5-79
+14-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:14:5-67
+15-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:14:22-64
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:15:5-77
+16-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:15:22-74
+17    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- need to ask for permission for SDK 23 -->
+17-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:17:5-79
+17-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:17:22-76
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:20:5-68
+18-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:20:22-65
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+19-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:21:5-74
+19-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:21:22-71
+20    <uses-permission android:name="android.permission.AID_READPROC" /> <!-- KNOX SUPPORT -->
+20-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:22:5-71
+20-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:22:22-68
+21    <permission
+21-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:25:5-28:47
+22        android:name="com.zimperium.ziap_demo.supportlibclient.SUPPORT_PERMISSION"
+22-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:26:9-76
+23        android:label="Knox Support permission"
+23-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:27:9-48
+24        android:protectionLevel="signature" />
+24-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:28:9-44
+25
+26    <uses-permission android:name="com.zimperium.supportlibclient.SUPPORT_PERMISSION" />
+26-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:30:5-89
+26-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:30:22-86
+27    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_HW_CONTROL" />
+27-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:31:5-91
+27-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:31:22-88
+28    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_APP_MGMT" />
+28-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:32:5-89
+28-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:32:22-86
+29    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_BLUETOOTH" />
+29-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:33:5-90
+29-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:33:22-87
+30    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_CERTIFICATE" />
+30-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:34:5-92
+30-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:34:22-89
+31    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_FIREWALL" />
+31-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:35:5-89
+31-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:35:22-86
+32    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_PHONE_RESTRICTION" />
+32-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:36:5-98
+32-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:36:22-95
+33    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_RESTRICTION_MGMT" />
+33-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:37:5-97
+33-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:37:22-94
+34    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_SECURITY" />
+34-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:38:5-89
+34-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:38:22-86
+35    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_WIFI" />
+35-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:39:5-85
+35-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:39:22-82
+36
+37    <application
+37-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:11:5-34:19
+38        android:name="com.zimperium.ziap_demo.ZiapApplication"
+38-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:12:9-40
+39        android:allowBackup="true"
+39-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:13:9-35
+40        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+40-->[com.android.support:support-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc74986e6ef0b9bd971d91f8ac92f382/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:14:9-43
+42        android:label="@string/app_name"
+42-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:15:9-41
+43        android:supportsRtl="true"
+43-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:16:9-35
+44        android:theme="@style/AppTheme"
+44-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:17:9-40
+45        android:usesCleartextTraffic="true" >
+45-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:41:18-53
+46        <activity
+46-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:18:9-24:20
+47            android:name="com.zimperium.ziap_demo.ui.LoadingActivity"
+47-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:18:19-53
+48            android:launchMode="singleInstance" >
+48-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:19:13-48
+49            <intent-filter>
+49-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:20:13-23:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:21:17-69
+50-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:21:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:22:17-77
+52-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:22:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:25:9-27:59
+56            android:name="com.zimperium.ziap_demo.ui.MainActivity"
+56-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:26:13-44
+57            android:label="@string/title_activity_login" />
+57-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:27:13-57
+58        <activity
+58-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:28:9-33:20
+59            android:name="com.zimperium.ziap_demo.ui.ThreatActivity"
+59-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:29:13-46
+60            android:label="@string/title_activity_critical_threat"
+60-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:30:13-67
+61            android:theme="@style/ThreatTheme" >
+61-->/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:31:13-47
+62        </activity>
+63        <activity
+63-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:42:9-45:59
+64            android:name="com.zimperium.zdetection.service.ZPermissionCheckActivity"
+64-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:43:13-85
+65            android:launchMode="singleInstance"
+65-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:44:13-48
+66            android:theme="@style/PermissionCheckTheme" />
+66-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:45:13-56
+67
+68        <provider
+68-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:47:9-50:40
+69            android:name="com.zimperium.zdetection.db.contentprovider.ZDetectionProvider"
+69-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:48:13-90
+70            android:authorities="com.zimperium.ziap_demo.zdetection.provider"
+70-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:49:13-71
+71            android:exported="false" />
+71-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:50:13-37
+72
+73        <service
+73-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:52:9-60:19
+74            android:name="com.zimperium.zdetection.service.ZVpnService"
+74-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:53:13-72
+75            android:enabled="true"
+75-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:54:13-35
+76            android:exported="true"
+76-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:55:13-36
+77            android:permission="android.permission.BIND_VPN_SERVICE" >
+77-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:56:13-69
+78            <intent-filter>
+78-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:57:13-59:29
+79                <action android:name="android.net.VpnService" />
+79-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:58:17-65
+79-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:58:25-62
+80            </intent-filter>
+81        </service> <!-- App Config for EMM AFW -->
+82        <meta-data
+82-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:63:9-65:56
+83            android:name="android.content.APP_RESTRICTIONS"
+83-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:64:13-60
+84            android:resource="@xml/app_restrictions" />
+84-->[com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:65:13-53
+85    </application>
+86
+87</manifest>

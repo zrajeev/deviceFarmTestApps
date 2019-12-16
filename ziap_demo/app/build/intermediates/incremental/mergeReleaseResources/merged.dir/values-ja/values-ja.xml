@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="abnormal_process_activity">OSの異常</string>
+    <string name="access_blocked_domain">ブロックされたドメインにアクセス</string>
+    <string name="access_point_change">ネットワークハンドオフ</string>
+    <string name="accessibility_app_enabled">アクセシビリティサービスが有効になっています</string>
+    <string name="adb_verify_disabled">ADBアプリが認証されていません</string>
+    <string name="alert_abnormal_process_activity">[host_app_name]がデバイス上で異常な動きを検知しました。 [host_app_name]はあらゆる攻撃に備えて監視を行っています。</string>
+    <string name="alert_access_blocked_domain">[host_app_name]はブロックされたドメインへのアクセスを検知しました。[blocked_domain]</string>
+    <string name="alert_access_point_change">[host_app_name]が、同一ネットワーク上の一つのアクセスポイントから別のアクセスポイントへの無線ルーターハンドオフを検知しました。</string>
+    <string name="alert_accessibility_app_enabled">[host_app_name]が[app_name]でアクセシビリティサービスが有効になっていることを検知しました。</string>
+    <string name="alert_adb_verify_disabled">ADB経由でインストールされたアプリは、検証の必要がありません。これにより、悪意のあるアプリがデバイスにインストールされる恐れがあります。</string>
+    <string name="alert_always_on_vpn_app_set">このデバイスで、アプリが常時接続VPNとして構成されました。アプリは、デバイスがインターネットに対して行う全ての通信を監視することがあります。</string>
+    <string name="alert_android_compatibility">この Android デバイスのプロフィールは Google の Android 互換性テストに合格したデバイスのプロフィールと一致しません。このデバイスには Google にテストされていないセキュリティの問題がある可能性があります。</string>
+    <string name="alert_android_integrity">この Android デバイスは改竄されている可能性があります。このデバイスは Google に認定されておらず、さらに root 化などの他の問題がある可能性があります。</string>
+    <string name="alert_android_not_updated">[host_app_name]がデバイスにインストールされているAndroidバージョン([os_version])が最新でないことを検出しました。古いオペレーティングシステムは既知の脆弱性にデバイスをを晒し、悪意のある者に悪用される恐れがあります。今すぐオペレーティングシステムを更新することをお勧めします</string>
+    <string name="alert_android_not_updated_unupgradable">[host_app_name] が、デバイスにインストールされているバージョン ([os_version]) の Android が最新版ではないことを検知しました。古いオペレーティングシステムはデバイスに既知の脆弱性をもたらし、悪質なハッカーによる悪用の脅威があります。しかし、ご使用のデバイスは現在オペレーティングシステムのアップグレードができません。</string>
+    <string name="alert_blueborne"><![CDATA[[host_app_name]がお使いのデバイスでBlueBorne脆弱性を検出しました。攻撃者はBluetooth接続を悪用し、対象となるデバイスへの侵入や操作権限の取得を試行する可能性があります。BlueBorneによる一連のリスクを回避するために、以下が推奨されます:
+   		<br/><br/>
+                    1. 製造元またはモバイル キャリアからのアップデートがあるまでシステムの設定にて、Bluetoothを完全にオフにしてください。<br/>
+                    2. Bluetoothの利用が必要な場合、その時のみ安全な環境で使用することをおすすめします。]]></string>
+    <string name="alert_captive_portal">[host_app_name]はこのデバイスが[wifi_ssid]というCaptive Portalネットワークに接続されていることを検知しました。</string>
+    <string name="alert_daemon_anomaly">[host_app_name]がデバイス上の異常なアクティビティを検出しました。[host_app_name]は全ての攻撃を監視しています。</string>
+    <string name="alert_dangerzone_connected"> [host_app_name]は危険性の高いWi-Fiアクセスポイント[wifi_ssid] への接続を検知しました。この危険性の高いワイヤレスアクセスポイントはデバイスとインターネット間のトランザクションを傍受するために使用される恐れがあり、機密情報が盗まれたり、デバイスの設定が変更されたりする可能性があります。</string>
+    <string name="alert_dangerzone_nearby">[host_app_name]はこれらの近くにある危険度の高いネットワークを検出しました: [nearby_ssids]。これらの危険性の高いネットワークはデバイスとインターネット間のトランザクションを傍受するために使用される恐れがあり、機密情報が盗まれたり、デバイスの設定が変更されたりする可能性があります。</string>
+    <string name="alert_developer_mode">[host_app_name]が開発者モードオプションの有効化を検知しました。このオプションはデバイス上の追加的なデータにアクセスするために使用され、必要ない場合は無効にしておく必要があります。</string>
+    <string name="alert_developer_mode_on">開発者モードが有効になりました。このオプションは開発目的のみのためにあり、有効にしたままにするとデバイスがリスクに晒される恐れがあります。必要でない場合は、設定メニューからこのオプションを無効にしてください。</string>
+    <string name="alert_device_admin_enabled">[host_app_name]が[app_name]でデバイス管理者が有効になっていることを検知しました。</string>
+    <string name="alert_dns_change">[host_app_name]がネットワークのDNS設定に対する変更を検知しました。</string>
+    <string name="alert_encryption_not_enabled">[host_app_name]がデバイス暗号化を使う設定がされていないことを検出しました。デバイス暗号化が有効でないことにより、デバイスが盗まれたり、ウィルス感染した場合、デバイス上の機密データが攻撃に晒される恐れがあります。出来る限り早くデバイス暗号化を有効にすることを推奨します。</string>
+    <string name="alert_eop">[host_app_name]が、デバイスを攻撃するエクスプロイトの試みを検知しました。現在、このデバイスは不正アクセスされていると考えられます。</string>
+    <string name="alert_fake_ssl">[host_app_name]がネットワーク攻撃を検知しました。お使いのデバイスと[wifi_ssid]という名称のネットワーク間のセキュアな通信が傍受され、不正な第三者により監視および改ざんされる可能性があります。</string>
+    <string name="alert_file_system_changed">[host_app_name]がファイルシステムに対する永続的な変更を検知しました。</string>
+    <string name="alert_fingerprint_mismatch">[host_app_name]はお使いのデバイスへの攻撃を検知しました。この攻撃はデバイスが危険にさらされていて信頼できないことを示しています。</string>
+    <string name="alert_gateway_changed">[host_app_name]がネットワークゲートウェイの設定に対する変更を検知しました。これは、攻撃者がトラフィックの傍受を試みている可能性があることを示しています。</string>
+    <string name="alert_internal_network_access">[app_name]がプライベート、内部サーバーに接続されていることを検出しました。内部サーバーに公開アプリケーションが接続されているのは異常です。公開アプリケーションが内部サーバーに接続されているのは不審な挙動で、デバイス上にマルウェアがインストールされている恐れとデ―タ漏れの危険があるので、直ちに調べる必要があります。</string>
+    <string name="alert_jailbroken">[host_app_name]がデバイスのルート化を検知しました。これはデバイスの核となるセキュリティ機能を無効にする可能性があるため、推奨されていません。</string>
+    <string name="alert_kernel_anomaly">[host_app_name]がデバイス上の異常なアクティビティを検出しました。[host_app_name]は全ての攻撃を監視しています。</string>
+    <string name="alert_malicious_app">[host_app_name]がデバイス上で[app_name]という名称の悪意のあるアプリを検出しました。</string>
+    <string name="alert_malicious_app_downloaded">[host_app_name]がデバイス上に[app_name]というネームスペースの悪意のあるアプリがダウンロードされたことを検知しました。</string>
+    <string name="alert_malicious_website"> [host_app_name]は悪意がある可能性のあるURLがタップされたことを検知しました。ユーザーはリンクされたサイトを開くと危険である可能性があることを警告されています。></string>
+    <string name="alert_malicious_website_opened"> [host_app_name]は悪意がある可能性のあるURL ([malicious_url])がタップされたことを検知し、警告後にページを確認しました。そのサイトは個人情報を盗もうとしている可能性があります。></string>
+    <string name="alert_mitm">[host_app_name]がネットワーク攻撃を検知しました。お使いのデバイスと[wifi_ssid]という名称のネットワーク間の通信が傍受され、不正な第三者により監視および改ざんされる可能性があります。</string>
+    <string name="alert_network_handoff">[host_app_name]がネットワークハンドオフを検知しました。これは潜在的にはネットワーク攻撃を可能にする場合があります。</string>
+    <string name="alert_ota_update_disabled">デバイスでOTAアップデートが無効になりました。OTAアップデートは、デバイスを最新かつより安全な状態に保つ助けをします。設定でOTAアップデートを再度有効にしてください。</string>
+    <string name="alert_out_of_compliance_app">[app_name]のアプリは、当社の方針に準拠していないと示されています。お使いのデバイスから削除してください。</string>
+    <string name="alert_passcode_not_enabled">[host_app_name]がデバイスがPINコード、パスワードやパターンを使ってデバイスをロックするように設定されていないことを検出しました。デバイスをロックするためにPINコード、パスワードやパターンを使わないことで、デバイスが盗まれたり、ウィルス感染した場合、攻撃に晒される恐れがあります。PINコード、パスワードやパターンをデバイスを守るための標準的なセキュリティとして有効にして、デバイス上の機密データを守ることを推奨します。</string>
+    <string name="alert_proxy_change">[host_app_name]がプロキシ設定に対する変更を検知しました。これは、トラフィックが意図しない宛先に送信されている可能性があることを示しています。</string>
+    <string name="alert_rogue_access_point">[host_app_name]が、デバイスが[wifi_ssid]という名前の不正なWi-Fiネットワークに接続されていることを検知しました。不正アクセスポイントに接続した場合、デバイスがネットワークデータや資格情報にアクセスしようとする権限なき第三者からの攻撃に晒されます。</string>
+    <string name="alert_rogue_access_point_nearby">近くにある安全でないWi-Fiネットワークから、モバイルデバイスに対する潜在的なWi-Fiセキュリティの脅威が検出されました。データの傍受や改ざんを防止するため、これらの安全でないWi-Fiネットワークに接続することは避けてください。</string>
+    <string name="alert_scan">[host_app_name]が、[wifi_ssid]という名称のネットワーク上でWi-Fiネットワークスキャンを検知しました。能動的な攻撃は検知されなかったため、引き続きこのネットワークを安全に利用することができます。</string>
+    <string name="alert_sideloaded_app">[host_app_name] がこのデバイスに [sideloaded_app] というサイドロードアプリが読み込まれたのを検出しました。</string>
+    <string name="alert_stagefright_vulnerable">このデバイスはStagefright攻撃に対する脆弱性を抱えています。アップデートが利用可能になったら、直ちにオペレーティングシステムをアップデートしてください。</string>
+    <string name="alert_suspicious_network_connection">[host_app_name]はお使いのデバイスで正常ではないネットワーク接続を検知しました。[host_app_name]は攻撃の有無を検査中です。</string>
+    <string name="alert_suspicious_root_process"> [host_app_name]はお使いのデバイス上でrootとして作動するプロセスを検知しました。[host_app_name]は攻撃の有無を検査中です。</string>
+    <string name="alert_system_tampering">[host_app_name]がデバイス上で攻撃を検知しました。この攻撃は、デバイスが不正アクセスされ、信頼できない状態であることを示しています。</string>
+    <string name="alert_unknown_sources">[host_app_name]が、Google Playストア以外でアプリをダウンロードする機能が有効になっていることを検知しました。</string>
+    <string name="alert_unsecured_wifi_network">[wifi_ssid]のネットワークは安全ではありません。ただちに接続を解除してください。クリックして詳細をご覧ください。</string>
+    <string name="alert_usb_debugging_on">USBデバッギングが有効です。このオプションは開発目的だけのためにあり、有効にしたままにすると、デバイスがリスクに晒される恐れがあります。必要でない場合は、設定メニューからこのオプションを無効にしてください。</string>
+    <string name="alert_verify_apps_disabled">このデバイスの Google Play Protect が無効になっています。Google Play Protect はデバイスを悪質なアプリから守るためのもので、設定で再度有効にする必要があります。</string>
+    <string name="alert_zips_not_running_on_container">[host_app_name]はこちらのデバイスでは個人用および仕事用プロファイルの双方においてアクティブではありません。デバイスの保護を完全にするには、双方の位置でアプリケーションをインストールしてアクティブにしてください。</string>
+    <string name="alert_zips_tls_downgrade"> [host_app_name]はネットワーク暗号化(SSL/TLS)へのダウングレードを検出しました。権限のない外部者によるコミュニケーションの監視や変更の恐れがあります。</string>
+    <string name="always_on_vpn_app_set">常にVPNアプリ設定をオンにする</string>
+    <string name="android_compatibility">Google により互換性がテストされていません</string>
+    <string name="android_integrity">改竄の可能性</string>
+    <string name="app_name">zIAP</string>
+    <string name="app_ooc_aws">Amazon AWSストレージにアクセス</string>
+    <string name="app_ooc_aws_write">Amazon AWSストレージを更新</string>
+    <string name="app_ooc_box">Boxストレージにアクセス</string>
+    <string name="app_ooc_box_write">Boxストレージを更新</string>
+    <string name="app_ooc_call_history">通話履歴にアクセス</string>
+    <string name="app_ooc_call_privileged">ダイアラーなしで発信を許可</string>
+    <string name="app_ooc_camera">カメラにアクセス</string>
+    <string name="app_ooc_camera_read">カメラロールにアクセス</string>
+    <string name="app_ooc_camera_write">カメラロールを更新</string>
+    <string name="app_ooc_clipboard_read">クリップボードコンテンツにアクセス</string>
+    <string name="app_ooc_clipboard_write">クリップボードコンテンツを更新</string>
+    <string name="app_ooc_connections_unecrypted">非暗号ネットワーク接続を使用</string>
+    <string name="app_ooc_dropbox">Dropboxコンテンツにアクセス</string>
+    <string name="app_ooc_dropbox_write">Dropboxストレージを更新</string>
+    <string name="app_ooc_email_compose">メールを作成</string>
+    <string name="app_ooc_email_read">メールにアクセス</string>
+    <string name="app_ooc_email_send">メールを送信</string>
+    <string name="app_ooc_endpoints_reputation">マルウェア/フィッシングウェブサイトにアクセス</string>
+    <string name="app_ooc_endpoints_sensitive_data">機密データを送信しているウェブサイトにアクセス</string>
+    <string name="app_ooc_external_servers">外部サーバーにアクセス</string>
+    <string name="app_ooc_facebook">Facebookコンテンツにアクセス</string>
+    <string name="app_ooc_facebook_write">Facebookコンテンツを更新</string>
+    <string name="app_ooc_google_drive">Google Driveコンテンツにアクセス</string>
+    <string name="app_ooc_google_drive_write">Google Driveストレージにアクセス</string>
+    <string name="app_ooc_google_storage">Googleストレージにアクセス</string>
+    <string name="app_ooc_google_storage_write">Googleストレージを更新</string>
+    <string name="app_ooc_imei">デバイスIMEI番号にアクセス</string>
+    <string name="app_ooc_instagram">Instagramコンテンツにアクセス</string>
+    <string name="app_ooc_internal_ips">内部ネットワークアドレスにアクセス</string>
+    <string name="app_ooc_linkedin">LinkedInコンテンツにアクセス</string>
+    <string name="app_ooc_local_device_read">ローカルデバイス情報にアクセス</string>
+    <string name="app_ooc_local_device_write">ローカルデバイス情報を更新</string>
+    <string name="app_ooc_location_access">一般位置情報にアクセス</string>
+    <string name="app_ooc_location_fine">正確な位置情報にアクセス</string>
+    <string name="app_ooc_malware">疑わしいもしくはマルウェアと考えられる</string>
+    <string name="app_ooc_mic">マイクにアクセス</string>
+    <string name="app_ooc_notifications">デバイス通知にアクセス</string>
+    <string name="app_ooc_office_365_write">Office 365コンテンツを更新</string>
+    <string name="app_ooc_onedrive">OneDriveコンテンツにアクセス</string>
+    <string name="app_ooc_onedrive_write">OneDriveコンテンツを更新</string>
+    <string name="app_ooc_overlay">アプリウィンドウを別のアプリでオーバーレイ</string>
+    <string name="app_ooc_record_audio">音声コンテンツを録音</string>
+    <string name="app_ooc_record_screenshots">アプリ内でのユーザー操作のスクリーンショットを撮影</string>
+    <string name="app_ooc_record_video">動画を録画</string>
+    <string name="app_ooc_runtime_unencrtyped_conns">非暗号接続を使用 (http、httpsではない)</string>
+    <string name="app_ooc_salesforce">Salesforceコンテンツにアクセス</string>
+    <string name="app_ooc_screenshot">スクリーンショットにアクセス</string>
+    <string name="app_ooc_serial">デバイスのシリアル番号にアクセス</string>
+    <string name="app_ooc_sms_read">SMSテキストメッセージにアクセス</string>
+    <string name="app_ooc_sms_send">SMSテキストメッセージを送信</string>
+    <string name="app_ooc_sms_write">SMSテキストメッセージを作成</string>
+    <string name="app_ooc_ssl_no_pinning">SSL証明書の正当性の確認をスキップ</string>
+    <string name="app_ooc_ssl_problem">SSL通信に問題が発生</string>
+    <string name="app_ooc_ssl_self_signed">SSL証明書に署名 (セキュアでない)</string>
+    <string name="app_ooc_ssl_vuln_weakness">SSL通信に脆弱性がある</string>
+    <string name="app_ooc_twitter">Twitterコンテンツにアクセス</string>
+    <string name="app_ooc_twitter_write">Twitterコンテンツを更新</string>
+    <string name="app_ooc_udid">一意のデバイスID (UDID)にアクセス</string>
+    <string name="app_ooc_voip">ボイスオーバーIP（VoIP）通信を使用して電話をかける</string>
+    <string name="app_ooc_vpn">仮想プライベートネットワーク（VPN）接続を確立する</string>
+    <string name="app_ooc_weibo">Weiboコンテンツにアクセス</string>
+    <string name="app_ooc_weibo_write">Weiboコンテンツを更新</string>
+    <string name="app_restriction_mdm_device_id">MDMデバイスID</string>
+    <string name="arp_mitm">ネットワーク攻撃</string>
+    <string name="arp_scan">(WiFi)をスキャン</string>
+    <string name="blueborne">BlueBorne 脆弱性</string>
+    <string name="captive_portal">Captive Portal</string>
+    <string name="daemon_anomaly">Daemonの異常</string>
+    <string name="dangerzone">危険ゾーン</string>
+    <string name="dangerzone_connected">危険ゾーン接続済み</string>
+    <string name="dangerzone_nearby">近くの危険ゾーン</string>
+    <string name="detail_abnormal_process_activity"><![CDATA[[host_app_name]がデバイス上で異常なシステムの動きを検知しました。<br/><br/>
+これらの動きは悪意のあるものとは考えられませんが、潜在的な攻撃の可能性を示す重要な指標です。[host_app_name]は引き続きデバイスを監視し、より重大な脅威が存在する場合はアラートを発します。<br/>以下の対応を取ることお勧めします。<br/>
+1. デバイスをPCや充電器から切断します。<br/>
+2. 設定メニューの中にある「開発者モード」を無効にします。<br/><br/>]]></string>
+    <string name="detail_access_blocked_domain"><![CDATA[[host_app_name]はブロックされたドメインへのアクセスを検知しました。
+                <br/><br>[blocked_domain] ]]></string>
+    <string name="detail_access_point_change"><![CDATA[[host_app_name]が、デバイスが同一ネットワーク上の新たなアクセスポイントに接続されたことを検知しました。]]></string>
+    <string name="detail_accessibility_app_enabled">[app_name]でアクセシビリティサービスが有効になっています。有効のままにしておくとデバイスが危険にさらされる可能性があります。 不要な場合は設定メニューからこのオプションを無効にしてください。</string>
+    <string name="detail_adb_verify_disabled">ADB経由でインストールされたアプリは、検証の必要がありません。これにより、悪意のあるアプリがデバイスにインストールされる恐れがあります。</string>
+    <string name="detail_always_on_vpn_app_set">このデバイスで、アプリが常時接続VPNとして構成されました。アプリは、デバイスがインターネットに対して行う全ての通信を監視することがあります。</string>
+    <string name="detail_android_compatibility">この Android デバイスのプロフィールは Google の Android 互換性テストに合格したデバイスのプロフィールと一致しません。このデバイスには Google にテストされていないセキュリティの問題がある可能性があります。互換性テストは、デバイスが Android のベストプラクティスに従って開発・導入されていることを確認するためのものです。このデバイスにはロックが解除されたブートローダーやカスタム ROM (非　root　化) が含まれていたり、製造者が認定を申請していない可能性があります。</string>
+    <string name="detail_android_integrity">この Android デバイスは改竄されている可能性があります。このデバイスは Google に認定されておらず、root　化や API フックが行われている可能性があります。また、このデバイスは実際のデバイスではなくエミュレーターである可能性もあります。</string>
+    <string name="detail_blueborne"><![CDATA[[host_app_name]がお使いのデバイスでBlueBorne脆弱性を検出しました。攻撃者はBluetooth接続を悪用し、対象となるデバイスへの侵入や操作権限の取得を試行する可能性があります。BlueBorneによる一連のリスクを回避すルために、製造元またはモバイル キャリアからのアップデートがあるまでBluetoothを完全にオフにすることをおすすめします。また、Bluetoothの利用が必要な場合、その時のみ安全な環境でのみ使用することをおすすめします。]]></string>
+    <string name="detail_captive_portal"> [host_app_name]はこのデバイスが[wifi_ssid]というCaptive Portalネットワークに接続されていることを検知しました。VPN に接続し、デバイスからのすべてのコミュニケーションを保護することを推奨します。</string>
+    <string name="detail_daemon_anomaly"><![CDATA[ [host_app_name]がデバイス上で異常なシステムアクティビティを検出しました。<br/><br/>
+それらのアクティビティは悪意があると思われませんが、潜在的攻撃の主な兆候です。[host_app_name]がデバイスを監視し続け、脅威が高まった場合警告します。
+<br/> ]]></string>
+    <string name="detail_dangerzone_connected">[host_app_name]は危険性の高いWi-Fiアクセスポイント[wifi_ssid] への接続を検知しました。この危険性の高いワイヤレスアクセスポイントはデバイスとインターネット間のトランザクションを傍受するために使用される恐れがあり、機密情報が盗まれたり、デバイスの設定が変更されたりする可能性があります。</string>
+    <string name="detail_dangerzone_nearby">[host_app_name]はこれらの近くにある危険度の高いネットワークを検出しました: [%s]。これらの危険性の高いネットワークはデバイスとインターネット間のトランザクションを傍受するために使用される恐れがあり、機密情報が盗まれたり、デバイスの設定が変更されたりする可能性があります。</string>
+    <string name="detail_developer_mode_on">開発者モードが有効になっています。このオプションは開発専用であり、有効のままにしておくとデバイスが危険にさらされる可能性があります。 不要な場合は設定メニューからこのオプションを無効にしてください。</string>
+    <string name="detail_device_admin_enabled">[app_name]でデバイス管理者が有効になっています。有効のままにすることでデバイスが危険にさらされる可能性があります。 不要な場合は設定メニューからこのオプションを無効にしてください。</string>
+    <string name="detail_dns_change"><![CDATA[[host_app_name]がデバイスで新たなDNS設定が行われたことを検知しました。<br/>新しいDNSサーバーのIPアドレスは次の通りです：[ip]]]></string>
+    <string name="detail_encryption_not_enabled">[host_app_name]が、デバイス暗号化の利用設定が行われていないことを検知しました。デバイス暗号化が有効になっていない場合、デバイスが盗まれたり、ウィルス感染した際に、デバイス上の機密データが攻撃に晒される恐れがあります。できるだけ早くデバイス暗号化を有効にすることが推奨されています。</string>
+    <string name="detail_eop"><![CDATA[[host_app_name]が、デバイス上で一つまたは複数の深刻かつ異常なシステムの動きを検知しました。<br/>
+これらの異常な動きは、エクスプロイトの試みの結果である可能性があるため、直ちに対応が必要です。<br/><br/>デバイスが不正アクセスされている可能性があるため、以下の対応を取ることをお勧めします。<br/><br/>
+* 機微なデータのバックアップを取り、デバイスの設定を工場出荷時の状態に戻す。<br/>
+* デバイスのファームウェアを最新版にアップデートし、最新のセキュリティアップデートを適用する。<br/>
+* よく知られたウェブサイトにのみ接続する。<br/>
+* 信頼できるネットワークにのみ接続する。<br/>
+* デバイス上で必ず最新の[host_app_name]アプリを実行する。
+]]></string>
+    <string name="detail_fake_ssl"><![CDATA[[host_app_name]が、セキュアな接続（https）が傍受され、 無効なSSL証明書を使って復号化されたことを検知しました。<br/>この行為は通常、機微な情報を盗むために使用される中間者攻撃と関連しています。これらの攻撃の危険を最小化するために、以下の対応を取ることをお勧めします。<br/><br/>
+* 接続しているネットワークが既知のものでない場合は、直ちに切断する。<br/>
+* 常にセキュアな無線アクセスポイントに接続する。<br/>
+* オープンネットワークに接続している場合は、絶対に個人情報や機微な情報を送信しない。<br/>
+* オープンネットワークに接続している場合は、個人情報や機微な情報を送信する前に、まずVPNに接続する。]]></string>
+    <string name="detail_file_system_changed"><![CDATA[[host_app_name]がデバイスのファイルシステムに対する変更を検知しました。]]></string>
+    <string name="detail_fingerprint_mismatch">[host_app_name]はお使いのデバイスが危険にさらされ、使用するのに安全でないことを示す1つかそれ以上のシステム変更を検知しました。<br/>
+        <br/>
+    お使いのデバイスが危険にさらされているため、次のアクションを取ることを推奨します:<br/>
+        <br/>
+    *すべての機密データをバックアップしてデバイスを出荷時設定に復元する<br/>
+    *デバイスのファームウェアを最新バージョンおよび最新セキュリティーアップデートに更新する<br/>
+    *信頼できるアプリケーションのみをインストールする<br/>
+    *よく知られているウェブサイトに接続する<br/>
+    *信頼できるネットワークにのみ接続する<br/>
+    *デバイスで作動するのは最新の[host_app_name]アプリであることを確認する</string>
+    <string name="detail_gateway_changed"><![CDATA[[host_app_name]が、デバイスに新しいゲートウェイアドレスが追加されたことを検知しました。新しいゲートウェイアドレスは次の通りです：[ip]]]></string>
+    <string name="detail_internal_network_access">[app_name]がプライベート、内部サービスに接続されていることを検出しました。内部サーバーに公開アプリケーションが接続されているのは異常です。公開アプリケーションが内部サーバーと接続しているのは不審な挙動で、デバイス上にマルウェアがインストールされている恐れや、データ漏れの危険があるので、直ちに調べる必要があります。</string>
+    <string name="detail_jailbreak"><![CDATA[[host_app_name]が、デバイスで高い特権を使用できるように設定されていることを検知しました。このモードで運用した場合、不正アクセスを受ける可能性が高まります。<br/><br/>
+以下の対応を取ることをお勧めします。<br/>
+* 機微なデータのバックアップを取り、デバイスの設定を工場出荷時の状態に戻す。<br/>
+* デバイスのファームウェアを最新版にアップデートし、最新のセキュリティアップデートを適用する。<br/>
+* 信頼できるアプリケーションのみをインストールする。<br/>
+* よく知られたウェブサイトにのみ接続する。<br/>
+* 信頼できるネットワークにのみ接続する。<br/>
+* デバイス上で必ず最新の[host_app_name]アプリを実行する。]]></string>
+    <string name="detail_kernel_anomaly"><![CDATA[ [host_app_name]が1つ以上の重大な異常なシステムアクティビティをデバイス上で検出しました。<br/><br/>
+それらの異常なアクティビティは悪用しようとした結果である可能性があり、潜在的攻撃の主な兆候です。[host_app_name]がデバイスを監視し続けて、脅威が高まった場合警告します。<br/>以下の操作行うことを推奨します:<br/>
+1. 接続しているPC/チャージャーからデバイスを外す<br/>
+2. 設定メニューの「開発者モード」を無効にする<br/><br/> ]]></string>
+    <string name="detail_malicious_app"><![CDATA[[host_app_name]が[app_name]を悪意のあるアプリとして検出しました。<br/><br/>
+このアプリを直ちに削除することをお勧めします。<br/><br/>
+今後は、信頼できるアプリストアからよく知られたアプリのみをダウンロードおよびインストールすることをお勧めします。]]></string>
+    <string name="detail_malicious_website">[host_app_name]は悪意がある可能性のあるURLがタップされたことを検知しました。ユーザーはリンクされたサイトを開くと危険である可能性があることを警告されています。</string>
+    <string name="detail_malicious_website_opened">[host_app_name]は悪意がある可能性のあるURL ([malicious_url])がタップされたことを検知し、警告後にページを確認しました。そのサイトは個人情報を盗もうとしている可能性があります。</string>
+    <string name="detail_mitm"><![CDATA[[host_app_name]が、お使いのデバイスが未知の中間デバイスと通信している、または通信している可能性があることを検知しました。これは、中間者攻撃としても知られています。この未知の中間デバイスは、個人情報または機微な情報を盗んでいる可能性があります。<br/><br/>
+以下の対応を取ることをお勧めします。<br/><br/>
+* 現在接続しているWi-Fiネットワークから切断する。<br/>
+* セキュアなWi-Fiネットワークに接続する。<br/>
+* ネットワーク通信のセキュリティを確保するためにVPNに接続する。]]></string>
+    <string name="detail_network_handoff"><![CDATA[[host_app_name]がネットワークハンドオフを検知しました。<br/><br/>
+このイベントは[date]に[wifi_ssid]上で発生しました。このネットワークが既知のものでない場合は、切断することをお勧めします。]]></string>
+    <string name="detail_ota_update_disabled">デバイスでOTAアップデートが無効になりました。OTAアップデートは、デバイスを最新かつより安全な状態に保つ助けをします。設定でOTAアップデートを再度有効にしてください。</string>
+    <string name="detail_out_of_compliance_app"><![CDATA[[app_name]のアプリは、当社の方針に準拠していないと示されています。お使いのデバイスから削除してください。]]></string>
+    <string name="detail_passcode_not_enabled">[host_app_name]が、デバイスのロックにPINコード、パスワード又はパターンを使用する設定が行われていないことを検知しました。デバイスのロックにPINコード、パスワード又はパターンを使用していない場合、デバイスが盗まれたり、ウィルス感染した際に、デバイス上の機密データが攻撃に晒される恐れがあります。デバイスとデバイス上の機密データを保護するための標準的なセキュリティ対策として、PINコード、パスワード又はパターンを有効にすることが推奨されています。</string>
+    <string name="detail_proxy_change"><![CDATA[[host_app_name]がプロキシ設定に対する変更を検知しました。新しいプロキシのIPアドレスは次の通りです：[ip] ]]></string>
+    <string name="detail_rogue_access_point"><![CDATA[[host_app_name]が、疑わしいWi-Fiネットワークに接続され、潜在的な中間者攻撃のリスクに晒されていることを検知しました。]]></string>
+    <string name="detail_rogue_access_point_nearby"><![CDATA[[host_app_name]が、近くに疑わしいWi-Fiネットワークが1つ以上存在し、潜在的な中間者攻撃のリスクに晒されていることを検知しました。]]></string>
+    <string name="detail_sideloaded_app"><![CDATA[[host_app_name] がデバイスにインストールされたサイドロードアプリを検出しました。
+            <br/><br>サイドロードアプリ名: [sideloaded_app]<br/>サイドロードアプリのパッケージ: [sideloaded_package]<br/>サイドロードアプリの開発者:[sideloaded_developer]]]></string>
+    <string name="detail_stagefright_vulnerable">このデバイスは、Stagefright攻撃に対する脆弱性を抱えています。アップデートが提供され次第オペレーティングシステムを更新してください。</string>
+    <string name="detail_suspicious_network_connection">[host_app_name]はお使いのデバイスで正常でないネットワーク接続を検知しました。</string>
+    <string name="detail_suspicious_root_process">[host_app_name]はお使いのデバイス上でrootとして作動するプロセスを検知しました。</string>
+    <string name="detail_system_tampering"><![CDATA[[host_app_name]が、デバイスが不正アクセスされた、またはその利用が安全でなくなったことを示す一つまたは複数のシステム変更を検知しました。<br/><br/>
+デバイスが不正アクセスされているため、以下の対応を取ることをお勧めします。<br/><br/>
+* 機微なデータのバックアップを取り、デバイスの設定を工場出荷時の状態に戻す。<br/>
+* デバイスのファームウェアを最新版にアップデートし、最新のセキュリティアップデートを適用する。<br/>
+* 信頼できるアプリケーションのみをインストールする。<br/>
+* よく知られたウェブサイトにのみ接続する。<br/>
+* 信頼できるネットワークにのみ接続する。<br/>
+* デバイス上で必ず最新の[host_app_name]アプリを実行する。]]></string>
+    <string name="detail_unknown_sources">[host_app_name]が、Google Playストア以外でアプリをダウンロードする機能が有効になっていることを検知しました。</string>
+    <string name="detail_unsecured_wifi_network">[host_app_name]はお使いのデバイスが[wifi_ssid]という安全対策が施されていないWi-Fiネットワークに接続されていることを検知しました。安全対策が施されていないネットワークへの接続は、ネットワークデータや認証情報へのアクセスなど、お使いのデバイスを権限のない外部者による攻撃にさらすことになります。</string>
+    <string name="detail_usb_debugging_on">USBデバッグが有効になっています。この機能は開発専用であり、有効のままにしておくとデバイスが危険にさらされる可能性があります。 不要な場合は設定メニューからこのオプションを無効にしてください。</string>
+    <string name="detail_wifi_scan"><![CDATA[[host_app_name]が次のWi-Fiネットワーク上でネットワークスキャンを検知しました：[wifi_ssid].]]></string>
+    <string name="detail_zips_not_running_on_container"> [host_app_name]はこちらのデバイスでは個人用および仕事用プロファイルの双方においてアクティブではありません。デバイスの保護を完全にするには、双方の位置でアプリケーションをインストールしてアクティブにしてください。</string>
+    <string name="detail_zips_tls_downgrade">[host_app_name]はネットワーク暗号化(SSL/TLS)へのダウングレードを検出しました。権限のない外部者によるコミュニケーションの監視や変更の恐れがあります。</string>
+    <string name="developer_mode_on">開発者モードが有効</string>
+    <string name="device_admin_enabled">デバイス管理者が有効になっています</string>
+    <string name="device_rooted">デバイスのルート化</string>
+    <string name="dns_changed">ネットワーク設定</string>
+    <string name="dz_high_mode">高</string>
+    <string name="dz_normal_mode">通常</string>
+    <string name="dz_paranoid_mode">パラノイド</string>
+    <string name="elevation_of_privileges">デバイスに対する攻撃</string>
+    <string name="email_suspected">疑わしいEメール</string>
+    <string name="encryption_not_enabled">デバイスの暗号化</string>
+    <string name="file_suspected">疑わしいファイル</string>
+    <string name="file_system_change">OSに対する永続的な変更</string>
+    <string name="fingerprint_mismatch">指紋不整合</string>
+    <string name="gateway_change">ネットワーク設定</string>
+    <string name="icmp_redir_mitm">ネットワーク攻撃</string>
+    <string name="internal_network_access">内部ネットワークアクセス</string>
+    <string name="ip_scan">(WiFi)をスキャン</string>
+    <string name="kernel_anomaly">カーネルの異常</string>
+    <string name="malicious_app">マルウェアが検出されました</string>
+    <string name="malicious_website">悪意のあるウェブサイト</string>
+    <string name="malicious_website_opened">サイトのインサイト</string>
+    <string name="mediaserver_anomaly">メディアサーバーの異常</string>
+    <string name="network_handoff">ネットワークハンドオフ</string>
+    <string name="network_sinkhole_block_all">デバイスの脅威がアクティブな間、管理者によりネットワークアクセスがブロックされました。</string>
+    <string name="network_sinkhole_block_single">デバイスで脅威がアクティブな間、管理者によりドメイン %1$s へのアクセスがブロックされました。</string>
+    <string name="network_threat">ネットワーク上の脅威</string>
+    <string name="ota_updates_disabled">OTA更新が無効になっています</string>
+    <string name="out_of_compliance_app">準拠していないアプリ</string>
+    <string name="passcode_not_enabled">デバイスPIN</string>
+    <string name="phishingHtmlBody">{http://link}のリンクにデバイスから機密情報や個人情報を盗み取る危険性がある悪質コンテンツが含まれている可能性があります。「戻る」ボタンをクリックしてデバイスの安全を守ってください。</string>
+    <string name="phishingHtmlButtonBack">戻る</string>
+    <string name="phishingHtmlButtonContinue">このまま続行する</string>
+    <string name="phishingHtmlCheckbox">このサイトには表示しない</string>
+    <string name="phishingHtmlTitle">このURLには、リスクがあります！</string>
+    <string name="proxy_change">ネットワーク設定</string>
+    <string name="restriction_defaultchannel_title">デフォルトのアクセプター</string>
+    <string name="restriction_display_eula">ソフトウェア使用許諾契約を表示</string>
+    <string name="restriction_tenantid_title">テナント</string>
+    <string name="restriction_uuid_title">UUID</string>
+    <string name="rogue_access_point">不正Wi-Fi</string>
+    <string name="rogue_access_point_nearby">不正Wi-Fi – 周辺</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string name="selinux_disabled">SELinux無効</string>
+    <string name="sideloaded_app">サイドロードアプリ</string>
+    <string name="sms_configuration_changed">SMS設定が変更されました</string>
+    <string name="ssl_mitm">証明書が無効です</string>
+    <string name="ssl_strip">ネットワーク攻撃</string>
+    <string name="stagefright_exploit">Stagefrightに対するエクスプロイト</string>
+    <string name="stagefright_vulnerability">Stagefrightの脆弱性</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="suspicious_network_connection">疑わしいネットワーク接続</string>
+    <string name="suspicious_profile">疑わしいプロフィール</string>
+    <string name="suspicious_root_process">疑わしいRootプロセス</string>
+    <string name="suspicious_sms">疑わしいSMS</string>
+    <string name="system_tampering">システムの改ざん</string>
+    <string name="tcp_scan">(WiFi)をスキャン</string>
+    <string name="threat_type_configuration">設定</string>
+    <string name="threat_type_host">ホスト</string>
+    <string name="threat_type_network">ネットワーク</string>
+    <string name="threat_type_unknown">不明</string>
+    <string name="threat_type_user_action">ユーザーのアクション</string>
+    <string name="tracking_id_1">トラッキングID 1</string>
+    <string name="tracking_id_2">トラッキングID 2</string>
+    <string name="traffic_tampering">トラフィックの改ざん</string>
+    <string name="udp_scan">(WiFi)をスキャン</string>
+    <string name="unknown_event">不明なイベント</string>
+    <string name="unknown_sources_enabled">不明なソースが有効です</string>
+    <string name="unsecured_wifi_network">安全対策が施されていないWi-Fiネットワーク</string>
+    <string name="untrusted_profile">信頼できないプロファイル</string>
+    <string name="usb_debugging_on">USBデバッグが有効です</string>
+    <string name="verify_apps_disabled">Google Play Protect が無効</string>
+    <string name="vulnerability_mitigation">脆弱性が軽減されました</string>
+    <string name="vulnerable_android_version">脆弱なAndroidバージョン</string>
+    <string name="vulnerable_nonupgradable_android_version">脆弱。アップグレード不可能な OS</string>
+    <string name="zips_not_running_on_container">[host_app_name]は両コンテナで作動していません。 </string>
+    <string name="zips_tls_downgrade">TLSのダウングレード</string>
+</resources>

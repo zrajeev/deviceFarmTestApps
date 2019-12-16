@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"삭제"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"입력"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="abnormal_process_activity">비적상적인 프로세스 활동</string>
+    <string name="access_blocked_domain">차단된 도메인에 접근</string>
+    <string name="access_point_change">네트워크 핸드오프(Handoff)</string>
+    <string name="accessibility_app_enabled">접근성 서비스 활성화됨</string>
+    <string name="adb_verify_disabled">ADB 앱 승인되지 않음</string>
+    <string name="alert_abnormal_process_activity">[host_app_name]가 기기에서 비정상적인 활동을 감지하였습니다. [host_app_name]는 모든 공격에 대하여 감시하고 있습니다.</string>
+    <string name="alert_access_blocked_domain">[host_app_name]가 차단된 도메인에 대한 접근을 탐지했습니다. [blocked_domain]</string>
+    <string name="alert_access_point_change">[host_app_name]가 동일 네트워크상에서 또 다른 AP로 자동 변경되는 무선 라우터 핸드오프(Handoff)를 감지하였습니다.</string>
+    <string name="alert_accessibility_app_enabled">[host_app_name]는 [app_name]의 접근성 서비스가 활성화되었음을 감지했습니다.</string>
+    <string name="alert_adb_verify_disabled">ADB를 통해 설치된 앱은 승인이 필요 없습니다. 이 경우, 악성 앱이 기기에 설치될 가능성이 있습니다.</string>
+    <string name="alert_always_on_vpn_app_set">하나의 앱이 이 기기에서 항상 켜져 있는 VPN으로 구성되었습니다. 이 앱은 인터넷상에서 이루어지는 이 기기의 모든 통신을 모니터링할 수 있습니다.</string>
+    <string name="alert_android_compatibility">이 안드로이드 기기의 프로필은 구글의 안드로이드 적합성 검사를 통과한 어떤 기기의 프로필과도 일치하지 않습니다. 이 기기는 구글에서 테스트하지 않은 보안상 결함이 있을 수 있습니다.</string>
+    <string name="alert_android_integrity">이 안드로이드 기기는 조작됐을 수 있습니다. 해당 기기는 구글에서 인증되지 않았으며, 루팅과 같은 방법을 통해 추가로 변경했을 수 있습니다.</string>
+    <string name="alert_android_not_updated">[host_app_name]가 기기에 설치된 안드로이드 버전([os_version])이 최신 버전이 아님을 감지했습니다. 오래된 운영 체제를 사용하면 기기가 알려진 취약점 공격과 악의적인 행위자의 해킹 위협에 노출됩니다. 운영 체제를 즉시 업데이트하는 것이 좋습니다.</string>
+    <string name="alert_android_not_updated_unupgradable">[host_app_name]가 당신의 기기에 최신이 아닌 안드로이드 버전 ([os_version])이 설치된 것을 발견했습니다. 오래된 운영체제는 알려진 취약성과 악의를 가진 사람들에게 이용당할 위협이 있습니다. 하지만, 현재 당신의 기기는 운영 체제 업그레이드를 할 수 없습니다.</string>
+    <string name="alert_blueborne">[host_app_name]는 본 기기가 블루투스 연결을 통하여 목표 기기에 침투하고 이를 제어하는 BlueBorne 공격에 취약함을 탐지했습니다. 이러한 BlueBorne 공격의 위험성에서 벗어나려면 다음과 같이 하시는 것이 좋습니다.<br/>
+        <br/>
+
+    1. 설정으로 이동하여, 기기 제조 업체나 무선 통신 업체로부터 업데이트를 사용할 수 있을 때까지 블루투스 기능을 영구적으로 끄십시오. <br/>
+    2. 블루투스 연결이 필요한 경우, 블루투스를 끈 상태에서 신뢰할 수 있는 보안 영역으로 이동하여 해당 영역에서만 켜십시오.</string>
+    <string name="alert_captive_portal">[host_app_name]는 본 기기가 캡티브 포털 네트워크, [wifi_ssid]에 연결된 것을 탐지했습니다.</string>
+    <string name="alert_daemon_anomaly">[host_app_name]가 기기에서 비정상적인 활동을 감지했습니다. [host_app_name]는 모든 공격을 모니터링합니다.</string>
+    <string name="alert_dangerzone_connected">[host_app_name]는 위험도가 높은 와이파이 접속점인 [wifi_ssid]에 연결되었음을 탐지했습니다. 해당 고위험 무선 접속점은 기기와 인터넷 사이의 트랜잭션을 모니터링하고 중요한 정보를 도용하며 기기의 설정을 변경시키는데 사용할 수 있습니다.</string>
+    <string name="alert_dangerzone_nearby">[host_app_name]가 인근에 위험도가 높은 네트워크를 탐지했습니다: [nearby_ssids]. 해당 고위험 네트워크는 기기와 인터넷 사이의 트랜잭션을 모니터링하고 중요한 정보를 도용하며 기기의 설정을 변경시키는데 사용할 수 있습니다.</string>
+    <string name="alert_developer_mode">[host_app_name]가 개발자 모드 옵션이 활성화되어 있는 것을 감지하였습다. 이 옵션은 기기에서 추가적인 데이터를 접근하는데 사용될 수 있습니다. 필요하지 않다면 비활성화 하시기 바랍니니다.</string>
+    <string name="alert_developer_mode_on">개발자 모드가 활성화되어 있습니다. 이 옵션은 개발 목적으로만 제공되며, 활성화된 경우 기기가 위험에 빠질 수 있습니다. 필요하지 않으면 설정 메뉴에서 이 옵션을 비활성화하십시오.</string>
+    <string name="alert_device_admin_enabled">[app_name]의 장치 관리가 활성화되었음을 [host_app_name]가 감지했습니다.</string>
+    <string name="alert_dns_change">[host_app_name]가 DNS 네트워크 구성 변경을 감지하였습니다</string>
+    <string name="alert_encryption_not_enabled">[host_app_name]가 기기 암호화를 사용하도록 기기에 설정되어 있지 않음을 감지했습니다. 기기 암호화를 활성화하지 않으면 기기가 도난당하거나 손상될 경우 민감한 정보가 공격자에게 노출될 수 있습니다. 가능한 한 빨리 기기 암호화를 활성화하는 것이 좋습니다.</string>
+    <string name="alert_eop">[host_app_name]가 기기에서 취약점 공격시도를 감지하였습니다. 이제부터 이 기기는 손상받은 것으로 간주 됩니다.</string>
+    <string name="alert_fake_ssl">[host_app_name]가 DNS 네트워크 구성 변경을 감지하였습니다. 이 기기와  [wifi_ssid] 네트워크 사이의 안전한 통신이 탈취되어 허가받지 않은자에게 감시당하거나 변조 될수 있습니다. </string>
+    <string name="alert_file_system_changed">[host_app_name]가 파일시스템에 대한 영구적인 변경을 감지하였습니다.</string>
+    <string name="alert_fingerprint_mismatch">[host_app_name]가 기기의 공격을 성공적으로 탐지했습니다. 해당 공격은 기기가 손상되어 신뢰할 수 없음을 사용하기에 안전하지 않음을 나타냅니다.</string>
+    <string name="alert_gateway_changed">[host_app_name]가 네트워크 게이트웨이 구성 변경을 감지하였습니다. 이것은 트래픽을 가로채려는 공격자의 시도일 수 있습니다.</string>
+    <string name="alert_internal_network_access">"[app_name]이(가) 사설 내부 서버에 연결되고 있는 것을 감지했습니다. 공개 앱이 내부 서버에 연결되는 것은 드문 경우입니다. 공개 앱이 내부 서버에 연결되는 것은 의심스러운 동작으로 간주되며 기기에 설치된 맬웨어의 위협과 데이터 유출 위험에 대해 즉시 조사해야 합니다. "</string>
+    <string name="alert_jailbroken">[host_app_name]가 기기가 루팅되었음을 감지하였습니다. 루팅은 기기의 핵심 보안기능을 비활성화 할수 있으므로 권장되지 않습니다.</string>
+    <string name="alert_kernel_anomaly">[host_app_name]가 기기에서 비정상적인 활동을 감지했습니다. [host_app_name]는 모든 공격을 모니터링합니다.</string>
+    <string name="alert_malicious_app">[host_app_name]가 기기에서 [app_name] 이름의 악성액을 감지하였습니다.</string>
+    <string name="alert_malicious_app_downloaded">[host_app_name]가  [app_name]라는이름의 악성앱이 기기로 다운로드 된것을 감지하였습니다.</string>
+    <string name="alert_malicious_website">[host_app_name]는 잠재적 악성 URL ([malicious_url])을 탭하신 사실을 탐지했습니다. 링크된 사이트 방문과 관련된 잠재적 위험성을 사용자에게 경고했습니다.></string>
+    <string name="alert_malicious_website_opened">[host_app_name]는 경고 이후에도 잠재적 악성 URL ([malicious_url])을 탭하여 방문하신 사실을 탐지했습니다. 해당 사이트는 개인 정보 도용을 시도할 수 있습니다.</string>
+    <string name="alert_mitm">[host_app_name]가 네트워크 공격을 감지하였습니다. 이 기기와 [wifi_ssid] 네트워크와의 통신은 탈취되어 허가 받지 않은 자에게 감시되고 변조될 수 있습니다.</string>
+    <string name="alert_network_handoff">[host_app_name]가 네트워크 핸드오프(Handoff)를 감지하였습니다. 이것은 네트워크 공격에 대한 잠재적인 허용이 될수 있습니다.</string>
+    <string name="alert_ota_update_disabled">이 기기에서 오버 더 에어(OTA) 업데이트가 비활성화되었습니다. OTA 업데이트는 이 장치의 소프트웨어가 최신 상태로 유지되도록 돕습니다. OTA 업데이트는 설정에서 다시 활성화시켜야 합니다.</string>
+    <string name="alert_out_of_compliance_app">[app_name] 앱이 귀하의 법인 정책을 준수하지 않는 것으로 나타났습니다. 기기에서 제거하십시오.</string>
+    <string name="alert_passcode_not_enabled">[host_app_name]가 PIN 코드, 비밀번호 또는 패턴을 사용하여 기기를 잠그도록 설정되어 있지 않음을 감지했습니다. PIN 코드, 비밀번호 또는 패턴을 사용하여 기기를 잠그지 않으면 기기가 도난당하거나 손상될 경우 민감한 정보가 공격자에게 노출될 수 있습니다. 기기 보안과 민감한 정보 보호를 위한 표준 보안 방법으로 PIN 코드, 비밀번호 또는 패턴을 활성화하는 것이 좋습니다.</string>
+    <string name="alert_proxy_change">[host_app_name]가 프록시 구성변경을 감지하였습니다. 이 구성 변경은 의도된 목적지로 네트워크 트래픽을 전송될 수 있습니다.</string>
+    <string name="alert_rogue_access_point">[host_app_name]는 기기가 [wifi_ssid]라는 이름의 악성 WiFi 네트워크에 연결된 것을 감지했습니다. 악성 액세스 포인트에 접속하면 승인되지 않은 침입자가 당신의 네트워크 데이터 및/또는 자격 증명 정보에 접근하기 위하여 기기를 공격할 수 있는 위험에 노출됩니다.</string>
+    <string name="alert_rogue_access_point_nearby">근처의 보안되지 않은 Wi-Fi 네트워크에서 당신의 모바일 기기에 대한 잠재적인 Wi-Fi 보안 위협을 감지했습니다. 데이터 유출 또는 변조를 방지하기 위하여 이 보안되지 않은 Wi-Fi 네트워크에 연결하지 마십시오.</string>
+    <string name="alert_scan">[host_app_name]가  [wifi_ssid] 네트워크에서 와이파이 네트워크 스캔을 감지하였습니다. 하지만, 추가적인 활성화 공격이 감지되지 않았으므로 이 네트워크를 계속 사용하여도 안전합니다.</string>
+    <string name="alert_sideloaded_app">[host_app_name]가 이 기기에서 [sideloaded_app](이)라는 사이드 로드 앱을 발견했습니다.</string>
+    <string name="alert_stagefright_vulnerable">이 기기는 스테이지프라이트 공격에 취약합니다. 업데이트가 있다면 가급적 빨리 운영체계를 업데이트 하시기 바랍니다.</string>
+    <string name="alert_suspicious_network_connection">[host_app_name]가 기기에서 이상한 네트워크 연결을 탐지했습니다. [host_app_name]는 모든 공격을 모니터링합니다.</string>
+    <string name="alert_suspicious_root_process">[host_app_name]가 기기에 루트로 실행중인 프로세스를 탐지했습니다.. [host_app_name]는 모든 공격을 모니터링합니다</string>
+    <string name="alert_system_tampering">[host_app_name]가 이 기기에 대한 시스템 공격을 감지하였습니다. 이 공격은 기기가 손상받아 안전하지 않다는 것을 가르킵니다.</string>
+    <string name="alert_unknown_sources">[host_app_name]가 구글 플레이 스토어 이외에서 앱을 다운로드 할수 있도록 설정되었습니다.</string>
+    <string name="alert_unsecured_wifi_network">[wifi_ssid] 네트워크가 불안정합니다. 즉시 연결을 해제하십시오. 더 자세한 정보를 원하시면 클릭하십시오..</string>
+    <string name="alert_usb_debugging_on">USB 디버깅이 활성화되어 있습니다. 이 옵션은 개발 목적으로만 제공되며, 활성화된 경우 기기가 위험에 빠질 수 있습니다. 필요하지 않으면 설정 메뉴에서 이 옵션을 비활성화하십시오.</string>
+    <string name="alert_verify_apps_disabled">구글 플레이 보호가 이 기기에서 비활성화되었습니다. 구글 플레이 보호는 악성 앱으로부터 기기를 보호하며 설정을 다시 가능하도록 할 수 있습니다.</string>
+    <string name="alert_zips_not_running_on_container">본 기기의 개인 프로필과 경력 프로필에 [host_app_name]가 활성화되어 있지 않습니다. 해당 위치에 애플리케이션을 설치하고 활성화하여 기기를 완벽하게 보호하십시오.</string>
+    <string name="alert_zips_tls_downgrade">[host_app_name]가 네트워크 암호화(SSL/TLS)로의 다운 그레이드를 탐지했습니다. 권한이 없는 당사자가 커뮤니케이션을 모니터링/수정할 수 있습니다.</string>
+    <string name="always_on_vpn_app_set">항상 켜져 있는 VPN 앱 세트</string>
+    <string name="android_compatibility">구글의 적합성 검사받지 않음</string>
+    <string name="android_integrity">잠재적 조작</string>
+    <string name="app_name">zIAP</string>
+    <string name="app_ooc_aws">Amazon AWS 스토리지에 접근</string>
+    <string name="app_ooc_aws_write">Amazon AWS 스토리지 업데이트</string>
+    <string name="app_ooc_box">Box 스토리지에 접근</string>
+    <string name="app_ooc_box_write">Box 스토리지 업데이트</string>
+    <string name="app_ooc_call_history">통화 기록 접근</string>
+    <string name="app_ooc_call_privileged">익명호 수신 허용</string>
+    <string name="app_ooc_camera">카메라에 접근</string>
+    <string name="app_ooc_camera_read">카메라 롤에 접근</string>
+    <string name="app_ooc_camera_write">카메라 롤 업데이트</string>
+    <string name="app_ooc_clipboard_read">클립보드 콘텐츠에 접근</string>
+    <string name="app_ooc_clipboard_write">클립보드 콘텐츠 업데이트</string>
+    <string name="app_ooc_connections_unecrypted">비암호화 네트워크 사용</string>
+    <string name="app_ooc_dropbox">Dropbox 콘텐츠에 접근</string>
+    <string name="app_ooc_dropbox_write">Dropbox 스토리지 업데이트</string>
+    <string name="app_ooc_email_compose">이메일 작성</string>
+    <string name="app_ooc_email_read">이메일에 접근</string>
+    <string name="app_ooc_email_send">이메일 전송</string>
+    <string name="app_ooc_endpoints_reputation">악성/피싱 웹사이트 접근</string>
+    <string name="app_ooc_endpoints_sensitive_data">민감 정보 전송 웹사이트 접근</string>
+    <string name="app_ooc_external_servers">외부 서버 접근</string>
+    <string name="app_ooc_facebook">Facebook 콘텐츠에 접근</string>
+    <string name="app_ooc_facebook_write">Facebook 콘텐츠 업데이트</string>
+    <string name="app_ooc_google_drive">Google 드라이브 콘텐츠에 접근</string>
+    <string name="app_ooc_google_drive_write">Google 드라이브 스토리지 업데이트</string>
+    <string name="app_ooc_google_storage">Google 스토리지에 접근</string>
+    <string name="app_ooc_google_storage_write">Google 스토리지 업데이트</string>
+    <string name="app_ooc_imei">기기 IMEI 번호 접근</string>
+    <string name="app_ooc_instagram">Instagram 콘텐츠에 접근</string>
+    <string name="app_ooc_internal_ips">내부 네트워크 주소 접근</string>
+    <string name="app_ooc_linkedin">LinkedIn 콘텐츠에 접근</string>
+    <string name="app_ooc_local_device_read">로컬 기기 정보 접근</string>
+    <string name="app_ooc_local_device_write">로컬 기기 정보 업데이트</string>
+    <string name="app_ooc_location_access">일반 위치 정보 접근</string>
+    <string name="app_ooc_location_fine">정확한 위치 정보 접근</string>
+    <string name="app_ooc_malware">악성 또는 악성 의심 소프트웨어 주의</string>
+    <string name="app_ooc_mic">마이크에 접근</string>
+    <string name="app_ooc_notifications">기기 알림 접근</string>
+    <string name="app_ooc_office_365_write">Office 365 콘텐츠 업데이트</string>
+    <string name="app_ooc_onedrive">OneDrive 콘텐츠에 접근</string>
+    <string name="app_ooc_onedrive_write">OneDrive 콘텐츠 업데이트</string>
+    <string name="app_ooc_overlay">앱 윈도우를 다른 앱으로 오버레이</string>
+    <string name="app_ooc_record_audio">오디오 콘텐츠 녹음</string>
+    <string name="app_ooc_record_screenshots">앱 안에서 사용자의 상호 작용을 스크린샷으로 기록합니다</string>
+    <string name="app_ooc_record_video">비디오 녹화</string>
+    <string name="app_ooc_runtime_unencrtyped_conns">비암호화 연결 (https 아닌 http) 사용</string>
+    <string name="app_ooc_salesforce">Salesforce 콘텐츠에 접근</string>
+    <string name="app_ooc_screenshot">스크린샷에 접근</string>
+    <string name="app_ooc_serial">기기 시리얼 번호 접근</string>
+    <string name="app_ooc_sms_read">SMS 문자 메시지에 접근</string>
+    <string name="app_ooc_sms_send">SMS 문자 메시지 전송</string>
+    <string name="app_ooc_sms_write">SMS 문자 메시지 작성</string>
+    <string name="app_ooc_ssl_no_pinning">SSL 인증 점검 건너뛰기</string>
+    <string name="app_ooc_ssl_problem">SSL 커뮤니케이션에 문제 발생</string>
+    <string name="app_ooc_ssl_self_signed">각각의 SSL 인증에 서명 (보안 위험)</string>
+    <string name="app_ooc_ssl_vuln_weakness">SSL 커뮤니케이션 취약</string>
+    <string name="app_ooc_twitter">Twitter 콘텐츠에 접근</string>
+    <string name="app_ooc_twitter_write">Twitter 콘텐츠 업데이트</string>
+    <string name="app_ooc_udid">기기 고유 ID (UDID) 접근</string>
+    <string name="app_ooc_voip">Voice over IP (VoIP) 통신 이용 전화</string>
+    <string name="app_ooc_vpn">Virtual Private Network (VPN) 연결</string>
+    <string name="app_ooc_weibo">Weibo 콘텐츠에 접근</string>
+    <string name="app_ooc_weibo_write">Weibo 콘텐츠 업데이트</string>
+    <string name="app_restriction_mdm_device_id">MDM 장치 ID</string>
+    <string name="arp_mitm">네트워크 공격</string>
+    <string name="arp_scan">와이파이 스캔</string>
+    <string name="blueborne">BlueBorne 취약성</string>
+    <string name="captive_portal">캡티브 포털</string>
+    <string name="daemon_anomaly">데몬 이상</string>
+    <string name="dangerzone">위험 지역</string>
+    <string name="dangerzone_connected">위험 지역 연결</string>
+    <string name="dangerzone_nearby">인근 위험 지역</string>
+    <string name="detail_abnormal_process_activity"><![CDATA[<b>[host_app_name] 기기에서 비정상적인 활동을 감지하였습니다.</b><br/><br/><b>[host_app_name]는 모든 공격에 대하여 항상 모니터링하고 있습니다. 만약 최근 PC 또는 충전기와 연결한적이 있다면 다음을 권장합니다:</b><br/><b>* 기기로 부터 PC 또는 충전기의 연결을 제거하십시오.</b><br/><b>* 설정 메뉴에서 \'개발자 모드\'를 비활성화 하십시오.</b><br/><br/>
+이 이벤트에서 [host_app_name]는 관련된 포렌식을 수집하고 이 위협 사건을 서버에 보고됩니다.]]></string>
+    <string name="detail_access_blocked_domain"><![CDATA[][host_app_name]가 차단된 도메인에 대한 접근을 탐지했습니다.
+                <br/><br>[blocked_domain] ]]></string>
+    <string name="detail_access_point_change"><![CDATA[[host_app_name]가 동일 네트워크상에서 또 다른 AP로 변경되는 무선 라우터 핸드오프를 감지하였습니다.</string><string name="detail_dns_change">새로운 DNS 서버가 설정되었습니다.<br/>
+IP 주소: [ip]<br/><br/>
+[host_app_name]는 네트워크를 지속적으로로 감시합니다. 더 이상의 조치를 하실 필요는 없습니다.]]></string>
+    <string name="detail_accessibility_app_enabled">[app_name]의 접근성 서비스가 활성화되었습니다. 활성화 상태로 유지하면 기기가 위험에 노출될 수 있습니다. 필요 없다면 설정 메뉴에서 이 옵션을 비활성화하십시오.</string>
+    <string name="detail_adb_verify_disabled">ADB를 통해 설치된 앱은 승인이 필요 없습니다. 이 경우, 악성 앱이 기기에 설치될 가능성이 있습니다.</string>
+    <string name="detail_always_on_vpn_app_set">하나의 앱이 이 기기에서 항상 켜져 있는 VPN으로 구성되었습니다. 이 앱은 인터넷상에서 이루어지는 이 기기의 모든 통신을 모니터링할 수 있습니다.</string>
+    <string name="detail_android_compatibility">이 안드로이드 기기의 프로필은 구글의 안드로이드 적합성 검사를 통과한 어떤 기기의 프로필과도 일치하지 않습니다. 이 기기는 구글에서 테스트하지 않은 보안상 결함이 있을 수 있습니다. 적합성 검사는 기기를 안드로이드의 최적화 기준을 따라 설계되고 개발했다는 것을 알 수 있게 도와줍니다. 이 기기는 부트로더를 언락 했거나 커스텀 롬(루팅하지 않음)이 있거나, 인증되지 않은 제조사에서 제작되었을 수 있습니다.</string>
+    <string name="detail_android_integrity">이 안드로이드 기기는 조작됐을 수 있습니다. 해당 기기는 구글에서 인증되지 않았으며, 루팅이나 API 후킹을 통해 추가로 변경했을 수 있습니다. 기기는 실제기기가 아니라 에뮬레이터일 가능성이 있습니다.</string>
+    <string name="detail_blueborne">[host_app_name]는 본 기기가 블루투스 연결을 통하여 목표 기기에 침투하고 이를 제어하는 BlueBorne 공격에 취약함을 탐지했습니다. 이러한 BlueBorne 공격의 위험성에서 벗어나려면, 기기 제조 업체나 무선 통신 업체로부터 업데이트를 사용할 수 있을 때까지 블루투스 기능을 영구적으로 끄실 것을 강력히 권합니다. 블루투스 연결이 필요한 사용자 역시 블루투스를 끄시고, 신뢰할 수 있는 보안 영역으로 이동하여 해당 영역에서만 켜십시오.</string>
+    <string name="detail_captive_portal">[host_app_name]는 기기가 캡티브 포털, [wifi_ssid]에 연결되었음을 탐지했습니다. 기기와의 모든 통신을 보호하기 위해 VPN에 연결하는 것이 좋습니다..</string>
+    <string name="detail_daemon_anomaly"><![CDATA[ [host_app_name]가 기기에서 비정상적인 시스템 활동을 감지했습니다.<br/><br/>
+이러한 활동은 악성으로 간주되지는 않지만 잠재적 공격의 핵심 지표입니다. [host_app_name]는 계속해서 기기를 모니터링하고 위협이 증가하면 알려드립니다.
+<br/> ]]></string>
+    <string name="detail_dangerzone_connected">[host_app_name]는 위험도가 높은 와이파이 접속점인 [wifi_ssid]에 연결되었음을 탐지했습니다. 해당 고위험 무선 접속점은 기기와 인터넷 사이의 트랜잭션을 모니터링하고 중요한 정보를 도용하며 기기의 설정을 변경시키는데 사용할 수 있습니다.</string>
+    <string name="detail_dangerzone_nearby">[host_app_name] [host_app_name]가 인근에 위험도가 높은 네트워크를 탐지했습니다: [%s]. 해당 고위험 네트워크는 기기와 인터넷 사이의 트랜잭션을 모니터링하고 중요한 정보를 도용하며 기기의 설정을 변경시키는데 사용할 수 있습니다.</string>
+    <string name="detail_developer_mode_on">개발자 모드가 활성화되었습니다. 이 옵션은 개발 목적만을 위한 것이며 활성화된 상태로 방치하면 기기를 위험에 빠뜨릴 수도 있습니다. 필요하지 않으면 설정 메뉴를 통해 이 옵션을 비활성화하십시오.</string>
+    <string name="detail_device_admin_enabled">[app_name]의 장치 관리가 활성화되었습니다. 활성화 상태로 유지하면 기기가 위험에 노출될 수 있습니다. 필요 없다면 설정 메뉴에서 이 옵션을 비활성화하십시오.</string>
+    <string name="detail_dns_change"><![CDATA[ [host_app_name]가 기기의 새로운 DNS 설정을 감지했습니다.<br/>새로운 DNS 서버 IP는 다음과 같습니다: [ip] ]]></string>
+    <string name="detail_encryption_not_enabled">기기 암호화를 사용하도록 설정되어 있지 않음을 [host_app_name]가 감지했습니다. 기기 암호화를 활성화하지 않으면 기기를 도난당하거나 보안 문제가 발생한 경우, 기기의 중요한 데이터가 공격자에게 노출될 수 있습니다. 가능한 한 빨리 기기 암호화를 활성화하는 것이 좋습니다.</string>
+    <string name="detail_eop"><![CDATA[<b>[host_app_name]가 기기에 대한 공격으로 권한탈취 시도를 감지하였습니다.</b><br/><br/>
+이 기기가 손상되어 안전하지 않은 것으로 표시합니다.<br/><br/><b>다음 사항을 권장합니다.<br/>
+* 이 기기에서 민감한 정보를 제거하거나 이동하십시오.<br/>
+* 이 기기와 연결된 모든 연결을 끊고 전체적인 점검을 하십시오.</b><br/><br/>
+이 이벤트에서 [host_app_name]는 관련된 포렌식을 수집하고 이 위협 사건을 서버에 보고됩니다.]]></string>
+    <string name="detail_fake_ssl"><![CDATA[<b>[host_app_name]가 잘못된 SLL 인증을 사용하여 보안 연결을 해독되었음을 감지하였습니다. 즉시 이 네트워크와 연결을 끊을 것을 권장합니다.</b><br/><br/>
+이 이벤트는 [date]일  [wifi_ssid] 네트워크에서 발생하였습니다.]]></string>
+    <string name="detail_file_system_changed"><![CDATA[[host_app_name]가 파일 시스템에 대한 영구적인 변동을 감지하였습니다.<br/>
+이 이벤트에서 [host_app_name]는 보다 정밀한 분석을 위하여 관련된 포렌식 정보를 수집하고 보고됩니다.<br/><br/>
+더이상의 사용자 조치를 취하실 필요는 없습니다.]]></string>
+    <string name="detail_fingerprint_mismatch">zIP는 기기가 손상되어 사용하기에 안전하지 않음을 나타내는 시스템 변경 사항을 하나 이상 발견했습니다.<br/>
+        <br/>
+    기기가 손상되었으므로, 다음과 같이 하시는 것이 좋습니다<br/>
+        <br/>
+    * 중요한 데이터를 백업하고 기기를 공장 설정으로 복원하십시오<br/>
+    * 기기의 펌웨어와 보안 업데이트를 최신 버전으로 업데이트하십시오<br/>
+    * 신뢰할 수 있는 애플리케이션만을 설치하십시오<br/>
+    * 잘 알려진 웹 사이트에만 접속하십시오<br/>
+    * 신뢰할 수 있는 네트워크에만 연결하십시오<br/>
+    * 기기에 최신 버전의 [host_app_name] 애플리케션을 실행하십시오</string>
+    <string name="detail_gateway_changed"><![CDATA[새로운 네트워크 게이트웨이 주소가 설정되었습니다.<br/>
+IP 주소: [ip]<br/><br/>
+[host_app_name]는 네트워크를 계속적으로 감시합니다. 더 이상의 조치를 하실 필요는 없습니다.]]></string>
+    <string name="detail_internal_network_access">"[app_name]이(가) 사설 내부 서버에 연결되고 있는 것을 감지했습니다. 공개 앱이 내부 서버에 연결되는 것은 드문 경우입니다. 공개 앱이 내부 서버에 연결되는 것은 의심스러운 동작으로 간주되며 기기에 설치된 맬웨어의 위협과 데이터 유출 위험에 대해 즉시 조사해야 합니다. "</string>
+    <string name="detail_jailbreak"><![CDATA[<b>[host_app_name]가 기기의 루팅을 감지하였습니다.</b><br/><br/>
+반드시 필요한 경우가 아니라면, 기기에서 타사의 루팅앱을 실행하는 것을 권장하지 않습니다.<br/><br/><b>다음과 같이 권장합니다.<br/><br/>
+* 이 기기에서 민감한 정보를 제거 또는 이동하십시오.<br/>
+* 이 기기와 연결된 모든 연결을 제거 하십시오.<br/>
+* 기기가 악성 백도어를 가지지 않도록 root 권한을 사용하는 취약점을 제거하는 전체 점검을 수행하십시요.</b>]]></string>
+    <string name="detail_kernel_anomaly"><![CDATA[ [host_app_name]가 기기에서 심각하게 비정상적인 시스템 활동을 한 개 이상 감지했습니다.<br/><br/>
+이러한 비정상적인 활동은 공격 시도의 결과일 수 있으며 잠재적 공격의 핵심 지표입니다. [host_app_name]는 계속해서 기기를 모니터링하고 위협이 증가하면 알려드립니다.<br/>다음과 같은 조치를 취하는 것이 좋습니다:<br/>
+1. 연결된 PC / 충전기에서 기기를 연결 해제합니다<br/>
+2. 설정 메뉴에서 \'개발자 모드\'를 비활성화합니다<br/><br/> ]]></string>
+    <string name="detail_malicious_app"><![CDATA[<b>[host_app_name]가 기기에서 악성앱을 감지하였습니다.</b><br/><br/>
+앱 이름: [app_name]<br/>
+앱을 제거함으로써 어떠한 영구적인 손상을 일으키지 않고 해결될수 있습니다. ZIPS는 이앱에 의한 모든 공격을 감시합니다.<br/><br/><b>앱을 제거하는 것 이외에, 추가적인 사용자 조치는 필요하지 않습니다.</b>]]></string>
+    <string name="detail_malicious_website">[host_app_name]는 잠재적 악성 URL ([malicious_url])을 탭하신 사실을 탐지했습니다. 링크된 사이트 방문과 관련된 잠재적 위험성을 사용자에게 경고했습니다.></string>
+    <string name="detail_malicious_website_opened">[host_app_name]는 경고 이후에도 잠재적 악성 URL ([malicious_url])을 탭하여 방문하신 사실을 탐지했습니다. 해당 사이트는 개인 정보 도용을 시도할 수 있습니다. </string>
+    <string name="detail_mitm"><![CDATA[<b>[host_app_name]가 네트워크 가로채기 공격을 감지하였습니다.</b><br/><br/>
+이 공격은 [date]일  [wifi_ssid] 네트워크에서 발생하였습니다.]]></string>
+    <string name="detail_network_handoff"><![CDATA[<b>[host_app_name]가 네트워크 핸드오프(Handoff)를 감지하였습니다.</b><br/><br/>
+이 이벤트은 [date]일  [wifi_ssid] 네트워크에서 발생하였습니다. 이 네트워크에 익숙하지 않은 경우에는 연결해제하는 것을 권장합니다.]]></string>
+    <string name="detail_ota_update_disabled">이 기기에서 오버 더 에어(OTA) 업데이트가 비활성화되었습니다. OTA 업데이트는 이 장치의 소프트웨어가 최신 상태로 유지되도록 돕습니다. OTA 업데이트는 설정에서 다시 활성화시켜야 합니다.</string>
+    <string name="detail_out_of_compliance_app"><![CDATA[[app_name] 앱이 귀하의 법인 정책을 준수하지 않는 것으로 나타났습니다. 기기에서 제거하십시오.]]></string>
+    <string name="detail_passcode_not_enabled">PIN 코드, 비밀번호 또는 패턴을 사용하여 기기를 잠그도록 설정되어 있지 않음을 [host_app_name]가 감지했습니다. PIN 코드나 비밀번호 또는 패턴을 이용하여 기기를 잠그지 않으면 기기를 도난당하거나 보안 문제가 발생한 경우, 기기의 중요한 데이터가 공격자에게 노출될 수 있습니다. PIN 코드나 비밀번호 또는 패턴을 표준 보안 방법으로 사용하여 기기의 보안에 활용하고 기기의 중요 데이터를 보호하는 것이 좋습니다.</string>
+    <string name="detail_proxy_change"><![CDATA[새로은 네트워크 프록시 주소가 설정되었습니다.<br/>
+IP 주소: [ip]<br/><br/>
+[host_app_name]는 네트워크를 계속적으로로 감시합니다. 더 이상의 사용자 조치를 하실 필요는 없습니다.]]></string>
+    <string name="detail_rogue_access_point"><![CDATA[ZIPS는 메시지 가로채기(man-in-the-middle) 공격의 위험이 있는 수상한 Wi-Fi 네트워크로의 접속을 감지했습니다]]></string>
+    <string name="detail_rogue_access_point_nearby"><![CDATA[ZIPS는 메시지 가로채기(man-in-the-middle) 공격의 위험이 있는 수상한 Wi-Fi 네트워크를 근처에서 한 개 이상 발견했습니다.]]></string>
+    <string name="detail_sideloaded_app"><![CDATA[[host_app_name]가 당신의 기기에 설치된 사이드로드 앱을 발견했습니다.
+            <br/><br/>사이드로드 앱 이름: [sideloaded_app]<br/>사이드로드 앱 패키지: [sideloaded_package]<br/>사이드로드 앱 개발자:[sideloaded_developer]]]></string>
+    <string name="detail_stagefright_vulnerable">이 기기는 Stagefright 공격에 취약합니다. 업데이트가 제공되는 즉시 운영체제를 업데이트하십시오.</string>
+    <string name="detail_suspicious_network_connection">[host_app_name]가 기기에서 이상한 네트워크 연결을 탐지했습니다.</string>
+    <string name="detail_suspicious_root_process">[host_app_name]가 기기에 루트로 실행중인 프로세스를 탐지했습니다.</string>
+    <string name="detail_system_tampering"><![CDATA[<b>[host_app_name]는 기기에 대한 악성 공격을 감지하였습니다.</b><br/>
+이 공격은 장치가 손상되어 있음을 나타냅니다. 안전성을 신뢰할 수 없습니다.<br/><br/>
+다음 사항을 권장합니다.<br/>
+* 이 기기에서 민감한 정보를 제거하거나 이동하십시오.<br/>
+* 이 기기와 연결된 모든 연결을 끊고 전체적인 점검을 하십시오.]]></string>
+    <string name="detail_unknown_sources">Google Playstore 외부 앱 다운로드 기능이 활성화되었음을 [host_app_name]가 감지했습니다.</string>
+    <string name="detail_unsecured_wifi_network">[host_app_name]는 기기가 무보안 와이파이 네트워크, [wifi_ssid]에 연결되었음을 탐지했습니다. 보안되지 않은 네트워크에 연결하면 권한이 없는 사람이 네트워크 데이터 및/또는 승인에 접근하려는 공격에 기기가 노출됩니다.</string>
+    <string name="detail_usb_debugging_on">USB 디버깅이 활성화되어 있습니다. 이 옵션은 개발 목적으로만 사용해야 하며 활성화된 상태로 방치하면 기기를 위험에 빠뜨릴 수도 있습니다. 필요하지 않으면, 설정 메뉴를 통해 이 옵션을 비활성화 하십시오.</string>
+    <string name="detail_wifi_scan"><![CDATA[<b>[host_app_name]가 와이파이 무선 스캔을 감지하였습니다</b><br/><br/>
+이 스캔은 [date]일  [wifi_ssid] 네트워크에서 발생하였습니다. 더 이상의 활성화된 공격이 발생하지 않아 이 네트워크를 계속 사용하는것은 안전합니다. [host_app_name]는 더 시상의 공격이 일어나는지 이 네트워크를 지속적으로 모니터링 합니다.<br/><br/><b>더 이상의 사용자 조치를 하실 필요는 없습니다.</b>]]></string>
+    <string name="detail_zips_not_running_on_container">본 기기의 개인 프로필과 경력 프로필에 [host_app_name]가 활성화되어 있지 않습니다. 해당 위치에 애플리케이션을 설치하고 활성화하여 기기를 완벽하게 보호하십시오.</string>
+    <string name="detail_zips_tls_downgrade">[host_app_name]가 네트워크 암호화(SSL/TLS)로의 다운 그레이드를 탐지했습니다. 권한이 없는 당사자가 커뮤니케이션을 모니터링/수정할 수 있습니다.</string>
+    <string name="developer_mode_on">개발자 모드 활성화됨</string>
+    <string name="device_admin_enabled">장치 관리자 활성화됨</string>
+    <string name="device_rooted">기기가 루팅되었습니다</string>
+    <string name="dns_changed">네트워크 구성</string>
+    <string name="dz_high_mode">높음</string>
+    <string name="dz_normal_mode">일반</string>
+    <string name="dz_paranoid_mode">파라노이드</string>
+    <string name="elevation_of_privileges">디바이스 공격</string>
+    <string name="email_suspected">의심스러운 이메일</string>
+    <string name="encryption_not_enabled">기기 암호화</string>
+    <string name="file_suspected">의심스러운 파일</string>
+    <string name="file_system_change">영구적인 OS 변조</string>
+    <string name="fingerprint_mismatch">지문 불일치</string>
+    <string name="gateway_change">네트워크 구성</string>
+    <string name="icmp_redir_mitm">네트워크 공격</string>
+    <string name="internal_network_access">내부 네트워크 액세스</string>
+    <string name="ip_scan">와이파이 스캔</string>
+    <string name="kernel_anomaly">커널 이상</string>
+    <string name="malicious_app">멀웨어가 감지되었습니다</string>
+    <string name="malicious_website">악성 사이트</string>
+    <string name="malicious_website_opened">사이트 인사이트</string>
+    <string name="mediaserver_anomaly">비정상적인 미디어서버</string>
+    <string name="network_handoff">네트워크 핸드오프(Handoff)</string>
+    <string name="network_sinkhole_block_all">관리자가 기기에 위협을 감지하고 네트워크 연결을 차단했습니다.</string>
+    <string name="network_sinkhole_block_single">관리자가 기기에 위협을 감지하고 도메인 %1$s로의 접근을 차단했습니다.</string>
+    <string name="network_threat">네트워크 위협</string>
+    <string name="ota_updates_disabled">OTA 업데이트 비활성화됨</string>
+    <string name="out_of_compliance_app">규정 미준수 앱</string>
+    <string name="passcode_not_enabled">기기 PIN</string>
+    <string name="phishingHtmlBody">링크 {http://link}에 기기의 민감한 정보나 개인 정보를 도용할 수 있는 악성 콘텐츠가 들어있을 수 있습니다. \'돌아가기\' 버튼을 클릭하여 기기를 안전하게 보호하십시오.</string>
+    <string name="phishingHtmlButtonBack">돌아가기</string>
+    <string name="phishingHtmlButtonContinue">무시하고 계속합니다</string>
+    <string name="phishingHtmlCheckbox">이 사이트에서 다시 표시하지 않습니다</string>
+    <string name="phishingHtmlTitle">이 URL은 위험합니다!</string>
+    <string name="proxy_change">네트워크 구성</string>
+    <string name="restriction_defaultchannel_title">기본 수신 채널</string>
+    <string name="restriction_display_eula">EULA 표시</string>
+    <string name="restriction_tenantid_title">테넌트</string>
+    <string name="restriction_uuid_title">UUID</string>
+    <string name="rogue_access_point">악성 WiFi</string>
+    <string name="rogue_access_point_nearby">근처의 악성 WiFi</string>
+    <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
+    <string name="selinux_disabled">SELinux 사용 안함</string>
+    <string name="sideloaded_app">사이드로드 앱</string>
+    <string name="sms_configuration_changed">SMS 구성이 변경되었습니다</string>
+    <string name="ssl_mitm">잘못된 인증</string>
+    <string name="ssl_strip">네트워크 공격</string>
+    <string name="stagefright_exploit">스테이프라이트 권한탈취 공격</string>
+    <string name="stagefright_vulnerability">스테이프라이트 취약점 공격</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="suspicious_network_connection">의심스러운 네트워크 연결</string>
+    <string name="suspicious_profile">의심스러운 SMS</string>
+    <string name="suspicious_root_process">의심스러운 루트 실행 프로세스</string>
+    <string name="suspicious_sms">의심스러운 프로파일</string>
+    <string name="system_tampering">의심스러운 SMS</string>
+    <string name="tcp_scan">와이파이 스캔</string>
+    <string name="threat_type_configuration">구성환경</string>
+    <string name="threat_type_host">호스트</string>
+    <string name="threat_type_network">네트워크</string>
+    <string name="threat_type_unknown">알려지지 않음</string>
+    <string name="threat_type_user_action">사용자 조치</string>
+    <string name="tracking_id_1">트래킹 ID 1</string>
+    <string name="tracking_id_2">트래킹 ID 2</string>
+    <string name="traffic_tampering">트래픽 조작</string>
+    <string name="udp_scan">와이파이 스캔</string>
+    <string name="unknown_event">알려지지 않은 이벤트</string>
+    <string name="unknown_sources_enabled">출처를 알수 없는 앱</string>
+    <string name="unsecured_wifi_network">무보안 와이파이 네트워크</string>
+    <string name="untrusted_profile">신뢰할 수 없는 프로필 </string>
+    <string name="usb_debugging_on">USB 디버깅 활성화됨</string>
+    <string name="verify_apps_disabled">구글 플레이 보호 비활성화</string>
+    <string name="vulnerability_mitigation">취약점 완화</string>
+    <string name="vulnerable_android_version">취약한 안드로이드 버전</string>
+    <string name="vulnerable_nonupgradable_android_version">취약함, OS를 업그레이드할 수 없음</string>
+    <string name="zips_not_running_on_container">[host_app_name]가 두 컨테이너에서 실행되지 않습니다.</string>
+    <string name="zips_tls_downgrade">TLS 다운 그레이드</string>
+</resources>

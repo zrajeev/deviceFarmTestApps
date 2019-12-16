@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+apply plugin: 'devicefarm'
+
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.zimperium.ziap_demo"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.1"
+        multiDexEnabled true
+        manifestPlaceholders = [localApplicationId: applicationId]
+        android.ndkVersion '20.1.5948944'
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+           // minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+
+    }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //Load the ZIAP library from the /libs directory
+    implementation 'com.zimperium.zdetection:zdetection:1.0@aar'
+
+    //The rest for the app
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.android.support:appcompat-v7:28.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:28.+'
+    implementation 'com.android.support:support-v4:28.+'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+devicefarm {
+
+    projectName "zIAP"
+    devicePool "All Android" // replace with default: "All Android"
+
+    authentication {
+        accessKey "AKIASEBYWLKPY4CDSG4D"
+        secretKey "f0VfLx6ooM8nKKoGmdpg6sIrbKmu/3sUevC47oXD"
+    }
+
+//
+//    devicestate {
+//
+//        wifi "on"
+//        bluetooth "off"
+//        gps "off"
+//        nfc "on"
+//        latitude 47.6204 // default
+//        longitude -122.3491 // default
+//    }
+}
+
+
+
+
+

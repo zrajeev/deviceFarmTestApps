@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="dangerzone_modes">
+        <item>@string/dz_normal_mode</item>
+        <item>@string/dz_high_mode</item>
+        <item>@string/dz_paranoid_mode</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Eliminar"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="abnormal_process_activity">Anomalía en el SO</string>
+    <string name="access_blocked_domain">Acceder a dominio bloqueado</string>
+    <string name="access_point_change">Handoff de red</string>
+    <string name="accessibility_app_enabled">Servicios de accesibilidad habilitados</string>
+    <string name="adb_verify_disabled">Aplicaciones ADB no verificadas</string>
+    <string name="alert_abnormal_process_activity">[host_app_name] detectó actividad anormal en su dispositivo y está monitoreando cualquier tipo de ataque.</string>
+    <string name="alert_access_blocked_domain">[host_app_name] detectó el acceso a un dominio bloqueado. [blocked_domain]</string>
+    <string name="alert_access_point_change">[host_app_name] detectó un handoff de router inalámbrico de un punto de acceso a otro dentro de la misma red.</string>
+    <string name="alert_accessibility_app_enabled">[host_app_name] detectó que [app_name] tiene habilitados los Servicios de accesibilidad.</string>
+    <string name="alert_adb_verify_disabled">Las aplicaciones instaladas a través de ADB no requieren verificación. Esto podría permitir la instalación de aplicaciones maliciosas en el dispositivo.</string>
+    <string name="alert_always_on_vpn_app_set">Una aplicación ha sido configurada como "VPN siempre activada" en este dispositivo. La aplicación puede supervisar todas las comunicaciones del dispositivo por internet.</string>
+    <string name="alert_android_compatibility">El perfil de este dispositivo Android no coincide con el perfil de ningún dispositivo que haya pasado la prueba de compatibilidad de Android de Google. Este aparato podría tener fallas de seguridad no probadas por Google.</string>
+    <string name="alert_android_integrity">Este dispositivo Android podría haber sido manipulado. El aparato no está certificado por Google y además podría haberse puesto en riesgo (por ejemplo, debido a un rooteo).</string>
+    <string name="alert_android_not_updated">[host_app_name] ha detectado que la versión de Android ([os_version]) instalada en su dispositivo no está actualizada. Un sistema operativo desactualizado expone al dispositivo a vulnerabilidades conocidas y al riesgo de que personas malintencionadas saquen provecho de esta situación. Le recomendamos actualizar su sistema operativo de inmediato.</string>
+    <string name="alert_android_not_updated_unupgradable">[host_app_name] ha detectado que la versión de Android ([os_version]) instalada en su dispositivo no está actualizada. Tener un sistema operativo obsoleto expone al aparato a vulnerabilidades conocidas y a la amenaza de ser explotado por terceros malintencionados. Sin embargo, en este momento su dispositivo no cumple con los requisitos para una actualización del sistema operativo.</string>
+    <string name="alert_blueborne"><![CDATA[[host_app_name] ha detectado que este dispositivo es vulnerable a BlueBorne, un ataque que utiliza las conexiones Bluetooth para penetrar y tomar el control de los dispositivos. Para evitar cualquier tipo de riesgo por parte de BlueBorne, le recomendamos encarecidamente que haga lo siguiente: \n\n
+1. En la configuración del sistema, desactive Bluetooth de forma permanente hasta que el fabricante del dispositivo o el operador de telefonía móvil pongan a su disposición una actualización. \n
+2. Si necesita utilizar una conexión Bluetooth, le recomendamos que tenga el Bluetooth desactivado hasta que lo necesite y que solo lo utilice en un área confiable y segura.]]></string>
+    <string name="alert_captive_portal">[host_app_name] detectó que este dispositivo está conectado a una red de portal cautivo llamada [wifi_ssid].</string>
+    <string name="alert_daemon_anomaly">[host_app_name] detectó actividad anormal en su dispositivo y está monitoreando cualquier tipo de ataque.</string>
+    <string name="alert_dangerzone_connected">[host_app_name] ha detectado que usted está conectado al punto de acceso WiFi de alto riesgo [wifi_ssid]. Este punto de acceso se podría utilizar para monitorear las transacciones entre el dispositivo e Internet, robar información confidencial o modificar la configuración de los dispositivos.</string>
+    <string name="alert_dangerzone_nearby">[host_app_name] ha detectado la presencia de estas redes de alto riesgo: [nearby_ssids]. Estas redes se pueden utilizar para monitorear las transacciones entre el dispositivo e Internet, robar información confidencial o modificar la configuración de los dispositivos.</string>
+    <string name="alert_developer_mode">[host_app_name] detectó una activación del modo desarrollador. Este modo se puede utilizar para acceder a datos adicionales en su dispositivo y debe desactivarse a menos que sea necesario.</string>
+    <string name="alert_developer_mode_on">El modo desarrollador está activado. Esta opción es solo para fines de desarrollo y si queda activada, podría poner en riesgo su dispositivo. Si no es necesaria, desactívela en el menú Configuración.</string>
+    <string name="alert_device_admin_enabled">[host_app_name] detectó que [app_name] tiene el Administrador de dispositivo habilitado</string>
+    <string name="alert_dns_change">[host_app_name] detectó un cambio en la configuración de la red DNS.</string>
+    <string name="alert_encryption_not_enabled">[host_app_name] ha detectado que su dispositivo no está configurado para usar encriptación. Al no activar esta función, los datos confidenciales podrían ser blanco de ataques si le roban el dispositivo o alguien vulnera su seguridad. Le recomendamos activar la encriptación lo antes posible.</string>
+    <string name="alert_eop">[host_app_name] detectó con éxito un intento de ataque hacia su dispositivo. Ahora a este dispositivo se lo considera en riesgo.</string>
+    <string name="alert_fake_ssl">[host_app_name] detectó un ataque de red. La comunicación segura entre su dispositivo y la red llamada [wifi_ssid] fue interceptada y podría ser monitoreada y modificada por un tercero sin autorización.</string>
+    <string name="alert_file_system_changed">[host_app_name] detectó con éxito una modificación persistente en el sistema de archivos.</string>
+    <string name="alert_fingerprint_mismatch">[host_app_name] detectó con éxito un ataque hacia su dispositivo. Este ataque indica que el dispositivo está en riesgo y no es confiable.</string>
+    <string name="alert_gateway_changed">[host_app_name] detectó un cambio en la configuración de la puerta de enlace de la red. Esto puede ser indicio de que un atacante intenta interceptar el tráfico.</string>
+    <string name="alert_internal_network_access">Se detectó una conexión entre [app_name] y servidores internos privados. No es común que las aplicaciones públicas se conecten a servidores internos. Esto se considera un comportamiento sospechoso y debe investigarse de inmediato para detectar la posible amenaza de malware instalado en el dispositivo y el robo de información. </string>
+    <string name="alert_jailbroken">[host_app_name] detectó que este dispositivo está rooteado. Esto no es recomendable porque puede desactivar funciones básicas de seguridad en su dispositivo.</string>
+    <string name="alert_kernel_anomaly">[host_app_name] detectó actividad anormal en su dispositivo y está monitoreando cualquier tipo de ataque.</string>
+    <string name="alert_malicious_app">[host_app_name] detectó la aplicación sospechosa llamada [app_name] en su dispositivo.</string>
+    <string name="alert_malicious_app_downloaded">[host_app_name] detectó que en el dispositivo se descargó la aplicación sospechosa con el espacio de nombres [app_name].</string>
+    <string name="alert_malicious_website">[host_app_name] ha detectado un intento de acceder a una URL potencialmente maliciosa. Se advirtió al usuario del peligro al que se expone si visita el sitio vinculado.></string>
+    <string name="alert_malicious_website_opened">[host_app_name] detectó que se accedió a una URL potencialmente maliciosa ([malicious_url]) después de una advertencia. Es posible que el sitio intente robar información personal.></string>
+    <string name="alert_mitm">[host_app_name] detectó un ataque de red. Un tercero interceptó la comunicación entre su dispositivo y la red llamada [wifi_ssid] y podría monitorearla o modificarla sin autorización.</string>
+    <string name="alert_network_handoff">[host_app_name] detectó un handoff de red. Esto podría posibilitar un ataque.</string>
+    <string name="alert_ota_update_disabled">Se han desactivado las actualizaciones inalámbricas (OTA) en este dispositivo. Las actualizaciones OTA ayudan a mantener el software de este dispositivo actualizado y más seguro. Las actualizaciones OTA deben volver a habilitarse desde la configuración.</string>
+    <string name="alert_out_of_compliance_app">La aplicación [app_name] ha sido marcada por no cumplir con la política empresarial. Elimínela de su dispositivo.</string>
+    <string name="alert_passcode_not_enabled">[host_app_name] ha detectado que su dispositivo no está configurado para bloquearse con un código PIN, contraseña o patrón. Esto podría dejar desprotegidos los datos confidenciales del dispositivo si alguien lo roba o vulnera su seguridad. Le recomendamos que habilite un código PIN, contraseña o patrón como práctica de seguridad estándar para proteger su dispositivo y los datos confidenciales que contiene.</string>
+    <string name="alert_proxy_change">[host_app_name] detectó un cambio en la configuración del proxy que puede ser indicio de que se está enviando tráfico hacia un destino no previsto.</string>
+    <string name="alert_rogue_access_point">[host_app_name] detectó que el dispositivo está conectado a una red WiFi maliciosa llamada [wifi_ssid]. Estar conectado a un punto de acceso malicioso expone a su dispositivo a ataques de terceros no autorizados para que accedan a sus datos de red y/o credenciales.</string>
+    <string name="alert_rogue_access_point_nearby">Se ha detectado una posible amenaza de seguridad para su dispositivo móvil proveniente de una red Wi-Fi cercana que no es segura. Trate de no conectarse a este tipo de redes para evitar la intercepción o modificación de datos.</string>
+    <string name="alert_scan">[host_app_name] detectó un escaneo de red WiFi en la red llamada [wifi_ssid]. No se detectaron ataques activos y se puede seguir usando esta red de forma segura.</string>
+    <string name="alert_sideloaded_app">[host_app_name] ha detectado una aplicación de carga lateral en este dispositivo, llamada [sideloaded_app]. </string>
+    <string name="alert_stagefright_vulnerable">Este dispositivo es vulnerable a ataques Stagefright. Actualice su sistema operativo apenas haya una actualización disponible.</string>
+    <string name="alert_suspicious_network_connection">[host_app_name] detectó una conexión de red anormal en su dispositivo y está monitoreando cualquier tipo de ataque.</string>
+    <string name="alert_suspicious_root_process">[host_app_name] detectó que se está ejecutando un proceso como root en su dispositivo y está monitoreando cualquier tipo de ataque.</string>
+    <string name="alert_system_tampering">[host_app_name] detectó con éxito un ataque hacia su dispositivo. Este ataque indica que el dispositivo está en riesgo y no es confiable.</string>
+    <string name="alert_unknown_sources">[host_app_name] detectó que se encuentra activada la posibilidad de descargar aplicaciones fuera de Google Play Store.</string>
+    <string name="alert_unsecured_wifi_network">La red [wifi_ssid] no es segura. Desconéctese de inmediato. Haga clic para obtener más información...</string>
+    <string name="alert_usb_debugging_on">La depuración USB está activada. Esta opción solo es para fines de desarrollo y si queda activada, podría poner en riesgo su dispositivo. Desactive esta opción en el menú Configuración si no la necesita.</string>
+    <string name="alert_verify_apps_disabled">Google Play Protect se ha desactivado en este dispositivo. Esta aplicación ayuda a proteger el dispositivo de aplicaciones maliciosas y debería volver a habilitarla en la configuración.</string>
+    <string name="alert_zips_not_running_on_container">[host_app_name] no está activado en el perfil personal y de trabajo de este dispositivo. Instale y active la aplicación en ambas partes para garantizar la protección total del dispositivo.</string>
+    <string name="alert_zips_tls_downgrade">[host_app_name] detectó un downgrade de la encriptación de su red (SSL/TLS). Un tercero podría monitorear o modificar sus comunicaciones sin autorización.</string>
+    <string name="always_on_vpn_app_set">Set de aplicaciones con VPN siempre activada</string>
+    <string name="android_compatibility">Compatibilidad no probada por Google</string>
+    <string name="android_integrity">Posible manipulación</string>
+    <string name="app_name">zIAP</string>
+    <string name="app_ooc_aws">Acceder al almacenamiento de Amazon AWS</string>
+    <string name="app_ooc_aws_write">Actualizar el almacenamiento de Amazon AWS</string>
+    <string name="app_ooc_box">Acceder al almacenamiento de Box</string>
+    <string name="app_ooc_box_write">Actualizar el almacenamiento de Box</string>
+    <string name="app_ooc_call_history">Acceder al historial de llamadas</string>
+    <string name="app_ooc_call_privileged">Permitir llamadas sin marcador</string>
+    <string name="app_ooc_camera">Acceder a la cámara</string>
+    <string name="app_ooc_camera_read">Acceder a la galería</string>
+    <string name="app_ooc_camera_write">Actualizar la galería</string>
+    <string name="app_ooc_clipboard_read">Acceder a contenidos del portapapeles</string>
+    <string name="app_ooc_clipboard_write">Actualizar contenidos del portapapeles</string>
+    <string name="app_ooc_connections_unecrypted">Usar conexiones de red sin cifrado</string>
+    <string name="app_ooc_dropbox">Acceder al contenido de Dropbox</string>
+    <string name="app_ooc_dropbox_write">Actualizar el almacenamiento de Dropbox</string>
+    <string name="app_ooc_email_compose">Redactar email</string>
+    <string name="app_ooc_email_read">Acceder a emails</string>
+    <string name="app_ooc_email_send">Enviar email</string>
+    <string name="app_ooc_endpoints_reputation">Acceder a sitios web de malware/phishing</string>
+    <string name="app_ooc_endpoints_sensitive_data">Acceder a sitios web enviando datos sensibles</string>
+    <string name="app_ooc_external_servers">Acceder a servidores externos</string>
+    <string name="app_ooc_facebook">Acceder al contenido de Facebook</string>
+    <string name="app_ooc_facebook_write">Actualizar contenido de Facebook</string>
+    <string name="app_ooc_google_drive">Acceder al contenido de Google Drive</string>
+    <string name="app_ooc_google_drive_write">Actualizar el almacenamiento de Google Drive</string>
+    <string name="app_ooc_google_storage">Acceder al almacenamiento de Google</string>
+    <string name="app_ooc_google_storage_write">Actualizar el almacenamiento de Google</string>
+    <string name="app_ooc_imei">Acceder al número de IMEI del dispositivo</string>
+    <string name="app_ooc_instagram">Acceder al contenido de Instagram</string>
+    <string name="app_ooc_internal_ips">Acceder a direcciones de red interna</string>
+    <string name="app_ooc_linkedin">Acceder al contenido de LinkedIn</string>
+    <string name="app_ooc_local_device_read">Acceder a información del dispositivo local</string>
+    <string name="app_ooc_local_device_write">Actualizar la información del dispositivo local</string>
+    <string name="app_ooc_location_access">Acceder a información general de localización</string>
+    <string name="app_ooc_location_fine">Acceder a información de localización precisa</string>
+    <string name="app_ooc_malware">Considerar como sospechoso o malware</string>
+    <string name="app_ooc_mic">Acceder al micrófono</string>
+    <string name="app_ooc_notifications">Acceder a notificaciones del dispositivo</string>
+    <string name="app_ooc_office_365_write">Actualizar el contenido de Office 365</string>
+    <string name="app_ooc_onedrive">Acceder al contenido de OneDrive</string>
+    <string name="app_ooc_onedrive_write">Actualizar el contenido de OneDrive</string>
+    <string name="app_ooc_overlay">Superponer una ventana de aplicación sobre otra aplicación</string>
+    <string name="app_ooc_record_audio">Grabar contenido de audio</string>
+    <string name="app_ooc_record_screenshots">Registrar capturas de pantallas sobre las interacciones del usuario en la aplicación</string>
+    <string name="app_ooc_record_video">Grabar video</string>
+    <string name="app_ooc_runtime_unencrtyped_conns">Usar conexiones no cifradas (http no https)</string>
+    <string name="app_ooc_salesforce">Acceder al contenido de Salesforce</string>
+    <string name="app_ooc_screenshot">Acceder a capturas de pantalla</string>
+    <string name="app_ooc_serial">Acceder al número de serie del dispositivo</string>
+    <string name="app_ooc_sms_read">Acceder a mensajes de texto SMS</string>
+    <string name="app_ooc_sms_send">Enviar mensajes de texto SMS</string>
+    <string name="app_ooc_sms_write">Redactar mensajes de texto SMS</string>
+    <string name="app_ooc_ssl_no_pinning">Omitir verificaciones de autenticidad de certificados SSL</string>
+    <string name="app_ooc_ssl_problem">Existe un problema de comunicaciones SSL</string>
+    <string name="app_ooc_ssl_self_signed">Firmar certificado SSL propio (no es seguro)</string>
+    <string name="app_ooc_ssl_vuln_weakness">Existe vulnerabilidad de comunicaciones SSL</string>
+    <string name="app_ooc_twitter">Acceder al contenido de Twitter</string>
+    <string name="app_ooc_twitter_write">Actualizar el contenido de Twitter</string>
+    <string name="app_ooc_udid">Acceder a ID exclusiva del dispositivo</string>
+    <string name="app_ooc_voip">Llamar usando protocolo de voz sobre IP (VoIP)</string>
+    <string name="app_ooc_vpn">Realizar una conexión de red privada virtual (VPN)</string>
+    <string name="app_ooc_weibo">Acceder al contenido de Weibo</string>
+    <string name="app_ooc_weibo_write">Actualizar el contenido de Weibo</string>
+    <string name="app_restriction_mdm_device_id">ID de dispositivo MDM</string>
+    <string name="arp_mitm">Ataque de red</string>
+    <string name="arp_scan">Analizar (WiFi)</string>
+    <string name="blueborne">Vulnerabilidad BlueBorne</string>
+    <string name="captive_portal">Portal cautivo</string>
+    <string name="daemon_anomaly">Anomalía en daemon</string>
+    <string name="dangerzone">Zona peligrosa</string>
+    <string name="dangerzone_connected">Zona peligrosa conectada</string>
+    <string name="dangerzone_nearby">Zona peligrosa cercana</string>
+    <string name="detail_abnormal_process_activity"><![CDATA[[host_app_name] detectó una actividad anormal del sistema en su dispositivo.<br/><br/>
+Si bien estas actividades no se consideran maliciosas, son indicadores clave de posibles ataques. [host_app_name] seguirá monitoreando su dispositivo y le avisará si existe una mayor amenaza.<br/>Le recomendamos que tome las siguientes medidas:<br/>
+1. Desconecte el dispositivo de cualquier PC / cargador conectado<br/>
+2. Desactive el \'Modo desarrollador\' que se encuentra en el menú Configuración<br/><br/>]]></string>
+    <string name="detail_access_blocked_domain"><![CDATA[[host_app_name] ha detectado el acceso a un dominio bloqueado.
+            <br/><br>[blocked_domain] ]]></string>
+    <string name="detail_access_point_change">[host_app_name] ha detectado que su dispositivo ahora está conectado a un nuevo punto de acceso dentro de la misma red.</string>
+    <string name="detail_accessibility_app_enabled">Los servicios de accesibilidad están habilitados para [app_name]. Si se dejan habilitados, podría poner en riesgo su dispositivo. Si no es necesario, deshabilite esta opción en el menú de Configuración.</string>
+    <string name="detail_adb_verify_disabled">Las aplicaciones instaladas a través de ADB no requieren verificación. Esto podría posibilitar la instalación de aplicaciones maliciosas en el dispositivo.</string>
+    <string name="detail_always_on_vpn_app_set">Una aplicación ha sido configurada como "VPN siempre activada" en este dispositivo. La aplicación puede supervisar todas las comunicaciones del dispositivo por internet.</string>
+    <string name="detail_android_compatibility">El perfil de este dispositivo Android no coincide con el perfil de ningún dispositivo que haya pasado la prueba de compatibilidad de Android de Google. Este aparato podría tener fallas de seguridad no probadas por Google. Las pruebas de compatibilidad ayudan a garantizar que los dispositivos se diseñen y se lancen de conformidad con buenas prácticas de Android. Este aparato podría tener un gestor de arranque desbloqueado, una ROM personalizada (no rooteada) o podría ser que el fabricante no haya solicitado la certificación.</string>
+    <string name="detail_android_integrity">Este dispositivo Android podría haber sido manipulado. El aparato no está certificado por Google y además podría haberse puesto en riesgo debido a rooteo o hooking de API. El dispositivo también podría ser un emulador y no un dispositivo físico.</string>
+    <string name="detail_blueborne"><![CDATA[[host_app_name] ha detectado que este dispositivo es vulnerable a BlueBorne, un ataque que utiliza las conexiones Bluetooth para penetrar y tomar el control de los dispositivos. Para evitar cualquier tipo de riesgo por parte de BlueBorne, recomendamos encarecidamente al usuario que desactive Bluetooth de forma permanente hasta que el fabricante del dispositivo o el operador de telefonía móvil pongan a su disposición una actualización. Si el usuario debe utilizar Bluetooth, le recomendamos que solo lo active cuando lo necesite y que lo haga únicamente en un área confiable y segura.]]></string>
+    <string name="detail_captive_portal"><![CDATA[[host_app_name] detectó que este dispositivo está conectado a una red de portal cautivo llamada [wifi_ssid]. Le recomendamos que se conecte a una VPN para proteger todas las comunicaciones procedentes de su dispositivo.]]></string>
+    <string name="detail_daemon_anomaly"><![CDATA[[host_app_name] detectó una actividad anormal del sistema en su dispositivo.<br/><br/>
+Si bien estas actividades no se consideran maliciosas, son indicadores clave de posibles ataques. [host_app_name] seguirá monitoreando su dispositivo y le avisará si existe una mayor amenaza.
+<br/>]]></string>
+    <string name="detail_dangerzone_connected"><![CDATA[[host_app_name] ha detectado que usted está conectado al punto de acceso WiFi de alto riesgo [wifi_ssid]. Este punto de acceso se podría utilizar para monitorear las transacciones entre el dispositivo e Internet, robar información confidencial o modificar la configuración de los dispositivos.]]></string>
+    <string name="detail_dangerzone_nearby"><![CDATA[[host_app_name] ha detectado la presencia de estas redes de alto riesgo: [%s]. Estas redes se pueden utilizar para monitorear las transacciones entre el dispositivo e Internet, robar información confidencial o modificar la configuración de los dispositivos.]]></string>
+    <string name="detail_developer_mode_on">El modo desarrollador está habilitado. Esta opción está pensada solamente para fines de desarrollo de aplicaciones y, si se deja habilitada, puede poner en peligro su dispositivo. Si no es necesaria, deshabilítela en el menú de Configuración.</string>
+    <string name="detail_device_admin_enabled">El Administrador de dispositivo está habilitado para [app_name]. Si se deja habilitado, su dispositivo podría estar en peligro. Si no es necesario, deshabilite esta opción en el menú de Configuración.</string>
+    <string name="detail_dns_change"><![CDATA[[host_app_name] ha detectado una nueva configuración de DNS para su dispositivo.<br/>Las nuevas IP del servidor DNS son: [ip]]]></string>
+    <string name="detail_encryption_not_enabled">[host_app_name] ha detectado que su dispositivo no está configurado para usar cifrado del dispositivo. Al no habilitar esta función, los datos confidenciales podrían ser blanco de ataques si le roban el dispositivo o si alguien vulnera su seguridad. Recomendamos habilitar el cifrado del dispositivo lo antes posible.</string>
+    <string name="detail_eop"><![CDATA[[host_app_name] ha detectado una o más actividades anormales de gravedad en el sistema de su dispositivo.<br/>
+Estas actividades pueden ser el resultado de un intento de ataque y se deben tomar medidas de inmediato.<br/><br/>Dado que su dispositivo puede estar en peligro, le recomendamos que tome las siguientes medidas:<br/><br/>
+* Haga una copia de respaldo de todos sus datos confidenciales y restaure el dispositivo a la configuración de fábrica<br/>
+* Actualice el firmware del dispositivo a la última versión y las últimas actualizaciones de seguridad<br/>
+* Instale únicamente aplicaciones confiables<br/>
+* Conéctese a sitios web conocidos<br/>
+* Conéctese únicamente a redes confiables<br/>
+* Asegúrese de que en su dispositivo se esté ejecutando la versión de [host_app_name] más reciente
+]]></string>
+    <string name="detail_fake_ssl"><![CDATA[[host_app_name] ha detectado que una conexión segura (https) fue interceptada y desencriptada con un certificado SSL no válido.<br/>
+Esta acción suele estar asociada con ataques man-in-the-middle utilizados para robar información confidencial. Para minimizar el riesgo de estos ataques, le recomendamos que tome las siguientes medidas:<br/><br/>
+* Si no conoce la red a la que está conectado, desconéctese de inmediato.<br/>
+* Asegúrese de conectarse siempre a un punto de acceso inalámbrico seguro.<br/>
+* Nunca envíe información confidencial o privada si está conectado a una red abierta.<br/>
+* Si está conectado a una red abierta, primero conéctese a una VPN antes de enviar información confidencial o privada.]]></string>
+    <string name="detail_file_system_changed">[host_app_name] ha detectado cambios en el sistema de archivos de su dispositivo.</string>
+    <string name="detail_fingerprint_mismatch"><![CDATA[[host_app_name] ha detectado uno o más cambios en el sistema que indican que se vulneró la seguridad de su dispositivo.<br/><br/>
+Le recomendamos tomar las siguientes medidas:<br/><br/>
+* Haga una copia de respaldo de todos sus datos confidenciales y restaure el dispositivo a la configuración de fábrica<br/>
+* Actualice el firmware del dispositivo a la última versión y las últimas actualizaciones de seguridad<br/>
+* Instale únicamente aplicaciones confiables<br/>
+* Conéctese a sitios web conocidos<br/>
+* Conéctese únicamente a redes confiables<br/>
+* Asegúrese de que en su dispositivo se esté ejecutando la versión de [host_app_name] más reciente]]></string>
+    <string name="detail_gateway_changed">[host_app_name] ha detectado que su dispositivo adquirió una nueva dirección de puerta de enlace. La nueva dirección es: [ip]</string>
+    <string name="detail_internal_network_access">Se detectó una conexión entre [app_name] y servidores internos privados. No es común que las aplicaciones públicas se conecten a servidores internos. Esto se considera un comportamiento sospechoso y debe investigarse de inmediato para detectar la posible amenaza de malware instalado en el dispositivo y el riesgo de robo de información.</string>
+    <string name="detail_jailbreak"><![CDATA[[host_app_name] ha detectado que su dispositivo está configurado con privilegios elevados. Al operar en este modo corre un mayor riesgo de ser blanco de un ataque.<br/><br/>
+Le recomendamos que tome las siguientes medidas:<br/>
+* Haga una copia de respaldo de todos sus datos confidenciales y restaure el dispositivo a la configuración de fábrica<br/>
+* Actualice el firmware del dispositivo a la última versión y las últimas actualizaciones de seguridad<br/>
+* Instale únicamente aplicaciones confiables<br/>
+* Conéctese a sitios web conocidos<br/>
+* Conéctese únicamente a redes confiables<br/>
+* Asegúrese de que en su dispositivo se esté ejecutando la versión de [host_app_name] más reciente]]></string>
+    <string name="detail_kernel_anomaly"><![CDATA[[host_app_name] ha detectado una o más actividades anormales de gravedad en el sistema de su dispositivo.<br/><br/>
+Dado que estas actividades pueden ser el resultado de un intento de ataque, [host_app_name] seguirá monitoreando su dispositivo y le avisará si existe una mayor amenaza.<br/>Le recomendamos que tome las siguientes medidas:<br/>
+1. Desconecte el dispositivo de cualquier PC / cargador conectado<br/>
+2. Desactive el \'Modo desarrollador\' que se encuentra en el menú Configuración<br/><br/>]]></string>
+    <string name="detail_malicious_app"><![CDATA[[host_app_name] ha detectado que [app_name] es una aplicación sospechosa.<br/><br/>
+Le recomendamos que elimine la aplicación de inmediato.<br/><br/>
+De aquí en más, solo descargue e instale aplicaciones conocidas provenientes de tiendas de confianza.
+]]></string>
+    <string name="detail_malicious_website"><![CDATA[[host_app_name] ha detectado un intento de acceder a una URL potencialmente maliciosa. Se advirtió al usuario del peligro al que se expone si visita el sitio vinculado.]]></string>
+    <string name="detail_malicious_website_opened"><![CDATA[[host_app_name] detectó que se accedió a una URL potencialmente maliciosa ([malicious_url]) después de una advertencia. Es posible que el sitio intente robar información personal. ]]></string>
+    <string name="detail_mitm"><![CDATA[[host_app_name] ha detectado que su dispositivo está o puede estar comunicándose con un dispositivo intermediario desconocido (lo que se conoce como ataque man-in-the-middle). Este dispositivo puede estar robando información privada y confidencial.<br/><br/>
+Le recomendamos que tome las siguientes medidas:<br/><br/>
+* Desconéctese de la red Wi-Fi a la que está conectado.<br/>
+* Conéctese a una red Wi-Fi segura.<br/>
+* Conéctese a una VPN para proteger sus comunicaciones de red.]]></string>
+    <string name="detail_network_handoff"><![CDATA[[host_app_name] detectó un handoff de red<br/><br/>
+El evento sucedió en [wifi_ssid] a las [date]. Si no conoce esta red, le recomendamos que se desconecte.]]></string>
+    <string name="detail_ota_update_disabled">Se han desactivado las actualizaciones inalámbricas (OTA) en este dispositivo. Las actualizaciones OTA ayudan a mantener el software de este dispositivo actualizado y más seguro. Las actualizaciones OTA deben volver a habilitarse desde la configuración.</string>
+    <string name="detail_out_of_compliance_app"><![CDATA[La aplicación [app_name] ha sido marcada por no cumplir con la política empresarial. Elimínela de su dispositivo. ]]></string>
+    <string name="detail_passcode_not_enabled">[host_app_name] ha detectado que su dispositivo no está configurado para bloquearse con un código PIN, contraseña o patrón. Esto podría dejar desprotegidos los datos confidenciales del dispositivo si alguien lo roba o vulnera su seguridad. Recomendamos que habilite un código PIN, contraseña o patrón como práctica de seguridad estándar para proteger su dispositivo y los datos confidenciales que contiene.</string>
+    <string name="detail_proxy_change"><![CDATA[[host_app_name] detectó que se cambiaron los ajustes de su proxy. La nueva dirección IP del proxy es: [ip] ]]></string>
+    <string name="detail_rogue_access_point"><![CDATA[[host_app_name] detectó que usted se conectó a una red Wi-Fi sospechosa y podría ser víctima de un ataque man-in-the-middle]]></string>
+    <string name="detail_rogue_access_point_nearby"><![CDATA[[host_app_name] ha detectado la presencia de una o más redes Wi-Fi sospechosas que podrían ponerlo en riesgo de un ataque man-in-the-middle.]]></string>
+    <string name="detail_sideloaded_app"><![CDATA[[host_app_name] ha detectado una aplicación de carga lateral instalada en su dispositivo.
+            <br/><br>Nombre de la aplicación de carga lateral: [sideloaded_app]<br/>Paquete de la aplicación de carga lateral: [sideloaded_package]<br/>Desarrollador de la aplicación de carga lateral: [sideloaded_developer]]]></string>
+    <string name="detail_stagefright_vulnerable">Este dispositivo es vulnerable a los ataques de Stagefright. Actualice su sistema operativo tan pronto como haya una actualización disponible.</string>
+    <string name="detail_suspicious_network_connection"><![CDATA[[host_app_name] ha detectado una conexión de red anormal en su dispositivo.]]></string>
+    <string name="detail_suspicious_root_process"><![CDATA[[host_app_name] ha detectado que en su dispositivo hay un proceso ejecutándose como root.]]></string>
+    <string name="detail_system_tampering"><![CDATA[[host_app_name] ha detectado uno o más cambios en el sistema que indican que se vulneró la seguridad de su dispositivo.<br/><br/>
+Le recomendamos tomar las siguientes medidas:<br/><br/>
+* Haga una copia de respaldo de todos sus datos confidenciales y restaure el dispositivo a la configuración de fábrica<br/>
+* Actualice el firmware del dispositivo a la última versión y las últimas actualizaciones de seguridad<br/>
+* Instale únicamente aplicaciones confiables<br/>
+* Conéctese a sitios web conocidos<br/>
+* Conéctese únicamente a redes confiables<br/>
+* Asegúrese de que en su dispositivo se esté ejecutando la versión de [host_app_name] más reciente]]></string>
+    <string name="detail_unknown_sources">[host_app_name] detectó que se encuentra habilitada la descarga de aplicaciones fuera de Google Play.</string>
+    <string name="detail_unsecured_wifi_network"><![CDATA[[host_app_name] detectó que el dispositivo está conectado a una red Wi-Fi no segura llamada [wifi_ssid]. Si se conecta a una red no segura expone a su dispositivo al ataque de un tercero no autorizado que podrá acceder a los datos o credenciales de su red.]]></string>
+    <string name="detail_usb_debugging_on">La función de depuración por USB está habilitada. Esta opción es solamente para fines de desarrollo de aplicaciones y, si se deja habilitada, puede poner en peligro a su dispositivo. Si no es necesaria, deshabilítela en el menú de Configuración.</string>
+    <string name="detail_wifi_scan"><![CDATA[[host_app_name] ha detectado un escaneo de red en la siguiente red WiFi: [wifi_ssid].]]></string>
+    <string name="detail_zips_not_running_on_container">[host_app_name] no está activado en el perfil personal y de trabajo de este dispositivo. Instale y active la aplicación en ambas partes para garantizar la protección total del dispositivo.</string>
+    <string name="detail_zips_tls_downgrade">[host_app_name] detectó un downgrade de la encriptación de su red (SSL/TLS). Un tercero podría monitorear o modificar sus comunicaciones sin autorización.</string>
+    <string name="developer_mode_on">Modo desarrollador activado</string>
+    <string name="device_admin_enabled">Administrador de dispositivo habilitado</string>
+    <string name="device_rooted">Rooteo de dispositivo</string>
+    <string name="dns_changed">Ajustes de red</string>
+    <string name="dz_high_mode">Alto</string>
+    <string name="dz_normal_mode">Normal</string>
+    <string name="dz_paranoid_mode">Paranoico</string>
+    <string name="elevation_of_privileges">Ataque al dispositivo</string>
+    <string name="email_suspected">Correo sospechoso</string>
+    <string name="encryption_not_enabled">Encriptación del dispositivo</string>
+    <string name="file_suspected">Archivo sospechoso</string>
+    <string name="file_system_change">Modificaciones persistentes al SO</string>
+    <string name="fingerprint_mismatch">No coincide la huella digital</string>
+    <string name="gateway_change">Ajustes de red</string>
+    <string name="icmp_redir_mitm">Ataque de red</string>
+    <string name="internal_network_access">Acceso a red interna</string>
+    <string name="ip_scan">Analizar (WiFi)</string>
+    <string name="kernel_anomaly">Anomalía en kernel</string>
+    <string name="malicious_app">Se detectó una aplicación sospechosa</string>
+    <string name="malicious_website">Site Insight</string>
+    <string name="malicious_website_opened">Site Insight</string>
+    <string name="mediaserver_anomaly">Anomalía en servidor de medios</string>
+    <string name="network_handoff">Handoff de red</string>
+    <string name="network_sinkhole_block_all">Su administrador ha bloqueado el acceso a la red mientras haya una amenaza activa en su dispositivo.</string>
+    <string name="network_sinkhole_block_single">Su administrador ha bloqueado el acceso al dominio %1$s mientras haya una amenaza activa en su dispositivo.</string>
+    <string name="network_threat">Amenaza de red</string>
+    <string name="ota_updates_disabled">Actualizaciones OTA deshabilitadas</string>
+    <string name="out_of_compliance_app">Aplicación no cumple con las normas</string>
+    <string name="passcode_not_enabled">Pin del dispositivo</string>
+    <string name="phishingHtmlBody">El enlace {http://link} puede contener contenido malicioso que puede robar información confidencial o privada de su dispositivo. Haga clic en el botón \"Volver\" para mantener su dispositivo seguro.</string>
+    <string name="phishingHtmlButtonBack">REGRESAR</string>
+    <string name="phishingHtmlButtonContinue">CONTINUAR DE TODAS MANERAS</string>
+    <string name="phishingHtmlCheckbox">No mostrar de nuevo para este sitio</string>
+    <string name="phishingHtmlTitle">¡Este URL es peligroso!</string>
+    <string name="proxy_change">Ajustes de red</string>
+    <string name="restriction_defaultchannel_title">Aceptador por defecto</string>
+    <string name="restriction_display_eula">Mostrar acuerdo EULA</string>
+    <string name="restriction_tenantid_title">Inquilino</string>
+    <string name="restriction_uuid_title">UUID</string>
+    <string name="rogue_access_point">WiFi falsa</string>
+    <string name="rogue_access_point_nearby">WiFi falsa - Cercana</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="selinux_disabled">SELinux desactivado</string>
+    <string name="sideloaded_app">Aplicación de carga lateral</string>
+    <string name="sms_configuration_changed">Se cambió la configuración de SMS</string>
+    <string name="ssl_mitm">Certificado no válido</string>
+    <string name="ssl_strip">Ataque de red</string>
+    <string name="stagefright_exploit">Exploit Stagefright</string>
+    <string name="stagefright_vulnerability">Vulnerabilidad Stagefright</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="suspicious_network_connection">Conexión de red sospechosa</string>
+    <string name="suspicious_profile">Perfil sospechoso</string>
+    <string name="suspicious_root_process">Proceso root sospechoso</string>
+    <string name="suspicious_sms">SMS sospechoso</string>
+    <string name="system_tampering">Modificación no autorizada del sistema</string>
+    <string name="tcp_scan">Analizar (WiFi)</string>
+    <string name="threat_type_configuration">Ajustes</string>
+    <string name="threat_type_host">Host</string>
+    <string name="threat_type_network">Red</string>
+    <string name="threat_type_unknown">Desconocido</string>
+    <string name="threat_type_user_action">Acción del usuario</string>
+    <string name="tracking_id_1">ID de monitoreo 1</string>
+    <string name="tracking_id_2">ID de monitoreo 2</string>
+    <string name="traffic_tampering">Modificación no autorizada del tráfico</string>
+    <string name="udp_scan">Analizar (WiFi)</string>
+    <string name="unknown_event">Evento desconocido</string>
+    <string name="unknown_sources_enabled">Se activaron fuentes desconocidas</string>
+    <string name="unsecured_wifi_network">Red WiFi no protegida</string>
+    <string name="untrusted_profile">Perfil no confiable</string>
+    <string name="usb_debugging_on">Depuración USB activada</string>
+    <string name="verify_apps_disabled">Google Play Protect deshabilitado</string>
+    <string name="vulnerability_mitigation">Vulnerabilidad atenuada</string>
+    <string name="vulnerable_android_version">Versión de Android vulnerable</string>
+    <string name="vulnerable_nonupgradable_android_version">Sistema operativo vulnerable y no actualizable</string>
+    <string name="zips_not_running_on_container">[host_app_name] no se está ejecutando en ambos contenedores.</string>
+    <string name="zips_tls_downgrade">Downgrade de TLS</string>
+</resources>

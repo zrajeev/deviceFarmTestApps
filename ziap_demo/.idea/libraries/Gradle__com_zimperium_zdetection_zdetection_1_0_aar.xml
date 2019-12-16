@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zimperium.zdetection:zdetection:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
