@@ -5,33 +5,33 @@
         <item>@string/dz_high_mode</item>
         <item>@string/dz_paranoid_mode</item>
     </string-array>
-    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
-    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
-    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Plus d\'options"</string>
-    <string msgid="4076576682505996667" name="abc_action_mode_done">"OK"</string>
-    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
-    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
-    <string msgid="121134116657445385" name="abc_capital_off">"DÉSACTIVÉ"</string>
-    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVÉ"</string>
-    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
-    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
-    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"supprimer"</string>
-    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"entrée"</string>
-    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fonction+"</string>
-    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Méta+"</string>
-    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Maj+"</string>
-    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"espace"</string>
-    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
-    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
-    <string msgid="7723749260725869598" name="abc_search_hint">"Rechercher…"</string>
-    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Effacer la requête"</string>
-    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Requête de recherche"</string>
-    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Rechercher"</string>
-    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envoyer la requête"</string>
-    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Recherche vocale"</string>
-    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager avec"</string>
-    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
-    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"OK"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"NON"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"OUI"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Réduire"</string>
     <string name="abnormal_process_activity">Anomalie de l\'OS</string>
     <string name="access_blocked_domain">Accès à un domaine bloqué</string>
     <string name="access_point_change">Transfert réseau</string>
@@ -81,6 +81,7 @@
     <string name="alert_rogue_access_point">[host_app_name] a détecté que l\'appareil est connecté à un réseau WiFi clandestin nommé [wifi_ssid]. Les connexions à ce type de réseau exposent votre appareil à des attaques de tiers, pouvant accéder à vos données réseau ou codes d\'accès.</string>
     <string name="alert_rogue_access_point_nearby">Une menace de sécurité WiFi potentielle a été détectée depuis un réseau Wifi non sécurisé proche. Veuillez éviter de vous connecter à ces réseaux WiFi non sécurisés pour éviter l\'interception ou la modification de vos données.</string>
     <string name="alert_scan">[host_app_name] a détecté un balayage réseau WiFi sur le réseau [wifi_ssid]. Aucune attaque en cours n\'a été détectée et vous pouvez continuer à utiliser ce réseau de manière sûre.</string>
+    <string name="alert_selinux_disabled">[host_app_name] détection d\'une modification des fonctionnalités de sécurité des systèmes d\'exploitation (SELinux). SELinux est une fonction de sécurité centrale du système d\'exploitation et est destinée à contrôler l\'accès en interne et à aider à maintenir l\'intégrité du système d\'exploitation.</string>
     <string name="alert_sideloaded_app">[host_app_name] a détecté une application à transfert local direct [sideloaded_app] sur cet appareil.</string>
     <string name="alert_stagefright_vulnerable">Cet appareil est vulnérable aux attaques Stagefright. Veuillez actualiser votre système d\'exploitation dès qu\'elle sera disponible.</string>
     <string name="alert_suspicious_network_connection">[host_app_name] a détecté une connexion réseau anormale sur votre appareil. [host_app_name] analyse tout type d\'attaque.</string>
@@ -137,9 +138,11 @@
     <string name="app_ooc_onedrive">Accéder au contenu OneDrive</string>
     <string name="app_ooc_onedrive_write">Mettre à jour le contenu OneDrive</string>
     <string name="app_ooc_overlay">Superposer une fenêtre d\'application avec une autre application</string>
+    <string name="app_ooc_privacy_user_interact">Enregistrer des captures d\'écran des interactions de l\'utilisateur dans l\'application</string>
     <string name="app_ooc_record_audio">Enregistrer un contenu audio</string>
     <string name="app_ooc_record_screenshots">Enregistrer les captures d\'écran des interactions de l\'utilisateur dans l\'application</string>
     <string name="app_ooc_record_video">Enregistrer une vidéo</string>
+    <string name="app_ooc_risky_app">Contenir des risques de sécurité et/ou de confidentialité</string>
     <string name="app_ooc_runtime_unencrtyped_conns">Utiliser des connextions cryptées (http not https)</string>
     <string name="app_ooc_salesforce">Accéder au contenu Salesforce</string>
     <string name="app_ooc_screenshot">Accéder aux captures d\'écran</string>
@@ -247,6 +250,7 @@ L\'évènement a eu lieu sur [wifi_ssid] le [date]. Si ce réseau WiFi vous est 
     <string name="detail_proxy_change"><![CDATA[[host_app_name] a détecté une modification de vos paramètres de proxy. La nouvelle adresse du proxy est : [ip] ]]></string>
     <string name="detail_rogue_access_point"><![CDATA[[host_app_name] a détecté que vous vous êtes connecté à un réseau WiFi suspect, vous faisant courir un risque d\'attaque man-in-the-middle]]></string>
     <string name="detail_rogue_access_point_nearby"><![CDATA[[host_app_name] a détecté un ou plusieurs réseaux WiFi suspects à proximité, vous faisant courir le risque de subir une attaque man-in-the-middle.]]></string>
+    <string name="detail_selinux_disabled"><![CDATA[[host_app_name] [host_app_name] détection d\'une modification des fonctionnalités de sécurité des systèmes d\'exploitation (SELinux). SELinux est une fonction de sécurité centrale du système d\'exploitation et est destinée à contrôler l\'accès en interne et à aider à maintenir l\'intégrité du système d\'exploitation.]]></string>
     <string name="detail_sideloaded_app"><![CDATA[[host_app_name] a détecté une application à transfert local direct installée sur votre appareil.
             <br/><br>Nom de l\'appli : [sideloaded_app]<br/>Paquet de l\'appli : [sideloaded_package]<br/>Programmeur de l\'appli :[sideloaded_developer] ]]></string>
     <string name="detail_stagefright_vulnerable">Cet appareil est vulnérable aux attaques Stagefright. Veuillez actualiser votre système d\'exploitation dès qu\'elle sera disponible.</string>
@@ -308,7 +312,7 @@ C\'est pourquoi nous vous recommandons de prendre les mesures suivantes :<br/><b
     <string name="restriction_uuid_title">UUID</string>
     <string name="rogue_access_point">WiFi clandestin</string>
     <string name="rogue_access_point_nearby">WiFi clandestin à proximité</string>
-    <string msgid="146198913615257606" name="search_menu_title">"Rechercher"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Rechercher"</string>
     <string name="selinux_disabled">SELinux désactivé</string>
     <string name="sideloaded_app">Application à transfert local direct</string>
     <string name="sms_configuration_changed">Configuration des SMS modifiée</string>
@@ -316,7 +320,7 @@ C\'est pourquoi nous vous recommandons de prendre les mesures suivantes :<br/><b
     <string name="ssl_strip">Attaque réseau</string>
     <string name="stagefright_exploit">Exploitation de faille Stagefright</string>
     <string name="stagefright_vulnerability">Vulnérabilité Stagefright</string>
-    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="suspicious_network_connection">Connexion réseau suspecte</string>
     <string name="suspicious_profile">Profil suspect</string>
     <string name="suspicious_root_process">Processus administrateur suspect</string>

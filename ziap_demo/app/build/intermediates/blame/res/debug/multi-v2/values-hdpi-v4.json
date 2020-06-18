@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16c0d3511ee07dc3353ddcef6107bb1d/appcompat-v7-28.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e555c0545c946019a2e515376ad1c3ee/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

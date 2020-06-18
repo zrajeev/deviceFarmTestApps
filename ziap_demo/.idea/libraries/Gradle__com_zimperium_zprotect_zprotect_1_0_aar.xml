@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zimperium.zprotect:zprotect:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3624ab310a46344c73fa818fb509229/jetified-zprotect/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3624ab310a46344c73fa818fb509229/jetified-zprotect/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
