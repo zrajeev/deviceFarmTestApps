@@ -1,340 +1,395 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:2:1-109:12
-MERGED from [com.android.support:multidex:1.0.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a5323db2d090cbe93ee4e877716fdbb7/multidex-1.0.3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/03b1bdec2eb590e41570fca57a5c7ccb/design-28.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16c0d3511ee07dc3353ddcef6107bb1d/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4baa67af4bf4907e2d3ff10af5771895/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ddf249ad67324a45054fc054a7ce262f/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d0e8d960ad7debfd0d7313edd5713dde/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/3340b2f94c256a0419563c0f75d7abdb/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4a9fa855ea1550735a7ef7eac22df96b/recyclerview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/db2ec9fcb95caf61bc94e3caa3c023b8/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/38147172d59703d114b499bcead0ad62/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/05024d304b8a102327998c340a0ac29b/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b429e5e397a5a35645464f1b66627ddb/transition-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0b1efb1cc767c95d2faff9ae5f26c183/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/c80e4bc6804e938c0d65afe28f6076ea/loader-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/05aae7e87347240618ad87fa4f203208/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/93f09922de5d69ccaba45831da564cc0/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0142b26d8ef0babcb88b60334482c60d/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9b0e27a0e30771b1a080f7b8c84e24f9/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ad31b466ed98b10b3fd8e331800935f6/customview-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9dabfe873db9845f1e10dab3176abc97/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a85b188e7f2bbb7c19b0cb67c29f1c0b/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc74986e6ef0b9bd971d91f8ac92f382/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/aed816d3ff7f745d67dd49f937c01a64/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9c43ec1ae0d01631f4a62e9eb6343dad/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a401a906fc3ba68977afd3706050a154/cardview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a724c50596784bafb99b9b71373ff3ba/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/2199fa2d59f320ffdda7272b83e7e4b1/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16cddc1313f21707f84cdd2825462355/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b8b52ea3b351ada10a4b7fe4b11ef67e/print-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/43a795f8ea9a29c5dd700dc5feb80044/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a0a48cfccec7a07ecc80dec52c0c527b/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/f9dab624bebf869b7203a0d04b523155/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ded0b06db8901f9940de661520a78df6/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cbe35c9de832a0a8dc63bcb3fe057e49/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:2:1-131:12
+MERGED from [com.zimperium.zprotect:zprotect:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a3624ab310a46344c73fa818fb509229/jetified-zprotect/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0293bf34c36b68aa7602d30166a92899/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8842a1e254dedd4bff56442569d9c4a5/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d87444f3a8d07e4f717a9d8cb90e325e/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e555c0545c946019a2e515376ad1c3ee/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/10f31f99a4f82f8bbba4ac32681b52e8/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5b1d637b3490320173a3e569a62ad318/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/3ebf512bcbfbe50a34cc869ab04a0ef8/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/196cd393dbcc0ec90feb3b930f9b73f8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/f8f466d1841102a254c8e86032c32b09/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/43a4f7126a271939c5dc916c32b8d86f/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d0bd340a7d17bcb77c8d3eb4ad63f76f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/151e1d58b48042bf5c578d7612987801/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/962b3cc351e61eeaa6ce456110da0eed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ff9484ca050666dd29827c4ae8723f46/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/73ea7d646ce0f3996bdc44f406a2944a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cebe49c57dfa67127b7270929392feb9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/6c4f7c9ff5fd1c92725a770638aa34ba/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b74c4ef2fdfaf4758590520bd837fd11/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/724b5c75fd8d4ce59fa4fd4d8d305b41/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/34fa9b294128883db56ebf093dcdd121/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5edaf240effdd9677e787dcfa75301cd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/72384c20d272225cf4e267df03046ea8/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d690c3153a8b5c2a635c32f2853d5bde/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/35d5adf5273f751efca88e87667ae7a6/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e73c5843de583c277fabbd1bc09b18a8/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/962f253e3c860ad057d3d89bb7a91f6f/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cda7e1024e89213825e15dd5587f33d5/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bbb57e8c22069d3140c03955fbb69f35/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4dce3b0a614ba29d6ffb2b4ee9dc053f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/c6e48958f8e7cd8f4d6383ee4e4701ba/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/19f0cece33b106a983bb6c306d7a6e49/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc2d57b20a80d454fef860a5fb14ed42/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0d9a9ea7971be37571a8d8a95a6f26c1/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/391a25564e51c8b80b03681d89407514/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/63b996368c7f5992fe3b17fa3cbb0d84/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/47856aacf9a5dcc6eaeb4d11e90b0767/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0106f4479779edb77d0fb6bcc721c44f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/7ddb9e8523d9aeb463d3879e1581f707/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:1-36:12
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:6:5-76
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:16:5-76
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:16:5-76
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:6:5-76
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:16:5-76
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:6:22-73
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:6:22-73
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:7:5-76
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:13:5-76
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:13:5-76
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:7:5-76
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:13:5-76
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:13:5-76
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:7:22-73
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:7:22-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:8:5-80
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:8:22-77
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:8:22-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:9:5-79
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:12:5-79
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:12:5-79
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:12:5-79
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:9:22-76
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:9:22-76
 application
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:11:5-34:19
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:41:5-107:19
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:41:5-107:19
-MERGED from [com.android.support:design:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/03b1bdec2eb590e41570fca57a5c7ccb/design-28.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/03b1bdec2eb590e41570fca57a5c7ccb/design-28.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4baa67af4bf4907e2d3ff10af5771895/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4baa67af4bf4907e2d3ff10af5771895/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc74986e6ef0b9bd971d91f8ac92f382/support-compat-28.0.0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc74986e6ef0b9bd971d91f8ac92f382/support-compat-28.0.0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/aed816d3ff7f745d67dd49f937c01a64/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/aed816d3ff7f745d67dd49f937c01a64/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:11:5-34:19
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:43:5-129:19
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:43:5-129:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8842a1e254dedd4bff56442569d9c4a5/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8842a1e254dedd4bff56442569d9c4a5/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5b1d637b3490320173a3e569a62ad318/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5b1d637b3490320173a3e569a62ad318/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cda7e1024e89213825e15dd5587f33d5/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cda7e1024e89213825e15dd5587f33d5/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc2d57b20a80d454fef860a5fb14ed42/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc2d57b20a80d454fef860a5fb14ed42/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc74986e6ef0b9bd971d91f8ac92f382/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cda7e1024e89213825e15dd5587f33d5/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:15:9-41
 	android:icon
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:17:9-40
 	android:usesCleartextTraffic
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:41:18-53
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:43:18-53
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.zimperium.ziap_demo.ui.LoadingActivity
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:launchMode
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:19:13-48
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:19:13-48
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:18:19-53
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:18:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:20:13-23:29
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:22:27-74
 activity#com.zimperium.ziap_demo.ui.MainActivity
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:25:9-27:59
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:25:9-27:59
 	android:label
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:27:13-57
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:27:13-57
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:26:13-44
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:26:13-44
 activity#com.zimperium.ziap_demo.ui.ThreatActivity
-ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:28:9-33:20
+ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:28:9-33:20
 	android:label
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:30:13-67
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:30:13-67
 	android:theme
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:31:13-47
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml:29:13-46
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml:29:13-46
 uses-sdk
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:7:5-9:41
-MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:multidex:1.0.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a5323db2d090cbe93ee4e877716fdbb7/multidex-1.0.3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a5323db2d090cbe93ee4e877716fdbb7/multidex-1.0.3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/03b1bdec2eb590e41570fca57a5c7ccb/design-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/03b1bdec2eb590e41570fca57a5c7ccb/design-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16c0d3511ee07dc3353ddcef6107bb1d/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16c0d3511ee07dc3353ddcef6107bb1d/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4baa67af4bf4907e2d3ff10af5771895/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4baa67af4bf4907e2d3ff10af5771895/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ddf249ad67324a45054fc054a7ce262f/support-v4-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ddf249ad67324a45054fc054a7ce262f/support-v4-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d0e8d960ad7debfd0d7313edd5713dde/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d0e8d960ad7debfd0d7313edd5713dde/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/3340b2f94c256a0419563c0f75d7abdb/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/3340b2f94c256a0419563c0f75d7abdb/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4a9fa855ea1550735a7ef7eac22df96b/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4a9fa855ea1550735a7ef7eac22df96b/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/db2ec9fcb95caf61bc94e3caa3c023b8/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/db2ec9fcb95caf61bc94e3caa3c023b8/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/38147172d59703d114b499bcead0ad62/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/38147172d59703d114b499bcead0ad62/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/05024d304b8a102327998c340a0ac29b/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/05024d304b8a102327998c340a0ac29b/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b429e5e397a5a35645464f1b66627ddb/transition-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b429e5e397a5a35645464f1b66627ddb/transition-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0b1efb1cc767c95d2faff9ae5f26c183/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0b1efb1cc767c95d2faff9ae5f26c183/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/c80e4bc6804e938c0d65afe28f6076ea/loader-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/c80e4bc6804e938c0d65afe28f6076ea/loader-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/05aae7e87347240618ad87fa4f203208/viewpager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/05aae7e87347240618ad87fa4f203208/viewpager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/93f09922de5d69ccaba45831da564cc0/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/93f09922de5d69ccaba45831da564cc0/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0142b26d8ef0babcb88b60334482c60d/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0142b26d8ef0babcb88b60334482c60d/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9b0e27a0e30771b1a080f7b8c84e24f9/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9b0e27a0e30771b1a080f7b8c84e24f9/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ad31b466ed98b10b3fd8e331800935f6/customview-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ad31b466ed98b10b3fd8e331800935f6/customview-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9dabfe873db9845f1e10dab3176abc97/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9dabfe873db9845f1e10dab3176abc97/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a85b188e7f2bbb7c19b0cb67c29f1c0b/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a85b188e7f2bbb7c19b0cb67c29f1c0b/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc74986e6ef0b9bd971d91f8ac92f382/support-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc74986e6ef0b9bd971d91f8ac92f382/support-compat-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/aed816d3ff7f745d67dd49f937c01a64/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/aed816d3ff7f745d67dd49f937c01a64/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9c43ec1ae0d01631f4a62e9eb6343dad/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/9c43ec1ae0d01631f4a62e9eb6343dad/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a401a906fc3ba68977afd3706050a154/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a401a906fc3ba68977afd3706050a154/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a724c50596784bafb99b9b71373ff3ba/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a724c50596784bafb99b9b71373ff3ba/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/2199fa2d59f320ffdda7272b83e7e4b1/documentfile-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/2199fa2d59f320ffdda7272b83e7e4b1/documentfile-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16cddc1313f21707f84cdd2825462355/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16cddc1313f21707f84cdd2825462355/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b8b52ea3b351ada10a4b7fe4b11ef67e/print-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b8b52ea3b351ada10a4b7fe4b11ef67e/print-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/43a795f8ea9a29c5dd700dc5feb80044/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/43a795f8ea9a29c5dd700dc5feb80044/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a0a48cfccec7a07ecc80dec52c0c527b/interpolator-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a0a48cfccec7a07ecc80dec52c0c527b/interpolator-28.0.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/f9dab624bebf869b7203a0d04b523155/livedata-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/f9dab624bebf869b7203a0d04b523155/livedata-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ded0b06db8901f9940de661520a78df6/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ded0b06db8901f9940de661520a78df6/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cbe35c9de832a0a8dc63bcb3fe057e49/runtime-1.1.1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cbe35c9de832a0a8dc63bcb3fe057e49/runtime-1.1.1/AndroidManifest.xml:20:5-44
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zimperium.zprotect:zprotect:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a3624ab310a46344c73fa818fb509229/jetified-zprotect/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zimperium.zprotect:zprotect:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/a3624ab310a46344c73fa818fb509229/jetified-zprotect/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0293bf34c36b68aa7602d30166a92899/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0293bf34c36b68aa7602d30166a92899/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.material:material:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8842a1e254dedd4bff56442569d9c4a5/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8842a1e254dedd4bff56442569d9c4a5/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d87444f3a8d07e4f717a9d8cb90e325e/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d87444f3a8d07e4f717a9d8cb90e325e/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e555c0545c946019a2e515376ad1c3ee/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e555c0545c946019a2e515376ad1c3ee/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/10f31f99a4f82f8bbba4ac32681b52e8/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/10f31f99a4f82f8bbba4ac32681b52e8/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5b1d637b3490320173a3e569a62ad318/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5b1d637b3490320173a3e569a62ad318/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/3ebf512bcbfbe50a34cc869ab04a0ef8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/3ebf512bcbfbe50a34cc869ab04a0ef8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/196cd393dbcc0ec90feb3b930f9b73f8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/196cd393dbcc0ec90feb3b930f9b73f8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/f8f466d1841102a254c8e86032c32b09/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/f8f466d1841102a254c8e86032c32b09/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/43a4f7126a271939c5dc916c32b8d86f/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/43a4f7126a271939c5dc916c32b8d86f/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d0bd340a7d17bcb77c8d3eb4ad63f76f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d0bd340a7d17bcb77c8d3eb4ad63f76f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/151e1d58b48042bf5c578d7612987801/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/151e1d58b48042bf5c578d7612987801/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/962b3cc351e61eeaa6ce456110da0eed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/962b3cc351e61eeaa6ce456110da0eed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ff9484ca050666dd29827c4ae8723f46/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/ff9484ca050666dd29827c4ae8723f46/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/73ea7d646ce0f3996bdc44f406a2944a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/73ea7d646ce0f3996bdc44f406a2944a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cebe49c57dfa67127b7270929392feb9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cebe49c57dfa67127b7270929392feb9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/6c4f7c9ff5fd1c92725a770638aa34ba/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/6c4f7c9ff5fd1c92725a770638aa34ba/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b74c4ef2fdfaf4758590520bd837fd11/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/b74c4ef2fdfaf4758590520bd837fd11/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/724b5c75fd8d4ce59fa4fd4d8d305b41/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/724b5c75fd8d4ce59fa4fd4d8d305b41/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/34fa9b294128883db56ebf093dcdd121/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/34fa9b294128883db56ebf093dcdd121/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5edaf240effdd9677e787dcfa75301cd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/5edaf240effdd9677e787dcfa75301cd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/72384c20d272225cf4e267df03046ea8/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/72384c20d272225cf4e267df03046ea8/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d690c3153a8b5c2a635c32f2853d5bde/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/d690c3153a8b5c2a635c32f2853d5bde/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/35d5adf5273f751efca88e87667ae7a6/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/35d5adf5273f751efca88e87667ae7a6/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e73c5843de583c277fabbd1bc09b18a8/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e73c5843de583c277fabbd1bc09b18a8/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/962f253e3c860ad057d3d89bb7a91f6f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/962f253e3c860ad057d3d89bb7a91f6f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cda7e1024e89213825e15dd5587f33d5/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/cda7e1024e89213825e15dd5587f33d5/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bbb57e8c22069d3140c03955fbb69f35/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bbb57e8c22069d3140c03955fbb69f35/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4dce3b0a614ba29d6ffb2b4ee9dc053f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/4dce3b0a614ba29d6ffb2b4ee9dc053f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/c6e48958f8e7cd8f4d6383ee4e4701ba/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/c6e48958f8e7cd8f4d6383ee4e4701ba/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/19f0cece33b106a983bb6c306d7a6e49/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/19f0cece33b106a983bb6c306d7a6e49/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc2d57b20a80d454fef860a5fb14ed42/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/bc2d57b20a80d454fef860a5fb14ed42/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0d9a9ea7971be37571a8d8a95a6f26c1/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0d9a9ea7971be37571a8d8a95a6f26c1/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/391a25564e51c8b80b03681d89407514/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/391a25564e51c8b80b03681d89407514/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/63b996368c7f5992fe3b17fa3cbb0d84/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/63b996368c7f5992fe3b17fa3cbb0d84/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/47856aacf9a5dcc6eaeb4d11e90b0767/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/47856aacf9a5dcc6eaeb4d11e90b0767/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0106f4479779edb77d0fb6bcc721c44f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/0106f4479779edb77d0fb6bcc721c44f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/7ddb9e8523d9aeb463d3879e1581f707/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/7ddb9e8523d9aeb463d3879e1581f707/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:14:5-67
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:14:5-67
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:14:22-64
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:14:22-64
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:15:5-77
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:15:5-77
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:15:22-74
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:15:22-74
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:17:5-79
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:17:22-76
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:17:22-76
 uses-permission#android.permission.BLUETOOTH
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:20:5-68
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:20:5-68
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:20:22-65
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:20:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:21:5-74
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:21:5-74
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:21:22-71
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:21:22-71
 uses-permission#android.permission.AID_READPROC
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:22:5-71
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:22:5-71
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:22:22-68
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:22:22-68
 permission#${applicationId}.supportlibclient.SUPPORT_PERMISSION
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:25:5-28:47
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:25:5-28:47
 	android:label
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:27:9-48
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:27:9-48
 	android:protectionLevel
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:28:9-44
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:28:9-44
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:26:9-76
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:26:9-76
 permission#com.zimperium.ziap_demo.supportlibclient.SUPPORT_PERMISSION
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:25:5-28:47
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:25:5-28:47
 	android:label
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:27:9-48
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:27:9-48
 	android:protectionLevel
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:28:9-44
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:28:9-44
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:26:9-76
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:26:9-76
 uses-permission#com.zimperium.supportlibclient.SUPPORT_PERMISSION
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:30:5-89
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:30:5-89
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:30:22-86
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:30:22-86
 uses-permission#com.samsung.android.knox.permission.KNOX_HW_CONTROL
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:31:5-91
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:31:5-91
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:31:22-88
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:31:22-88
 uses-permission#com.samsung.android.knox.permission.KNOX_APP_MGMT
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:32:5-89
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:32:5-89
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:32:22-86
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:32:22-86
 uses-permission#com.samsung.android.knox.permission.KNOX_BLUETOOTH
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:33:5-90
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:33:5-90
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:33:22-87
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:33:22-87
 uses-permission#com.samsung.android.knox.permission.KNOX_CERTIFICATE
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:34:5-92
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:34:5-92
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:34:22-89
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:34:22-89
 uses-permission#com.samsung.android.knox.permission.KNOX_FIREWALL
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:35:5-89
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:35:5-89
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:35:22-86
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:35:22-86
 uses-permission#com.samsung.android.knox.permission.KNOX_PHONE_RESTRICTION
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:36:5-98
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:36:5-98
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:36:22-95
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:36:22-95
 uses-permission#com.samsung.android.knox.permission.KNOX_RESTRICTION_MGMT
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:37:5-97
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:37:5-97
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:37:22-94
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:37:22-94
 uses-permission#com.samsung.android.knox.permission.KNOX_SECURITY
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:38:5-89
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:38:5-89
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:38:22-86
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:38:22-86
 uses-permission#com.samsung.android.knox.permission.KNOX_WIFI
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:39:5-85
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:39:5-85
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:39:22-82
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:39:22-82
+uses-permission#com.samsung.android.knox.permission.KNOX_MOBILE_THREAT_DEFENSE
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:40:5-102
+	android:name
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:40:22-99
+uses-permission#com.samsung.android.knox.permission.KNOX_NPA
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:41:5-84
+	android:name
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:41:22-81
 activity#com.zimperium.zdetection.service.ZPermissionCheckActivity
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:42:9-45:59
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:44:9-47:59
 	android:launchMode
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:44:13-48
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:46:13-48
 	android:theme
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:45:13-56
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:47:13-56
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:43:13-85
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:45:13-85
 provider#com.zimperium.zdetection.db.contentprovider.ZDetectionProvider
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:47:9-50:40
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:49:9-52:40
 	android:authorities
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:49:13-71
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:51:13-71
 	android:exported
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:50:13-37
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:48:13-90
-service#com.zimperium.zdetection.service.ZVpnService
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:52:9-60:19
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:50:13-90
+service#com.zimperium.zdetection.service.DetectionService
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:54:9-56:38
 	android:enabled
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:54:13-35
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:56:13-35
+	android:name
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:55:13-77
+service#com.zimperium.zdetection.service.ZVpnService
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:57:9-65:19
+	android:enabled
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:59:13-35
 	android:exported
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:55:13-36
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:60:13-36
 	android:permission
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:56:13-69
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:61:13-69
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:53:13-72
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:58:13-72
 intent-filter#action:name:android.net.VpnService
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:57:13-59:29
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:62:13-64:29
 action#android.net.VpnService
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:58:17-65
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:63:17-65
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:58:25-62
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:63:25-62
+service#com.zimperium.zips.NPAService
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:66:9-73:19
+	android:enabled
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:68:13-35
+	android:exported
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:69:13-36
+	android:name
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:67:13-57
+intent-filter#action:name:com.zimperium.zips_namonitoraction
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:70:13-72:29
+action#com.zimperium.zips_namonitoraction
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:71:25-74
+receiver#com.zimperium.zdetection.knox.KnoxLicenseReceiver
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:76:9-82:20
+	android:enabled
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:78:13-35
+	android:name
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:77:13-77
+intent-filter#action:name:edm.intent.action.license.status
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:79:13-81:29
+action#edm.intent.action.license.status
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:80:17-75
+	android:name
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:80:25-72
 meta-data#android.content.APP_RESTRICTIONS
-ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:63:9-65:56
+ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:85:9-87:56
 	android:resource
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:65:13-53
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:87:13-53
 	android:name
-		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/8c01f5873952d6e63f7c121e74939efc/zdetection/AndroidManifest.xml:64:13-60
+		ADDED from [com.zimperium.zdetection:zdetection:1.0] /Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/24543a9df26ac9d631fe66e7bc6ccafe/jetified-zdetection/AndroidManifest.xml:86:13-60

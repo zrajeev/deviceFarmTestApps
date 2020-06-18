@@ -110,9 +110,11 @@
     <string name="app_ooc_onedrive">访问OneDrive内容</string>
     <string name="app_ooc_onedrive_write">更新OneDrive内容</string>
     <string name="app_ooc_overlay">使用其他应用覆盖应用窗口</string>
+    <string name="app_ooc_privacy_user_interact">录制用户在此应用中互动的屏幕截图</string>
     <string name="app_ooc_record_audio">录制音频内容</string>
     <string name="app_ooc_record_screenshots">记录用户在应用内互动的截图</string>
     <string name="app_ooc_record_video">录制视频</string>
+    <string name="app_ooc_risky_app">包含隐私和/或安全风险</string>
     <string name="app_ooc_runtime_unencrtyped_conns">使用未加密的连接（为http而非https）</string>
     <string name="app_ooc_salesforce">访问Salesforce内容</string>
     <string name="app_ooc_screenshot">访问截图</string>

@@ -105,9 +105,11 @@
     <string name="app_ooc_onedrive">גישה לתוכן OneDrive</string>
     <string name="app_ooc_onedrive_write">עדכון תוכן OneDrive</string>
     <string name="app_ooc_overlay">תצוגת אפליקציה אחרת מעל לחלון האפליקציה</string>
+    <string name="app_ooc_privacy_user_interact">מקליטה צילומי מסך של פעילות המשתמש באפליקציה</string>
     <string name="app_ooc_record_audio">הקלטת תוכן אודיו</string>
     <string name="app_ooc_record_screenshots">צילומי מסך עדכניים של האינטראקציות של המשתמש באפליקציה</string>
     <string name="app_ooc_record_video">הקלטת וידאו</string>
+    <string name="app_ooc_risky_app">מכילה סיכוני אבטחה ו/או פרטיות</string>
     <string name="app_ooc_runtime_unencrtyped_conns">שימוש בחיבורים לא מוצפנים (http ולא https)</string>
     <string name="app_ooc_salesforce">גישה לתוכן Salesforce</string>
     <string name="app_ooc_screenshot">גישה לצילומי מסך</string>
@@ -138,7 +140,7 @@
     <string name="detail_abnormal_process_activity"><![CDATA[[host_app_name] זיהתה פעילות מערכת חריגה במכשירכם.<br/><br/>
 למרות שפעילויות כאלו לא נחשבות כזדוניות, הן מהוות אינדיקטורים מרכזיים להתקפות אפשריות. [host_app_name] תמשיך לעקוב אחר המכשיר שלכם ותשלח לכם התראה במקרה של התפתחות איום.<br/>אנו ממליצים לכם לנקוט בפעולות הבאות:<br/>
 1. נתקו את המכשיר מכל מחשב/מטען שהוא מחובר אליו<br/>
-2. השביתו את \'מצב מפתחים\' שבתפריט ההגדרות<br/><br/>]]></string>
+2. השביתו את מצב מפתחים שבתפריט ההגדרות<br/><br/>]]></string>
     <string name="detail_access_blocked_domain"><![CDATA[[host_app_name] זיהתה גישה לדומיין חסום.  <br/><br>[blocked_domain] ]]></string>
     <string name="detail_access_point_change">[host_app_name] זיהתה שהמכשיר שלכם מחובר כעת לנקודת גישה חדשה שממוקמת באותה רשת.</string>
     <string name="detail_accessibility_app_enabled">שירותי הנגישות מופעלים עבור [app_name]. השראתם מופעלים עלולה לחשוף את המכשיר לסכנה. אם האפשרות הזו לא נדרשת, השבת אותה מתפריט ההגדרות.</string>
@@ -194,7 +196,7 @@
     <string name="detail_kernel_anomaly"><![CDATA[[host_app_name] זיהתה פעילות מערכת חמורה, אחת או יותר, במכשיר שלכם.<br/><br/>
 פעילויות חריגות כאלו עלולות לנבוע כתוצאה מניסיון לנצל נקודת תורפה במערכת (exploit), ומהוות אינדיקטורים מרכזיים להתקפות אפשריות. [host_app_name] תמשיך לעקוב אחר המכשיר שלכם ותשלח לכם התראה במקרה של התפתחות איום.<br/>אנו ממליצים לכם לבצע את הפעולות הבאות:<br/>
 1. נתקו את המכשיר מכל מחשב/מטען שהוא מחובר אליו<br/>
-2. השביתו את \'מצב מפתחים\' שבתפריט ההגדרות<br/><br/>]]></string>
+2. השביתו את מצב מפתחים שבתפריט ההגדרות<br/><br/>]]></string>
     <string name="detail_malicious_app"><![CDATA[[host_app_name] זיהתה את [app_name] כאפליקציה חשודה.<br/><br/>
 מומלץ להסיר את האפליקציה באופן מיידי.<br/><br/>
 בעתיד, אנו ממליצים שתורידו ותתקינו אפליקציות מוכרות מחנויות אפליקציות מהימנות.

@@ -1,32 +1,361 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Điều hướng về trang chủ"</string>
-    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Điều hướng lên trên"</string>
-    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
-    <string msgid="4076576682505996667" name="abc_action_mode_done">"Xong"</string>
-    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
-    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
-    <string msgid="121134116657445385" name="abc_capital_off">"TẮT"</string>
-    <string msgid="3405795526292276155" name="abc_capital_on">"BẬT"</string>
-    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
-    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
-    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
-    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
-    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
-    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
-    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
-    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"phím cách"</string>
-    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
-    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
-    <string msgid="7723749260725869598" name="abc_search_hint">"Tìm kiếm…"</string>
-    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
-    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Tìm kiếm truy vấn"</string>
-    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Tìm kiếm"</string>
-    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
-    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
-    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
-    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
-    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Thu gọn"</string>
-    <string msgid="146198913615257606" name="search_menu_title">"Tìm kiếm"</string>
-    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string-array name="dangerzone_modes">
+        <item>@string/dz_normal_mode</item>
+        <item>@string/dz_high_mode</item>
+        <item>@string/dz_paranoid_mode</item>
+    </string-array>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"TẮT"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"BẬT"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="abnormal_process_activity">Bất thường trong Hệ Điều Hành</string>
+    <string name="access_blocked_domain">Truy cập Tên miền đã bị Chặn</string>
+    <string name="access_point_change">Chuyển tiếp Mạng</string>
+    <string name="accessibility_app_enabled">Dịch vụ Hỗ trợ Tiếp cận được bật</string>
+    <string name="adb_verify_disabled">Ứng dụng ADB chưa được xác minh</string>
+    <string name="alert_abnormal_process_activity">[host_app_name] đã phát hiện hoạt động bất thường trên thiết bị của bạn. [host_app_name] đang giám sát nguy cơ bị tấn công.</string>
+    <string name="alert_access_blocked_domain">[host_app_name] đã phát hiện việc truy cập một tên miền đã bị chặn. [blocked_domain]</string>
+    <string name="alert_access_point_change">[host_app_name] đã phát hiện một tác vụ chuyển tiếp router không dây từ một điểm truy cập đến một điểm khác trong cùng một mạng lưới.</string>
+    <string name="alert_accessibility_app_enabled">[host_app_name] đã phát hiện rằng [app_name] có bật Dịch vụ Hỗ trợ Tiếp cận.</string>
+    <string name="alert_adb_verify_disabled">Các ứng dụng cài đặt qua ADB không được xác minh. Việc này có thể cho phép các ứng dụng độc hại được cài đặt trên thiết bị của bạn.</string>
+    <string name="alert_always_on_vpn_app_set">Một ứng dụng đã được cấu hình là VPN luôn bật trên thiết bị này. Ứng dụng này có thể giám sát tất cả giao tiếp trên thiết bị với Internet.</string>
+    <string name="alert_android_compatibility">Hồ sơ của thiết bị Android này không khớp với hồ sơ của bất kỳ thiết bị nào đã vượt qua kiểm tra tương thích Android của Google. Thiết bị này có thể chứa các lỗi bảo mật chưa được Google thử nghiệm.</string>
+    <string name="alert_android_integrity">Thiết bị Android này có thể đã bị can thiệp. Thiết bị này không được Google chứng nhận, và có thể đã bị xâm phạm bảo mật bổ sung, ví dụ như thiết bị đã được root.</string>
+    <string name="alert_android_not_updated">[host_app_name] đã phát hiện phiên bản Android ([os_version]) được cài đặt trên thiết bị của bạn không phải là mới nhất. Hệ điều hành lỗi thời này có các lỗ hổng bảo mật và khiến thiết bị dễ bị khai thác bởi các tác nhân độc hại. Bạn nên cập nhật hệ điều hành cho thiết bị của mình ngay lập tức.</string>
+    <string name="alert_android_not_updated_unupgradable">[host_app_name] đã phát hiện phiên bản Android ([os_version]) được cài đặt trên thiết bị của bạn không phải là mới nhất. Hệ điều hành lỗi thời này có các lỗ hổng bảo mật và khiến thiết bị dễ bị khai thác bởi các tác nhân độc hại, tuy nhiên, thiết bị của bạn hiện không đủ điều kiện để nâng cấp hệ điều hành.</string>
+    <string name="alert_blueborne"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị này có lỗ hổng bảo mật BlueBorne, một cuộc tấn công thông qua kết nối Bluetooth để xâm nhập và chiếm quyền kiểm soát thiết bị mục tiêu. Để tránh mọi rủi ro với BlueBorne, chúng tôi đặc biệt khuyến nghị: <br/><br/>
+ 1. Trong Cài đặt Hệ thống, tắt vĩnh viễn Bluetooth cho đến khi có một bản cập nhật từ nhà sản xuất thiết bị hoặc nhà cung cấp mạng không dây của bạn. <br/>
+ 2. Nếu bạn cần kết nối bluetooth, hãy tắt Bluetooth cho đến khi cần sử dụng và chỉ trong một khu vực an toàn và được tin cậy.]]></string>
+    <string name="alert_captive_portal">[host_app_name] đã phát hiện rằng thiết bị này được kết nối với một mạng có Cổng Thông tin Trung gian tên là [wifi_ssid].</string>
+    <string name="alert_daemon_anomaly">[host_app_name] đã phát hiện hoạt động bất thường trên thiết bị của bạn. [host_app_name] đang giám sát nguy cơ có thể bị tấn công.</string>
+    <string name="alert_dangerzone_connected">[host_app_name] đã phát hiện bạn đang kết nối với điểm truy cập wifi có rủi ro cao [wifi_ssid]. Điểm truy cập mạng không dây có rủi ro cao này có thể được sử dụng để giám sát các giao dịch giữa thiết bị và mạng Internet, đánh cắp thông tin nhạy cảm, và/hoặc sửa đổi cài đặt thiết bị.</string>
+    <string name="alert_dangerzone_nearby">[host_app_name] đã phát hiện các mạng gần đây có rủi ro cao : [nearby_ssids]. Những mạng rủi ro cao này có thể được sử dụng để giám sát các giao dịch giữa thiết bị và mạng Internet, đánh cắp thông tin nhạy cảm, và/hoặc sửa đổi cài đặt thiết bị.</string>
+    <string name="alert_developer_mode">[host_app_name] đã phát hiện việc kích hoạt chế độ nhà phát triển. Tính năng này có thể được sử dụng để truy cập dữ liệu bổ sung trên thiết bị của bạn và Tính năng này nên được tắt trừ khi cần thiết.</string>
+    <string name="alert_developer_mode_on">Chế độ Nhà Phát triển đang được bật. Tùy chọn này chỉ nhằm mục đích cho nhà phát triển và nếu nó vẫn được bật, có thể khiến thiết bị của bạn gặp rủi ro. Nếu không cần thiết, hãy tắt tùy chọn này qua menu Cài đặt.</string>
+    <string name="alert_device_admin_enabled">[host_app_name] đã phát hiện [app_name] có bật Quyền Quản trị Thiết bị.</string>
+    <string name="alert_dns_change">[host_app_name] đã phát hiện một thay đổi đến cấu hình mạng DNS.</string>
+    <string name="alert_encryption_not_enabled">[host_app_name] đã phát hiện rằng thiết bị của bạn không được thiết lập để sử dụng mã hóa thiết bị. Nếu không bật mã hóa thiết bị, dữ liệu nhạy cảm trên thiết bị có thể bị kẻ tấn công khai thác nếu thiết bị của bạn bị đánh cắp hay xâm phạm bảo mật. Bạn nên bật mã hóa thiết bị trong thời gian sớm nhất có thể.</string>
+    <string name="alert_eop">[host_app_name] đã phát hiện một nỗ lực tấn công thiết bị của bạn. Thiết bị này hiện được coi là đã bị xâm phạm bảo mật.</string>
+    <string name="alert_fake_ssl">[host_app_name] đã phát hiện một vụ tấn công mạng. Giao tiếp bảo mật giữa thiết bị của bạn và mạng tên [wifi_ssid] đã bị xâm phạm và có thể bị giám sát và sửa đổi bởi một bên trái phép.</string>
+    <string name="alert_file_system_changed">[host_app_name] đã phát hiện một sửa đổi vĩnh viễn đối với hệ thống tập tin.</string>
+    <string name="alert_fingerprint_mismatch">[host_app_name] đã phát hiện một vụ tấn công lên thiết bị của bạn. Vụ tấn công này cho thấy thiết bị đã bị xâm phạm bảo mật và không thể được tin cậy.</string>
+    <string name="alert_gateway_changed">[host_app_name] đã phát hiện một thay đổi về cấu hình địa chỉ gateway. Điều này có thể là chỉ báo về nỗ lực đánh cắp lưu thông của một kẻ tấn công.</string>
+    <string name="alert_internal_network_access">[app_name] bị phát hiện là kết nối với các máy chủ riêng tư, nội bộ. Việc các ứng dụng công khai kết nối với các máy chủ nội bộ là bất thường. Ứng dụng công khai kết nối với máy chủ nội bộ được coi là một hành vi khả nghi và nên được điều tra ngay lập tức để phát hiện nguy cơ có phần mềm độc hại trên thiết bị và rủi ro rò rỉ dữ liệu.</string>
+    <string name="alert_jailbroken">[host_app_name] phát hiện rằng thiết bị này đã được root. Điều này có thể tắt các chức năng bảo mật cốt lõi của thiết bị và không được khuyến nghị.</string>
+    <string name="alert_kernel_anomaly">[host_app_name] đã phát hiện hoạt động bất thường trên thiết bị của bạn. [host_app_name] đang giám sát nguy cơ bị tấn công.</string>
+    <string name="alert_malicious_app">[host_app_name] đã phát hiện ứng dụng khả nghi tên là [app_name] trên thiết bị của bạn.</string>
+    <string name="alert_malicious_app_downloaded">[host_app_name] đã phát hiện ứng dụng khả nghi với tên [app_name] được tải về thiết bị.</string>
+    <string name="alert_malicious_website">[host_app_name] đã phát hiện một đường dẫn URL có khả năng độc hại ([malicious_url]) có thể đã bị khai thác. Người dùng đã được cảnh báo về mối nguy hiểm tiềm năng khi truy cập website được liên kết.></string>
+    <string name="alert_malicious_website_opened">[host_app_name] đã phát hiện một đường dẫn URL có khả năng độc hại  ([malicious_url]) đã bị khai thác và truy cập sau khi có cảnh báo. Website này có thể cố đánh cắp thông tin cá nhân của bạn.></string>
+    <string name="alert_mitm">[host_app_name] đã phát hiện một vụ tấn công mạng. Giao tiếp giữa thiết bị của bạn và mạng tên [wifi_ssid] đã bị xâm phạm và có thể bị giám sát và sửa đổi bởi một bên trái phép.</string>
+    <string name="alert_network_handoff">[host_app_name] đã phát hiện một tác vụ chuyển tiếp mạng. Tác vụ này có thể cho phép tấn công mạng.</string>
+    <string name="alert_ota_update_disabled">Cập nhật qua sóng (OTA) đã bị tắt trên thiết bị này. Cập nhật OTA giúp đảm bảo phần mềm của thiết bị luôn cập nhật và bảo mật hơn. Cập nhật OTA nên được bật lại trong cài đặt.</string>
+    <string name="alert_out_of_compliance_app">Ứng dụng [app_name] đã bị đánh dấu là không tuân thủ với chính sách doanh nghiệp của bạn. Vui lòng gỡ bỏ nó khỏi thiết bị của bạn.</string>
+    <string name="alert_passcode_not_enabled">[host_app_name] đã phát hiện rằng thiết bị của bạn không được thiết lập để sử dụng một mã PIN, Mật khẩu hoặc Mẫu hình để khóa thiết bị của bạn. Nếu không sử dụng một mã PIN, Mật khẩu hoặc Mẫu hình để khóa thiết bị, dữ liệu nhạy cảm trên thiết bị có thể bị kẻ tấn công khai thác nếu thiết bị của bạn bị đánh cắp hay xâm phạm bảo mật. Bạn nên bật một mã PIN, Mật khẩu hoặc Mẫu hình như một biện pháp bảo mật tiêu chuẩn để bảo mật thiết bị của mình cũng như dữ liệu nhạy cảm trên thiết bị.</string>
+    <string name="alert_proxy_change">[host_app_name] đã phát hiện một thay đổi đến cấu hình proxy có thể chỉ báo việc gửi lưu thông của thiết bị đến một địa điểm ngoài dự kiến.</string>
+    <string name="alert_rogue_access_point">[host_app_name] đã phát hiện rằng thiết bị được kết nối với một mạng WiFi giả mạo tên là [wifi_ssid]. Việc kết nối với một điểm truy cập giả mạo sẽ khiến thiết bị của bạn có nguy cơ bị tấn công bởi một bên trái phép nhằm truy cập dữ liệu mạng và/hoặc thông tin tài khoản của bạn.</string>
+    <string name="alert_rogue_access_point_nearby">Một mối đe dọa tiềm năng về bảo mật của Wi-Fi  cho thiết bị di động của bạn đã được phát hiện từ một mạng Wi-Fi không bảo mật gần đây. Hãy tránh kết nối đến các mạng Wi-Fi không bảo mật này để ngăn dữ liệu bị đánh cắp hoặc sửa đổi.</string>
+    <string name="alert_scan">[host_app_name] đã phát hiện một thao tác quét mạng Wifi trên mạng wifi [wifi_ssid]. Không phát hiện cuộc tấn công nào đang diễn ra và bạn có thể tiếp tục sử dụng mạng này.</string>
+    <string name="alert_selinux_disabled">[host_app_name] đã phát hiện một sửa đổi đến các tính năng bảo mật của hệ điều hành (SELinux). SELinux là một tính năng bảo mật cốt lõi của hệ điều hành và nhằm kiểm soát quyền truy cập nội bộ cũng như giúp duy trì tính toàn vẹn của hệ điều hành.</string>
+    <string name="alert_sideloaded_app">[host_app_name] đã phát hiện một ứng dụng chưa được kiểm duyệt trên thiết bị này tên là [sideloaded_app].</string>
+    <string name="alert_stagefright_vulnerable">Thiết bị này dễ bị tấn công Stagefright. Cập nhật hệ điều hành của bạn ngay khi có bản cập nhật.</string>
+    <string name="alert_suspicious_network_connection">[host_app_name] đã phát hiện kết nối mạng bất thường trên thiết bị của bạn. [host_app_name] đang giám sát nguy cơ bị tấn công.</string>
+    <string name="alert_suspicious_root_process">[host_app_name] đã phát hiện một tiến trình chạy với quyền root trên thiết bị của bạn. [host_app_name] đang giám sát nguy cơ bị tấn công.</string>
+    <string name="alert_system_tampering">[host_app_name] đã phát hiện một vụ tấn công lên thiết bị của bạn. Vụ tấn công này cho thấy thiết bị đã bị xâm phạm bảo mật và không thể được tin cậy.</string>
+    <string name="alert_unknown_sources">[host_app_name] đã phát hiện rằng chế độ tải về ứng dụng bên ngoài Google Playstore đang được bật.</string>
+    <string name="alert_unsecured_wifi_network">Mạng [wifi_ssid] là không an toàn. Ngắt kết nối ngay. Nhấn để biết thêm thông tin.</string>
+    <string name="alert_usb_debugging_on">Tuỳ chọn gỡ lỗi USB được bật. Tùy chọn này chỉ nhằm mục đích cho nhà phát triển và nếu vẫn bật, có thể khiến thiết bị của bạn bị rủi ro. Nếu không cần thiết, hãy tắt tùy chọn này qua menu Cài đặt.</string>
+    <string name="alert_verify_apps_disabled">Google Play Protect đã bị tắt trên thiết bị này. Google Play Protect giúp bảo vệ thiết bị khỏi các ứng dụng độc hại và nên được bật lại trong cài đặt.</string>
+    <string name="alert_zips_not_running_on_container">[host_app_name] không được kích hoạt trên cả hai hồ sơ cá nhân và công việc của thiết bị này. Cài đặt và kích hoạt ứng dụng trong cả hai vị trí để đảm bảo thiết bị được bảo vệ toàn diện.</string>
+    <string name="alert_zips_tls_downgrade">[host_app_name] đã phát hiện một tình trạng hạ cấp mã hóa cho mạng của bạn (SSL/TLS). Giao tiếp của bạn có thể bị giám sát và/hoặc sửa đổi bởi một bên trái phép.</string>
+    <string name="always_on_vpn_app_set">Ứng dụng VPN Luôn Bật được Thiết lập</string>
+    <string name="android_compatibility">Độ tương thích chưa được Google thử nghiệm</string>
+    <string name="android_integrity">Có thể bị Can thiệp</string>
+    <string name="app_name">zIAP</string>
+    <string name="app_ooc_aws">Truy cập ổ lưu trữ Amazon AWS</string>
+    <string name="app_ooc_aws_write">Cập nhật ổ lưu trữ Amazon AWS</string>
+    <string name="app_ooc_box">Truy cập ổ lưu trữ Box</string>
+    <string name="app_ooc_box_write">Cập nhật ổ lưu trữ Box</string>
+    <string name="app_ooc_call_history">Truy cập lịch sử cuộc gọi</string>
+    <string name="app_ooc_call_privileged">Cho phép gọi mà không cần trình quay số</string>
+    <string name="app_ooc_camera">Truy cập camera</string>
+    <string name="app_ooc_camera_read">Truy cập hồ sơ camera</string>
+    <string name="app_ooc_camera_write">Cập nhật hồ sơ camera</string>
+    <string name="app_ooc_clipboard_read">Truy cập nội dung trong bộ nhớ đệm</string>
+    <string name="app_ooc_clipboard_write">Cập nhật nội dung trong bộ nhớ đệm</string>
+    <string name="app_ooc_connections_unecrypted">Sử dụng các kết nối mạng không mã hóa</string>
+    <string name="app_ooc_dropbox">Truy cập nội dung Dropbox</string>
+    <string name="app_ooc_dropbox_write">Cập nhật ổ lưu trữ Dropbox</string>
+    <string name="app_ooc_email_compose">Soạn một email</string>
+    <string name="app_ooc_email_read">Truy cập email</string>
+    <string name="app_ooc_email_send">Gửi một email</string>
+    <string name="app_ooc_endpoints_reputation">Truy cập phần mềm độc hại/website lừa đảo</string>
+    <string name="app_ooc_endpoints_sensitive_data">Truy cập các website gửi dữ liệu nhạy cảm</string>
+    <string name="app_ooc_external_servers">Truy cập máy chủ bên ngoài</string>
+    <string name="app_ooc_facebook">Truy cập nội dung Facebook</string>
+    <string name="app_ooc_facebook_write">Cập nhật nội dung Facebook</string>
+    <string name="app_ooc_google_drive">Truy cập nội dung Google Drive</string>
+    <string name="app_ooc_google_drive_write">Cập nhật ổ lưu trữ Google Drive</string>
+    <string name="app_ooc_google_storage">Truy cập ổ lưu trữ Google</string>
+    <string name="app_ooc_google_storage_write">Cập nhật ổ lưu trữ Google</string>
+    <string name="app_ooc_imei">Truy cập số IMEI thiết bị</string>
+    <string name="app_ooc_instagram">Truy cập nội dung Instagram</string>
+    <string name="app_ooc_internal_ips">Truy cập địa chỉ mạng nội bộ</string>
+    <string name="app_ooc_linkedin">Truy cập nội dung LinkedIn</string>
+    <string name="app_ooc_local_device_read">Truy cập thông tin thiết bị cục bộ</string>
+    <string name="app_ooc_local_device_write">Cập nhật thông tin thiết bị cục bộ</string>
+    <string name="app_ooc_location_access">Truy cập thông tin vị trí chung</string>
+    <string name="app_ooc_location_fine">Truy cập thông tin vị trí chính xác</string>
+    <string name="app_ooc_malware">Bị coi là khả nghi hoặc phần mềm độc hại</string>
+    <string name="app_ooc_mic">Truy cập micrô</string>
+    <string name="app_ooc_notifications">Truy cập thông báo trên thiết bị</string>
+    <string name="app_ooc_office_365_write">Cập nhật nội dung Office 365</string>
+    <string name="app_ooc_onedrive">Truy cập nội dung OneDrive</string>
+    <string name="app_ooc_onedrive_write">Cập nhật nội dung OneDrive</string>
+    <string name="app_ooc_overlay">Dùng một ứng dụng phủ lên cửa sổ của ứng dụng khác</string>
+    <string name="app_ooc_privacy_user_interact">Chụp ảnh màn hình tương tác của người dùng trong ứng dụng</string>
+    <string name="app_ooc_record_audio">Ghi âm nội dung</string>
+    <string name="app_ooc_record_screenshots">Ghi lại ảnh chụp màn hình các tương tác của người dùng trong ứng dụng</string>
+    <string name="app_ooc_record_video">Quay video</string>
+    <string name="app_ooc_risky_app">Chứa các rủi ro về quyền riêng tư và/hoặc bảo mật</string>
+    <string name="app_ooc_runtime_unencrtyped_conns">Sử dụng kết nối không được mã hóa (http, không phải https)</string>
+    <string name="app_ooc_salesforce">Truy cập nội dung Salesforce</string>
+    <string name="app_ooc_screenshot">Truy cập ảnh chụp màn hình</string>
+    <string name="app_ooc_serial">Truy cập số sê-ri thiết bị</string>
+    <string name="app_ooc_sms_read">Truy cập tin nhắn văn bản SMS</string>
+    <string name="app_ooc_sms_send">Gửi tin nhắn văn bản SMS</string>
+    <string name="app_ooc_sms_write">Soạn tin nhắn văn bản SMS</string>
+    <string name="app_ooc_ssl_no_pinning">Bỏ qua việc kiểm tra tính xác thực của chứng nhận SSL</string>
+    <string name="app_ooc_ssl_problem">Vấn đề trong giao tiếp SSL</string>
+    <string name="app_ooc_ssl_self_signed">Tự ký chứng nhận SSL của riêng họ (không bảo mật)</string>
+    <string name="app_ooc_ssl_vuln_weakness">Có lỗ hổng bảo mật trong giao tiếp SSL</string>
+    <string name="app_ooc_twitter">Truy cập nội dung Twitter</string>
+    <string name="app_ooc_twitter_write">Cập nhật nội dung Twitter</string>
+    <string name="app_ooc_udid">Truy cập ID thiết bị riêng (UDID)</string>
+    <string name="app_ooc_voip">Thực hiện cuộc gọi sử dụng giao tiếp Giọng nói qua IP (VoIP)</string>
+    <string name="app_ooc_vpn">Kết nối qua Mạng Riêng Ảo (VPN)</string>
+    <string name="app_ooc_weibo">Truy cập nội dung Weibo</string>
+    <string name="app_ooc_weibo_write">Cập nhật nội dung Weibo</string>
+    <string name="app_restriction_mdm_device_id">ID de dispositivo MDM</string>
+    <string name="app_tampering">Can thiệp Ứng dụng</string>
+    <string name="arp_mitm">Tấn công Mạng</string>
+    <string name="arp_scan">Quét (WiFi)</string>
+    <string name="blueborne">Lỗ hổng Bảo mật BlueBorne</string>
+    <string name="captive_portal">Cổng Thông tin Trung gian</string>
+    <string name="daemon_anomaly">Bất thường trong Daemon</string>
+    <string name="dangerzone">Khu vực nguy hiểm</string>
+    <string name="dangerzone_connected">Đã kết nối khu vực nguy hiểm</string>
+    <string name="dangerzone_nearby">Khu vực nguy hiểm gần đây</string>
+    <string name="detail_abnormal_process_activity"><![CDATA[[host_app_name] đã phát hiện hoạt động bất thường của hệ thống trên thiết bị của bạn.<br/><br/>
+ Tuy các hoạt động này không bị coi là độc hại, chúng là chỉ báo chính cho nguy cơ bị tấn công. [host_app_name] sẽ tiếp tục giám sát thiết bị của bạn và cảnh báo cho bạn khi có một mối đe dọa nghiêm trọng.<br/>Chúng tôi khuyến nghị bạn thực hiện các hành động sau:<br/>
+ 1. Ngắt kết nối thiết bị khỏi mọi Máy tính / Bộ sạc đang được kết nối nào<br/>
+ 2. Tắt \'Chế độ Nhà Phát triển\' trong menu Cài đặt<br/><br/>]]></string>
+    <string name="detail_access_blocked_domain"><![CDATA[[host_app_name] đã phát hiện việc truy cập một tên miền đã bị chặn.
+  <br/><br>[blocked_domain] ]]></string>
+    <string name="detail_access_point_change">[host_app_name] đã phát hiện rằng thiết bị của bạn hiện được kết nối với một điểm truy cập mới nằm trong cùng một mạng .</string>
+    <string name="detail_accessibility_app_enabled"><![CDATA[Dịch vụ Hỗ trợ Tiếp cận được bật cho [app_name]. Nếu vẫn bật, việc này có thể khiến thiết bị của bạn bị rủi ro. Nếu không cần thiết, hãy tắt tùy chọn này qua menu Cài đặt.]]></string>
+    <string name="detail_adb_verify_disabled">Các ứng dụng cài đặt qua ADB không được xác minh. Việc này có thể cho phép các ứng dụng độc hại được cài đặt trên thiết bị.</string>
+    <string name="detail_always_on_vpn_app_set">Một ứng dụng đã được thiết lập là VPN luôn bật trên thiết bị này. Ứng dụng này có thể giám sát tất cả giao tiếp trên thiết bị với Internet.</string>
+    <string name="detail_android_compatibility">Hồ sơ của thiết bị Android này không khớp với hồ sơ của bất kỳ thiết bị nào đã vượt qua kiểm tra tương thích Android của Google. Thiết bị này có thể chứa các lỗi bảo mật chưa được Google thử nghiệm. Thử nghiệm tương thích giúp đảm bảo thiết bị được thiết kế và triển khai theo biện pháp thực hành tiên tiến nhất của Android. Thiết bị này có thể có một bootloader đã mở khóa, ROM tùy chỉnh (không root), hoặc nhà sản xuất có thể chưa đăng ký chứng nhận.</string>
+    <string name="detail_android_integrity">Thiết bị Android này có thể đã bị can thiệp. Thiết bị này không được Google chứng nhận, và có thể đã bị xâm phạm bảo mật bổ sung qua root hoặc API hooking. Thiết bị này cũng có thể là một thiết bị giả lập chứ không phải thiết bị thật.</string>
+    <string name="detail_blueborne"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị này có lỗ hổng bảo mật BlueBorne, một cuộc tấn công thông qua kết nối Bluetooth để xâm nhập và chiếm quyền kiểm soát thiết bị mục tiêu. Để tránh mọi rủi ro với BlueBorne, chúng tôi đặc biệt khuyến nghị người dùng tắt vĩnh viễn Bluetooth cho đến khi có một bản cập nhật từ nhà sản xuất thiết bị hoặc nhà cung cấp mạng không dây của bạn. Đối với những người dùng vẫn cần sử dụng Bluetooth, bạn nên tắt Bluetooth cho đến khi cần sử dụng và chỉ trong một khu vực an toàn và được tin cậy.]]></string>
+    <string name="detail_captive_portal"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị này được kết nối với một mạng có Cổng Thông tin Trung gian tên là [wifi_ssid]. Bạn nên kết nối với một VPN để bảo mật toàn bộ giao tiếp từ thiết bị của mình.]]></string>
+    <string name="detail_daemon_anomaly"><![CDATA[[host_app_name] đã phát hiện hoạt động  bất thường của hệ thống trên thiết bị của bạn.<br/><br/>
+ Tuy các hoạt động này không bị coi là độc hại, chúng là chỉ báo chính cho nguy cơ bị tấn công. [host_app_name] sẽ tiếp tục giám sát thiết bị của bạn và cảnh báo cho bạn khi có một mối đe dọa nghiêm trọng.
+ <br/>]]></string>
+    <string name="detail_dangerzone_connected"><![CDATA[[host_app_name] đã phát hiện bạn đang kết nối với điểm truy cập wifi có rủi ro cao [wifi_ssid]. Điểm truy cập mạng không dây có rủi ro cao này có thể được sử dụng để giám sát các giao dịch giữa thiết bị và mạng Internet, đánh cắp thông tin nhạy cảm, và/hoặc sửa đổi cài đặt thiết bị.]]></string>
+    <string name="detail_dangerzone_nearby"><![CDATA[[host_app_name] đã phát hiện các mạng gần đây có  rủi ro cao : [nearby_ssids]. Những mạng rủi ro cao này có thể được sử dụng để giám sát các giao dịch giữa thiết bị và mạng Internet, đánh cắp thông tin nhạy cảm, và/hoặc sửa đổi cài đặt thiết bị.]]></string>
+    <string name="detail_developer_mode_on"><![CDATA[Chế độ Nhà Phát triển đang được bật. Tùy chọn này chỉ nhằm mục đích cho nhà phát triển và nếu vẫn bật, có thể khiến thiết bị của bạn bị rủi ro. Nếu không cần thiết, hãy tắt tùy chọn này qua menu Cài đặt.]]></string>
+    <string name="detail_device_admin_enabled"><![CDATA[Quyền Quản trị Thiết bị được bật cho [app_name]. Nếu vẫn bật, việc này có thể khiến thiết bị của bạn bị rủi ro. Nếu không cần thiết, hãy tắt tùy chọn này qua menu Cài đặt.]]></string>
+    <string name="detail_dns_change"><![CDATA[[host_app_name] đã phát hiện các cài đặt DNS mới cho thiết bị của bạn.<br/>IP của máy chủ DNS mới là: [ip]]]></string>
+    <string name="detail_encryption_not_enabled">[host_app_name] đã phát hiện rằng thiết bị của bạn không được thiết lập để sử dụng mã hóa thiết bị. Nếu không bật mã hóa thiết bị, dữ liệu nhạy cảm trên thiết bị có thể bị kẻ tấn công khai thác nếu thiết bị của bạn bị đánh cắp hay xâm phạm bảo mật. Bạn nên bật mã hóa thiết bị trong thời gian sớm nhất có thể.</string>
+    <string name="detail_eop"><![CDATA[[host_app_name] đã phát hiện một hoặc nhiều hoạt động bất thường của hệ thống trên thiết bị của bạn.<br/>
+ Các hoạt động bất thường này có thể là kết quả của một nỗ lực khai thác và bạn cần có hành động ngay.<br/><br/>Bởi thiết bị của bạn có thể đã bị xâm phạm bảo mật, chúng tôi khuyên bạn làm những việc sau:<br/><br/>
+ * Sao lưu mọi dữ liệu nhạy cảm và khôi phục thiết bị của bạn về cài gốc<br/>
+ * Cập nhật firmware thiết bị lên phiên bản mới nhất cũng như bản cập nhật bảo mật mới nhất<br/>
+ * Chỉ cài đặt các ứng dụng đáng tin cậy<br/>
+ * Chỉ kết nối đến các website có uy tín<br/>
+ * Chỉ kết nối đến các mạng tin cậy<br/>
+ * Đảm bảo ứng dụng [host_app_name] mới nhất đang chạy trên thiết bị của bạn
+ ]]></string>
+    <string name="detail_fake_ssl"><![CDATA[[host_app_name] đã phát hiện rằng một kết nối bảo mật (https) đã bị chặn và giải mã sử dụng một chứng nhận SSL không hợp lệ.<br/>
+ Hành động này thường liên quan đến các vụ tấn công xen giữa (MITM) nhằm đánh cắp thông tin nhạy cảm. Để giảm thiểu nguy hiểm từ các cuộc tấn công này, chúng tôi khuyến nghị bạn làm như sau:<br/><br/>
+ * Nếu bạn không biết mạng đang được kết nối trên thiết bị của mình, hãy ngắt kết nối ngay lập tức.<br/>
+ * Đảm bảo bạn luôn kết nối với một điểm truy cập không dây an toàn.<br/>
+ * Không bao giờ gửi thông tin nhạy cảm hoặc riêng tư khi kết nối với một mạng công cộng.<br/>
+ * Nếu bạn kết nối đến một mạng công cộng, hãy kết nối với một VPN trước khi gửi đi thông tin nhạy cảm hoặc riêng tư.]]></string>
+    <string name="detail_file_system_changed">[host_app_name] đã phát hiện các thay đổi đến  tập tin hệ thống trên thiết bị của bạn.</string>
+    <string name="detail_fingerprint_mismatch"><![CDATA[[host_app_name] đã phát hiện một hoặc nhiều thay đổi hệ thống, cho thấy thiết bị của bạn đã bị xâm phạm bảo mật và không còn an toàn để sử dụng.<br/><br/>
+ Bởi thiết bị của bạn đã bị xâm phạm bảo mật, chúng tôi khuyến nghị bạn thực hiện các hành động sau:<br/><br/>
+ * Sao lưu mọi dữ liệu nhạy cảm và khôi phục thiết bị của bạn về cài đặt gốc<br/>
+ * Cập nhật firmware thiết bị lên phiên bản mới nhất cũng như bản cập nhật bảo mật mới nhất<br/>
+ * Chỉ cài đặt các ứng dụng được tin cậy<br/>
+ * Chỉ kết nối đến các website có uy tín<br/>
+ * Chỉ kết nối đến các mạng tin cậy<br/>
+ * Đảm bảo ứng dụng [host_app_name] mới nhất đang chạy trên thiết bị của bạn]]></string>
+    <string name="detail_gateway_changed">[host_app_name] đã phát hiện rằng thiết bị của bạn đã thu nhận một địa chỉ gateway mới. Địa chỉ gateway mới là: [ip]</string>
+    <string name="detail_internal_network_access">[app_name] bị phát hiện là kết nối với các máy chủ riêng tư, nội bộ. Việc các ứng dụng công khai kết nối với các máy chủ nội bộ là bất thường. Ứng dụng công khai kết nối với máy chủ nội bộ được coi là một hành vi khả nghi và nên được điều tra ngay lập tức để phát hiện nguy cơ có phần mềm độc hại trên thiết bị và rủi ro rò rỉ dữ liệu.</string>
+    <string name="detail_jailbreak"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị của bạn được cấu hình với đặc quyền cấp cao. Khi vận hành ở chế độ này, bạn có nhiều nguy cơ bị xâm phạm bảo mật hơn.<br/><br/>
+ Chúng tôi khuyến nghị bạn thực hiện các hành động sau:<br/>
+ * Sao lưu mọi dữ liệu nhạy cảm và khôi phục thiết bị của bạn về cài đặt gốc<br/>
+ * Cập nhật firmware thiết bị lên phiên bản mới nhất của nhà sản xuất cũng như bản cập nhật bảo mật mới nhất<br/>
+ * Chỉ cài đặt các ứng dụng được tin cậy<br/>
+ * Chỉ kết nối đến các website có uy tín<br/>
+ * Chỉ kết nối đến các mạng tin cậy<br/>
+ * Đảm bảo ứng dụng [host_app_name] mới nhất đang chạy trên thiết bị của bạn]]></string>
+    <string name="detail_kernel_anomaly"><![CDATA[[host_app_name] đã phát hiện một hoặc nhiều hoạt động bất thường của hệ thống trên thiết bị của bạn.<br/><br/>
+ Các hoạt động bất thường này có thể là kết quả của một nỗ lực khai thác, chúng là chỉ báo chính cho nguy cơ bị tấn công. [host_app_name] sẽ tiếp tục giám sát thiết bị của bạn và cảnh báo cho bạn khi có một mối đe dọa nghiêm trọng.<br/>Chúng tôi khuyến nghị bạn thực hiện các hành động sau:<br/>
+ 1. Ngắt kết nối thiết bị khỏi mọi Máy tính / Bộ sạc đang được kết nối nào<br/>
+ 2. Tắt \'Chế độ Nhà Phát triển\' trong menu Cài đặt<br/><br/>]]></string>
+    <string name="detail_malicious_app"><![CDATA[[host_app_name] đã phát hiện [app_name] có thể là một ứng dụng [malware_classification]. 
+  <br/><br/>
+ Bạn nên gỡ bỏ ứng dụng này ngay.<br/><br/>
+ Trong tương lai, chúng tôi khuyến nghị bạn tải về và cài đặt các ứng dụng có uy tín từ các cửa hàng ứng dụng được tin cậy.
+ ]]></string>
+    <string name="detail_malicious_website"><![CDATA[[host_app_name] đã phát hiện một đường dẫn URL có khả năng độc hại ([malicious_url]) có thể đã bị khai thác. Hãy tránh truy cập website này bởi nó có thể cố đánh cắp thông tin cá nhân của bạn.]]></string>
+    <string name="detail_malicious_website_opened"><![CDATA[[host_app_name] đã phát hiện một đường dẫn URL có khả năng độc hại ([malicious_url]) có thể đã bị khai thác và truy cập sau khi có cảnh báo. Website này có thể cố đánh cắp thông tin cá nhân của bạn. ]]></string>
+    <string name="detail_mitm"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị của bạn có thể đang giao tiếp với một thiết bị trung gian không xác định - còn được gọi là tấn công xen giữa (MITM). Thiết bị trung gian không xác định này có thể đánh cắp thông tin riêng tư và nhạy cảm.<br/><br/>
+ Chúng tôi khuyến nghị bạn thực hiện các hành động sau:<br/><br/>
+ * Ngắt kết nối khỏi mạng Wi-Fi hiện tại của bạn.<br/>
+ * Kết nối với một mạng Wi-Fi an toàn.<br/>
+ * Kết nối với một VPN để bảo mật giao tiếp qua mạng của bạn.]]></string>
+    <string name="detail_network_handoff"><![CDATA[[host_app_name] đã phát hiện một tác vụ chuyển tiếp mạng<br/><br/>
+ Sự kiện này xảy ra trên mạng [wifi_ssid] vào [date]. Nếu bạn không biết mạng này, hãy ngắt kết nối.]]></string>
+    <string name="detail_ota_update_disabled">Cập nhật qua sóng (OTA) đã bị tắt trên thiết bị này. Cập nhật OTA giúp đảm bảo phần mềm của thiết bị luôn cập nhật và bảo mật hơn. Cập nhật OTA nên được bật lại trong cài đặt.</string>
+    <string name="detail_out_of_compliance_app"><![CDATA[Ứng dụng [app_name] đã bị đánh dấu là không tuân thủ với chính sách doanh nghiệp của bạn. Vui lòng gỡ bỏ nó khỏi thiết bị của bạn.]]></string>
+    <string name="detail_passcode_not_enabled"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị của bạn không được thiết lập để sử dụng một mã PIN, Mật khẩu hoặc Mẫu hình để khóa thiết bị của bạn. Nếu không sử dụng một mã PIN, Mật khẩu hoặc Mẫu hình để khóa thiết bị, dữ liệu nhạy cảm trên thiết bị có thể bị kẻ tấn công khai thác nếu thiết bị của bạn bị đánh cắp hay xâm phạm bảo mật. Bạn nên bật một mã PIN, Mật khẩu hoặc Mẫu hình như một biện pháp bảo mật tiêu chuẩn để bảo mật thiết bị của mình cũng như dữ liệu nhạy cảm trên thiết bị.]]></string>
+    <string name="detail_proxy_change"><![CDATA[[host_app_name] đã phát hiện một thay đổi trong cài đặt proxy của bạn. Địa chỉ IP proxy mới là: [ip] ]]></string>
+    <string name="detail_rogue_access_point"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị của bạn kết nối với một mạng Wi-Fi đáng ngờ, điều này có thể khiến thiết bị của bạn có rủi ro bị tấn công xen giữa (MITM).]]></string>
+    <string name="detail_rogue_access_point_nearby"><![CDATA[[host_app_name] đã phát hiện một hay nhiều mạng Wi-Fi khả nghi gần đây, khiến thiết bị của bạn có thể bị  rủi ro tấn công xen giữa (MITM).]]></string>
+    <string name="detail_selinux_disabled"><![CDATA[[host_app_name] đã phát hiện một sửa đổi đến các tính năng bảo mật của hệ điều hành (SELinux). SELinux là một tính năng bảo mật cốt lõi của hệ điều hành và nhằm kiểm soát quyền truy cập nội bộ cũng như giúp duy trì tính toàn vẹn của hệ điều hành.]]></string>
+    <string name="detail_sideloaded_app"><![CDATA[[host_app_name] đã phát hiện một ứng dụng chưa được kiểm duyệt trong thiết bị của bạn.
+  <br/><br>Tên Ứng dụng chưa được kiểm duyệt: [sideloaded_app]<br/>Gói Ứng dụng chưa được kiểm duyệt: [sideloaded_package]<br/>Nhà Phát triển Ứng dụng chưa được kiểm duyệt:[sideloaded_developer] ]]></string>
+    <string name="detail_stagefright_vulnerable">Thiết bị này dễ bị tấn công Stagefright. Cập nhật hệ điều hành của bạn ngay khi có bản cập nhật.</string>
+    <string name="detail_suspicious_network_connection"><![CDATA[[host_app_name] đã phát hiện một kết nối mạng bất thường trên thiết bị của bạn.]]></string>
+    <string name="detail_suspicious_root_process"><![CDATA[[host_app_name] đã phát hiện một tiến trình chạy với quyền root trên thiết bị của bạn.]]></string>
+    <string name="detail_system_tampering"><![CDATA[[host_app_name] đã phát hiện một hoặc nhiều thay đổi hệ thống, cho thấy thiết bị của bạn đã bị xâm phạm bảo mật và không còn an toàn để sử dụng.<br/><br/>
+ Bởi thiết bị của bạn đã bị xâm phạm bảo mật, chúng tôi khuyến nghị bạn thực hiện các hành động sau:<br/><br/>
+ * Sao lưu mọi dữ liệu nhạy cảm và khôi phục thiết bị của bạn về cài đặt gốc<br/>
+ * Cập nhật firmware thiết bị lên phiên bản mới nhất cũng như bản cập nhật bảo mật mới nhất<br/>
+ * Chỉ cài đặt các ứng dụng được tin cậy<br/>
+ * Chỉ kết nối đến các website có uy tín<br/>
+ * Chỉ kết nối đến các mạng đáng tin cậy<br/>
+ * Đảm bảo ứng dụng [host_app_name] mới nhất đang chạy trên thiết bị của bạn]]></string>
+    <string name="detail_unknown_sources"><![CDATA[[host_app_name] đã phát hiện rằng chế độ tải về ứng dụng bên ngoài Google Playstore đang được bật.]]></string>
+    <string name="detail_unsecured_wifi_network"><![CDATA[[host_app_name] đã phát hiện rằng thiết bị được kết nối với một mạng Wi-Fi không an toàn tên là [wifi_ssid]. Việc kết nối với một mạng không an toàn sẽ khiến thiết bị của bạn có nguy cơ bị tấn công bởi một bên trái phép nhằm truy cập dữ liệu mạng và/hoặc thông tin tài khoản của bạn.]]></string>
+    <string name="detail_usb_debugging_on"><![CDATA[Gỡ lỗi USB được bật. Tùy chọn này chỉ nhằm mục đích cho nhà phát triển và nếu vẫn bật, có thể khiến thiết bị của bạn bị rủi ro. Nếu không cần thiết, hãy tắt tùy chọn này qua menu Cài đặt.]]></string>
+    <string name="detail_wifi_scan"><![CDATA[[host_app_name] đã phát hiện một thao tác quét mạng lưới trên mạng wifi sau: [wifi_ssid].]]></string>
+    <string name="detail_zips_not_running_on_container">[host_app_name] không được kích hoạt trên cả hai hồ sơ cá nhân và công việc của thiết bị này. Cài đặt và kích hoạt ứng dụng trong cả hai vị trí để đảm bảo thiết bị được bảo vệ toàn diện.</string>
+    <string name="detail_zips_tls_downgrade">[host_app_name] đã phát hiện một tình trạng hạ cấp mã hóa cho mạng của bạn (SSL/TLS). Giao tiếp của bạn có thể bị giám sát và/hoặc sửa đổi bởi một bên trái phép.</string>
+    <string name="developer_mode_on">Chế độ Nhà Phát triển đang được bật</string>
+    <string name="device_admin_enabled">Quản trị Thiết bị được bật</string>
+    <string name="device_rooted">Root Thiết bị</string>
+    <string name="dns_changed">Cấu hình Mạng</string>
+    <string name="dz_high_mode">Alto</string>
+    <string name="dz_normal_mode">Normal</string>
+    <string name="dz_paranoid_mode">Paranoico</string>
+    <string name="elevation_of_privileges">Tấn công Thiết bị</string>
+    <string name="email_suspected">Email đáng ngờ</string>
+    <string name="encryption_not_enabled">Mã hóa Thiết bị</string>
+    <string name="file_suspected">Tập tin đáng ngờ</string>
+    <string name="file_system_change">Sửa đổi vĩnh viễn Hệ Điều Hành</string>
+    <string name="fingerprint_mismatch">Vân tay không khớp</string>
+    <string name="gateway_change">Cấu hình Mạng</string>
+    <string name="icmp_redir_mitm">Tấn công Mạng</string>
+    <string name="internal_network_access">Truy cập Mạng Nội bộ</string>
+    <string name="ip_scan">Quét (WiFi)</string>
+    <string name="kernel_anomaly">Bất thường trong Kernel</string>
+    <string name="knox_mtd_disable_beam_interface">Tắt Giao diện Beam</string>
+    <string name="knox_mtd_disable_bluetooth_interface">Tắt Giao diện Bluetooth</string>
+    <string name="knox_mtd_disable_cellular_interface">Tắt Giao diện Di động</string>
+    <string name="knox_mtd_disable_nfc_interface">Tắt Giao diện NFC</string>
+    <string name="knox_mtd_disable_wifi_interface">Tắt Giao diện Wi-Fi</string>
+    <string name="knox_mtd_restrict_bluetooth_sharing">Hạn chế Chia sẻ Bluetooth</string>
+    <string name="knox_mtd_restrict_clipboard">Hạn chế Bộ nhớ đệm</string>
+    <string name="knox_mtd_restrict_screen_capture">Hạn chế chụp màn hình</string>
+    <string name="knox_mtd_restrict_sdcard_transfer">Hạn chế Truyền tải Thẻ SD</string>
+    <string name="knox_mtd_wipe_device_data">Xóa sạch Dữ liệu Thiết bị</string>
+    <string name="malicious_app">Phát hiện Ứng dụng đáng ngờ</string>
+    <string name="malicious_website">Website Độc hại</string>
+    <string name="malicious_website_opened">Website Độc hại đã được Mở</string>
+    <string name="mediaserver_anomaly">Bất thường trong Mediaserver</string>
+    <string name="network_handoff">Chuyển tiếp Mạng</string>
+    <string name="network_sinkhole_block_all">Quản trị viên của bạn đã chặn quyền truy cập mạng khi tồn tại một mối đe dọa trên thiết bị của bạn.</string>
+    <string name="network_sinkhole_block_single">Quản trị viên của bạn đã chặn quyền truy cập tên miền %1$s khi tồn tại một mối đe dọa trên thiết bị của bạn.</string>
+    <string name="network_threat">Mối Đe dọa Mạng</string>
+    <string name="ota_updates_disabled">Cập nhật OTA bị tắt</string>
+    <string name="out_of_compliance_app">Ứng dụng Không Tuân thủ</string>
+    <string name="passcode_not_enabled">Ghim Thiết bị</string>
+    <string name="phishingHtmlBody">Liên kết {http://link} có thể chứa nội dung độc hại để đánh cắp thông tin nhạy cảm hoặc riêng tư từ thiết bị của bạn.</string>
+    <string name="phishingHtmlButtonBack">QUAY LẠI</string>
+    <string name="phishingHtmlButtonContinue">VẪN TIẾP TỤC</string>
+    <string name="phishingHtmlCheckbox">Không hiển thị lại cho website này</string>
+    <string name="phishingHtmlTitle">Đường dẫn này không an toàn!</string>
+    <string name="proxy_change">Cấu hình Mạng</string>
+    <string name="restriction_defaultchannel_title">Đơn vị Chấp nhận Mặc định</string>
+    <string name="restriction_display_eula">Hiển thị EULA</string>
+    <string name="restriction_tenantid_title">Trường hợp</string>
+    <string name="restriction_uuid_title">UUID</string>
+    <string name="rogue_access_point">Wifi giả mạo</string>
+    <string name="rogue_access_point_nearby">Mạng WiFi giả mạo - Gần đây</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Tìm kiếm"</string>
+    <string name="selinux_disabled">SELinux bị tắt</string>
+    <string name="share_activation_data">Chia sẻ Dữ liệu Kích hoạt</string>
+    <string name="sideloaded_app">Ứng dụng chưa được kiểm duyệt</string>
+    <string name="sms_configuration_changed">Cấu hình SMS đã được thay đổi</string>
+    <string name="ssl_mitm">Chứng nhận không hợp lệ</string>
+    <string name="ssl_strip">Tấn công Mạng</string>
+    <string name="stagefright_exploit">Mã Khai thác Stagefright</string>
+    <string name="stagefright_vulnerability">Lỗ hổng Bảo mật Stagefright</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="suspicious_network_connection">Kết nối Mạng Khả nghi</string>
+    <string name="suspicious_profile">Hồ sơ Khả nghi</string>
+    <string name="suspicious_root_process">Tiến trình Root Khả nghi</string>
+    <string name="suspicious_sms">Tin nhắn đáng ngờ</string>
+    <string name="system_tampering">Can thiệp hệ thống</string>
+    <string name="tcp_scan">Quét (WiFi)</string>
+    <string name="threat_type_configuration">Cấu hình</string>
+    <string name="threat_type_host">Máy chủ</string>
+    <string name="threat_type_network">Mạng</string>
+    <string name="threat_type_unknown">Không xác định</string>
+    <string name="threat_type_user_action">Hành động của Người dùng</string>
+    <string name="tracking_id_1">ID Theo dõi 1</string>
+    <string name="tracking_id_2">ID Theo dõi 2</string>
+    <string name="traffic_tampering">Can thiệp vào Lưu lượng</string>
+    <string name="udp_scan">Quét (WiFi)</string>
+    <string name="unknown_event">Sự kiện không xác định</string>
+    <string name="unknown_sources_enabled">Nguồn không xác định đang được bật</string>
+    <string name="unsecured_wifi_network">Mạng WiFi không an toàn</string>
+    <string name="untrusted_profile">Hồ sơ Không Tin cậy</string>
+    <string name="usb_debugging_on">Chế độ gỡ lỗi USB được bật</string>
+    <string name="verify_apps_disabled">Google Play Protect bị tắt</string>
+    <string name="vulnerability_mitigation">Giảm nhẹ tính chất có thể bị tấn công</string>
+    <string name="vulnerable_android_version">Phiên bản Android có Lỗ hổng Bảo mật</string>
+    <string name="vulnerable_nonupgradable_android_version">Hệ Điều Hành có lỗ hổng bảo mật, không thể nâng cấp</string>
+    <string name="zips_not_running_on_container">[host_app_name] không chạy trên cả hai bộ chứa.</string>
+    <string name="zips_tls_downgrade">Hạ cấp TLS</string>
 </resources>

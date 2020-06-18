@@ -110,9 +110,11 @@
     <string name="app_ooc_onedrive">Aksè nan kontni OneDrive</string>
     <string name="app_ooc_onedrive_write">Mizajou nan kontni OneDrive</string>
     <string name="app_ooc_overlay">Mete yon fenèt app ak yon lòt app</string>
+    <string name="app_ooc_privacy_user_interact">Anrejistre foto ekran pandan entèraksyon itilizatè yo nan app an</string>
     <string name="app_ooc_record_audio">Anrejistre kontni odyo</string>
     <string name="app_ooc_record_screenshots">Anrejitre foto ekran entèraksyon itilizatè yo nan aplikasyon an</string>
     <string name="app_ooc_record_video">Anrejistre yon videyo</string>
+    <string name="app_ooc_risky_app">Sa ka gen risk pou lavi prive ak / oswa sekirite</string>
     <string name="app_ooc_runtime_unencrtyped_conns">Sèvi ak koneksyon san kòd/kle (http se pa https)</string>
     <string name="app_ooc_salesforce">Aksè nan kontni Salesforce</string>
     <string name="app_ooc_screenshot">Aksè nan foto ekran</string>

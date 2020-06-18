@@ -1,9 +1,7 @@
 package com.zimperium.ziap_demo.ui;
 
 /**
- *
  * Copyright © 2018 Zimperium. All rights reserved.
- *
  */
 
 import android.app.Activity;
@@ -41,7 +39,7 @@ import java.util.concurrent.TimeUnit;
  * When the application is launched it, if the ziap is still logged in and detecting, it just launches
  * into the MainActivity.
  */
-public class LoadingActivity extends Activity  {
+public class LoadingActivity extends Activity {
 
     private static void info(String text) {
         Log.i("LoadingActivity", text);
@@ -63,6 +61,8 @@ public class LoadingActivity extends Activity  {
         ZiapApplication.getInstance().startDetection();
 
         Intent intent = new Intent(LoadingActivity.this, MainActivity.class);
+        if (getIntent().getStringExtra("testname") != null)
+            intent.putExtra("testname", getIntent().getStringExtra("testname"));
         startActivity(intent);
         finish();
     }
@@ -77,7 +77,22 @@ public class LoadingActivity extends Activity  {
 
     public String formatDate(long epoch) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault());
-        return dateFormat.format( new Date(epoch) );
+        return dateFormat.format(new Date(epoch));
+    }
+
+    private void setMyClickListener() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                TextView textView = findViewById(R.id.loading_text);
+                textView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        onFullyLoaded();
+                    }
+                });
+            }
+        });
     }
 
     private class ResumeThread extends Thread {
@@ -85,8 +100,8 @@ public class LoadingActivity extends Activity  {
         public void run() {
 
             clearText();
-            setText( "Loading zIAP");
-            setText( "Creating ZThreatDisposition" );
+            setText("Loading zIAP");
+            setText("Creating ZThreatDisposition");
             ZThreatDisposition disposition = new ZThreatDisposition(getApplicationContext());
             setText("Checking Malware Threats.");
 
@@ -95,12 +110,12 @@ public class LoadingActivity extends Activity  {
 
                 StringBuilder message = new StringBuilder();
 
-                for( String threatPackage : disposition.getInstalledMalware() ){
+                for (String threatPackage : disposition.getInstalledMalware()) {
                     message.append("\nInstalled: ");
                     message.append(threatPackage);
                 }
 
-                for( File threatFile : disposition.getDownloadedMalware() ){
+                for (File threatFile : disposition.getDownloadedMalware()) {
                     message.append("\nDownloaded: ");
                     message.append(threatFile.getPath());
                 }
@@ -120,28 +135,37 @@ public class LoadingActivity extends Activity  {
                 setText("Device is rooted.");
             }
 
-            if(ZDetectionInternal.getDetectionState().engineState!= ZEngineState.DETECTING) {
+            if (ZDetectionInternal.getDetectionState().engineState != ZEngineState.DETECTING) {
                 setText("Not Detecting yet - Running quick scan..");
+
+                long stime = System.currentTimeMillis();
                 String[] malwareFound = ZDetection.runQuickMalwareScan(getApplicationContext());
                 if (malwareFound != null && malwareFound.length > 0) {
                     cancelProgress();
                     setText("Quick scan found: " + malwareFound[0]);
                 }
+                long etime = System.currentTimeMillis();
+                setText("Time for quick scan: " + (etime - stime) + "ms");
+                Log.d("Time for quick scan", (etime - stime) + "ms");
             }
 
-            setText("Fully loaded - click to continue" );
-            TextView textView = findViewById(R.id.loading_text);
-            runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    textView.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            onFullyLoaded();
-                        }
-                    });
-                }
-            });
+            setText("Fully loaded - click to continue");
+            setMyClickListener();
+
+
+//            setText("Fully loaded - click to continue" );
+//            TextView textView = findViewById(R.id.loading_text);
+//            runOnUiThread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    textView.setOnClickListener(new View.OnClickListener() {
+//                        @Override
+//                        public void onClick(View view) {
+//                            onFullyLoaded();
+//                        }
+//                    });
+//                }
+//            });
 
             new Thread(new Runnable() {
                 @Override
@@ -158,7 +182,8 @@ public class LoadingActivity extends Activity  {
                         }
                     });
                 }
-            }).start();;
+            }).start();
+            ;
 
 
         }
@@ -187,8 +212,8 @@ public class LoadingActivity extends Activity  {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                ImageView myImageView= findViewById(R.id.loading_image);
-                if( enable ) {
+                ImageView myImageView = findViewById(R.id.loading_image);
+                if (enable) {
                     Animation myFadeInAnimation = AnimationUtils.loadAnimation(LoadingActivity.this, R.anim.loading_animation);
                     myImageView.startAnimation(myFadeInAnimation);
                 } else {
@@ -204,23 +229,24 @@ public class LoadingActivity extends Activity  {
      * Runs in the main thread.
      * @param text -
      */
-    private void setText( final String text ) {
+    private void setText(final String text) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 TextView textView = findViewById(R.id.loading_text);
-                if( textView != null ) {
-                    textView.setText( textView.getText() + "\n" + formatDate(System.currentTimeMillis()) +": " + text );
+                if (textView != null) {
+                    textView.setText(textView.getText() + "\n" + formatDate(System.currentTimeMillis()) + ": " + text);
                 }
             }
         });
     }
-    private void clearText(  ) {
+
+    private void clearText() {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 TextView textView = findViewById(R.id.loading_text);
-                if( textView != null ) {
+                if (textView != null) {
                     textView.setText("");
                 }
             }

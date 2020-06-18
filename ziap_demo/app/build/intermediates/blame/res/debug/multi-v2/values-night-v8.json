@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/adarshbhandary/Downloads/mopt 2/ziap_demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/adarshbhandary/Documents/Device Farm/deviceFarmTestApp/Android/ziap_demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/16c0d3511ee07dc3353ddcef6107bb1d/appcompat-v7-28.0.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/adarshbhandary/.gradle/caches/transforms-2/files-2.1/e555c0545c946019a2e515376ad1c3ee/appcompat-1.1.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "120,204,288,384,486,588,682"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
                     }
                 }
             ]
